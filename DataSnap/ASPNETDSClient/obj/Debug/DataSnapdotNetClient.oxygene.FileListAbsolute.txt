@@ -1,0 +1,5 @@
+C:\Users\Andreano\Documents\RAD Studio\Projects\Delphi XE Demos\FullApp\ASPNETClient - Delphi Prism 2011\bin\ASPNETClient2111.dll
+C:\Users\Andreano\Documents\RAD Studio\Projects\Delphi XE Demos\FullApp\ASPNETClient - Delphi Prism 2011\bin\ASPNETClient2111.pdb
+C:\Users\Andreano\Documents\RAD Studio\Projects\Delphi XE Demos\FullApp\ASPNETClient - Delphi Prism 2011\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreano\Documents\RAD Studio\Projects\Delphi XE Demos\FullApp\ASPNETClient - Delphi Prism 2011\obj\Debug\ASPNETClient2111.dll
+C:\Users\Andreano\Documents\RAD Studio\Projects\Delphi XE Demos\FullApp\ASPNETClient - Delphi Prism 2011\obj\Debug\ASPNETClient2111.pdb

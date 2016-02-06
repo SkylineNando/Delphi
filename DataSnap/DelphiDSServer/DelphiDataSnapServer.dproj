@@ -1,0 +1,250 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{69F6A829-A587-4753-B58A-B121735BB6CA}</ProjectGuid>
+        <ProjectVersion>15.0</ProjectVersion>
+        <MainSource>DelphiDataSnapServer.dpr</MainSource>
+        <Config Condition="'$(Config)'==''">Debug</Config>
+        <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+        <Base>True</Base>
+        <AppType>Application</AppType>
+        <FrameworkType>VCL</FrameworkType>
+        <Platform Condition="'$(Platform)'==''">Win32</Platform>
+        <TargetedPlatforms>1</TargetedPlatforms>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Base)'=='true') or '$(Base_Win32)'!=''">
+        <Base_Win32>true</Base_Win32>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Base)'=='true') or '$(Base_Win64)'!=''">
+        <Base_Win64>true</Base_Win64>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+        <Cfg_1>true</Cfg_1>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+        <Cfg_2>true</Cfg_2>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win32)'!=''">
+        <Cfg_2_Win32>true</Cfg_2_Win32>
+        <CfgParent>Cfg_2</CfgParent>
+        <Cfg_2>true</Cfg_2>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base)'!=''">
+        <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;$(DCC_Namespace)</DCC_Namespace>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <DCC_OutputDRCFile>true</DCC_OutputDRCFile>
+        <DCC_DcuOutput>Output\Dev\dcu\</DCC_DcuOutput>
+        <DCC_Description>Developer version - don&apos;t use in production</DCC_Description>
+        <DCC_DependencyCheckOutputName>MyDataSnapServer.exe</DCC_DependencyCheckOutputName>
+        <DCC_ImageBase>00400000</DCC_ImageBase>
+        <DCC_Platform>x86</DCC_Platform>
+        <DCC_E>false</DCC_E>
+        <DCC_N>false</DCC_N>
+        <DCC_S>false</DCC_S>
+        <DCC_F>false</DCC_F>
+        <DCC_K>false</DCC_K>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win32)'!=''">
+        <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
+        <Icon_MainIcon>Z:\FireMonkey\DataSnap Sample\DelphiDSServer\DelphiDataSnapServer_Icon.ico</Icon_MainIcon>
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win64)'!=''">
+        <Icon_MainIcon>Z:\FireMonkey\DataSnap Sample\DelphiDSServer\DelphiDataSnapServer_Icon.ico</Icon_MainIcon>
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1)'!=''">
+        <DCC_ExeOutput>..\Output\</DCC_ExeOutput>
+        <DCC_DependencyCheckOutputName>..\Output\MyDataSnapServer.exe</DCC_DependencyCheckOutputName>
+        <DCC_DcpOutput>..\Output\</DCC_DcpOutput>
+        <DCC_DcuOutput>..\Output\</DCC_DcuOutput>
+        <DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+        <DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+        <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+        <DCC_DebugInformation>false</DCC_DebugInformation>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2)'!=''">
+        <DCC_DcuOutput>..\Output\</DCC_DcuOutput>
+        <DCC_DependencyCheckOutputName>..\Output\MyDataSnapServer.exe</DCC_DependencyCheckOutputName>
+        <DCC_ExeOutput>..\Output\</DCC_ExeOutput>
+        <DCC_DcpOutput>..\Output\</DCC_DcpOutput>
+        <DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
+        <Icon_MainIcon>$(BDS)\bin\delphi_PROJECTICON.ico</Icon_MainIcon>
+        <DCC_DcuOutput>..\Output\dcu\</DCC_DcuOutput>
+    </PropertyGroup>
+    <ItemGroup>
+        <DelphiCompile Include="$(MainSource)">
+            <MainSource>MainSource</MainSource>
+        </DelphiCompile>
+        <DCCReference Include="MainForm.pas">
+            <Form>FrmMain</Form>
+        </DCCReference>
+        <DCCReference Include="DMImages.pas">
+            <Form>MyDMImages</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ServerContainer.pas">
+            <Form>DMServerContainer</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ServerModules\EmployeeRDM.pas">
+            <Form>EmployeeServerRDM</Form>
+            <DesignClass>TDSServerModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ServerModules\LookupRDM.pas">
+            <Form>LookupServerRDM</Form>
+            <DesignClass>TDSServerModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ServerModules\MainServerModule.pas">
+            <Form>DMMainServerModule</Form>
+            <DesignClass>TDSServerModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Classes\BaseServerClass.pas"/>
+        <DCCReference Include="Classes\Department.pas"/>
+        <DCCReference Include="ServerModules\MethodsServerModule.pas">
+            <Form>DSServerMethods</Form>
+            <DesignClass>TDSServerModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Classes\DSServerLogDB.pas"/>
+        <DCCReference Include="Classes\DBXMetadataHelper.pas"/>
+        <DCCReference Include="Classes\User.pas"/>
+        <DCCReference Include="DebugHelper.pas"/>
+        <DCCReference Include="ServerModules\ServerBatch.pas">
+            <Form>DSServerBatch</Form>
+            <DesignClass>TDSServerModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Classes\Customer.pas"/>
+        <DCCReference Include="Classes\BaseObject.pas"/>
+        <DCCReference Include="ServerModules\MasterDetail.pas">
+            <Form>DSMasterDetail</Form>
+            <DesignClass>TDSServerModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ServerModules\DataSetDM1.pas">
+            <Form>DMDataSet1</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ServerModules\DataSetDM3.pas">
+            <Form>DMDataSet3</Form>
+            <DesignClass>TDSServerModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ServerModules\DataSetDM2.pas">
+            <Form>DMDataSet2</Form>
+            <DesignClass>TDSServerModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ServerModules\DataSetDM5.pas">
+            <Form>DMDataSet5</Form>
+            <DesignClass>TDSServerModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Classes\Location.pas"/>
+        <DCCReference Include="ServerModules\DataSetDM6.pas">
+            <Form>DMDataSet6</Form>
+            <DesignClass>TDSServerModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="RotateImage.pas"/>
+        <RcItem Include="Images\GreenCircle.png">
+            <ResourceType>RCData</ResourceType>
+            <ResourceId>PngGreen</ResourceId>
+        </RcItem>
+        <RcItem Include="Images\Red.png">
+            <ResourceType>RCData</ResourceType>
+            <ResourceId>PngRed</ResourceId>
+        </RcItem>
+        <RcItem Include="Images\DataSnapServer.png">
+            <ResourceType>RCData</ResourceType>
+            <ResourceId>PngDSServer</ResourceId>
+        </RcItem>
+        <None Include="..\Readme.htm"/>
+        <BuildConfiguration Include="Debug">
+            <Key>Cfg_2</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Base">
+            <Key>Base</Key>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Release">
+            <Key>Cfg_1</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+    </ItemGroup>
+    <Import Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')" Project="$(BDS)\Bin\CodeGear.Delphi.Targets"/>
+    <Import Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')" Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj"/>
+    <ProjectExtensions>
+        <Borland.Personality>Delphi.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Delphi.Personality>
+                <Source>
+                    <Source Name="MainSource">DelphiDataSnapServer.dpr</Source>
+                </Source>
+                <Parameters/>
+                <VersionInfo>
+                    <VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+                    <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+                    <VersionInfo Name="MajorVer">1</VersionInfo>
+                    <VersionInfo Name="MinorVer">0</VersionInfo>
+                    <VersionInfo Name="Release">0</VersionInfo>
+                    <VersionInfo Name="Build">0</VersionInfo>
+                    <VersionInfo Name="Debug">False</VersionInfo>
+                    <VersionInfo Name="PreRelease">False</VersionInfo>
+                    <VersionInfo Name="Special">False</VersionInfo>
+                    <VersionInfo Name="Private">False</VersionInfo>
+                    <VersionInfo Name="DLL">False</VersionInfo>
+                    <VersionInfo Name="Locale">1033</VersionInfo>
+                    <VersionInfo Name="CodePage">1252</VersionInfo>
+                </VersionInfo>
+                <VersionInfoKeys>
+                    <VersionInfoKeys Name="CompanyName"/>
+                    <VersionInfoKeys Name="FileDescription"/>
+                    <VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+                    <VersionInfoKeys Name="InternalName"/>
+                    <VersionInfoKeys Name="LegalCopyright"/>
+                    <VersionInfoKeys Name="LegalTrademarks"/>
+                    <VersionInfoKeys Name="OriginalFilename"/>
+                    <VersionInfoKeys Name="ProductName"/>
+                    <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+                    <VersionInfoKeys Name="Comments"/>
+                </VersionInfoKeys>
+                <Language>
+                    <Language Name="ProjectLang">$00000409</Language>
+                    <Language Name="ActiveLang">PTB</Language>
+                </Language>
+                <Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclbde170.bpl">Embarcadero BDE DB Components</Excluded_Packages>
+                </Excluded_Packages>
+                <WelcomePageFile Path="..\Readme.htm"/>
+                <WelcomePageFolder/>
+                <RDP_Source_Files>
+                    <RDP_Source_Files Name="Item0">MainForm.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item1">DMImages.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item2">ServerContainer.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item3">ServerModules\EmployeeRDM.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item4">ServerModules\LookupRDM.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item5">ServerModules\MainServerModule.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item6">ServerModules\MethodsServerModule.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item7">MyDataSnapServer.drc</RDP_Source_Files>
+                </RDP_Source_Files>
+            </Delphi.Personality>
+            <ModelSupport>False</ModelSupport>
+            <Platforms>
+                <Platform value="Win32">True</Platform>
+                <Platform value="Win64">False</Platform>
+            </Platforms>
+        </BorlandProject>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+</Project>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <node uin="506hz0xol_n">
+    <property name="$metaclass" value="State20" />
+    <property name="$name" value="CourseAttempt" />
+    <node uin="00657fw5o_n">
+      <property name="$metaclass" value="Region20" />
+      <property name="$name" value="Region1" />
+      <node uin="z16uw0wf5w613br_n">
+        <property name="$metaclass" value="State20" />
+        <property name="$name" value="Stydying" />
+        <node uin="u16uw0wf521mbwq_n">
+          <property name="$metaclass" value="Region20" />
+          <property name="$name" value="Region1" />
+          <node uin="856065kmjyutoog_n">
+            <property name="$metaclass" value="PseudoState20" />
+            <property name="$name" value="Initial1" />
+            <property name="$kind" value="initial" />
+            <link uin="aw2o7xrom_l">
+              <property name="$metaclass" value="TransitionLink20" />
+              <property name="$name" value="Transition Link1" />
+              <participant referencedUin="design:node:::856065kmjyutoog_n:u16uw0wf521mbwq_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" role="Client" />
+              <participant referencedUin="design:node:::b16u6zz0kjxmqfp_n:u16uw0wf521mbwq_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" role="Supplier" />
+            </link>
+          </node>
+          <node uin="b16u6zz0kjxmqfp_n">
+            <property name="$metaclass" value="State20" />
+            <property name="$name" value="Lab1" />
+            <link uin="iv20pj0gk_l">
+              <property name="$metaclass" value="TransitionLink20" />
+              <property name="$name" value="Transition Link1" />
+              <property name="__trigger" value="lab done" />
+              <participant referencedUin="design:node:::b16u6zz0kjxmqfp_n:u16uw0wf521mbwq_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" role="Client" />
+              <participant referencedUin="design:node:::zw5v65shm9e8srh_n:u16uw0wf521mbwq_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" role="Supplier" />
+            </link>
+          </node>
+          <node uin="zw5v65shm9e8srh_n">
+            <property name="$metaclass" value="State20" />
+            <property name="$name" value="Lab2" />
+            <link uin="v03ufdy2i_l">
+              <property name="$metaclass" value="TransitionLink20" />
+              <property name="$name" value="Transition Link1" />
+              <property name="__trigger" value="lab done" />
+              <participant referencedUin="design:node:::zw5v65shm9e8srh_n:u16uw0wf521mbwq_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" role="Client" />
+              <participant referencedUin="design:node:::hy5glf01r5cm2jr_n:u16uw0wf521mbwq_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" role="Supplier" />
+            </link>
+          </node>
+          <node uin="hy5glf01r5cm2jr_n">
+            <property name="$metaclass" value="FinalState20" />
+            <property name="$name" value="Final1" />
+          </node>
+        </node>
+        <node uin="p06dn1vdhqt2dml_n">
+          <property name="$metaclass" value="Region20" />
+          <property name="$name" value="Region2" />
+          <node uin="1x525zsmsnp0uei_n">
+            <property name="$metaclass" value="PseudoState20" />
+            <property name="$name" value="Initial1" />
+            <property name="$kind" value="initial" />
+            <link uin="am46un7fk_l">
+              <property name="$metaclass" value="TransitionLink20" />
+              <property name="$name" value="Transition Link1" />
+              <participant referencedUin="design:node:::1x525zsmsnp0uei_n:p06dn1vdhqt2dml_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" role="Client" />
+              <participant referencedUin="design:node:::9q4lpczzswcnzmg_n:p06dn1vdhqt2dml_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" role="Supplier" />
+            </link>
+          </node>
+          <node uin="9q4lpczzswcnzmg_n">
+            <property name="$metaclass" value="State20" />
+            <property name="$name" value="Term Project" />
+            <link uin="9v2uhrcfg_l">
+              <property name="$metaclass" value="TransitionLink20" />
+              <property name="$name" value="Transition Link1" />
+              <property name="__trigger" value="project done" />
+              <participant referencedUin="design:node:::9q4lpczzswcnzmg_n:p06dn1vdhqt2dml_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" role="Client" />
+              <participant referencedUin="design:node:::ex5sf0tyh_n:p06dn1vdhqt2dml_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" role="Supplier" />
+            </link>
+          </node>
+          <node uin="ex5sf0tyh_n">
+            <property name="$metaclass" value="FinalState20" />
+            <property name="$name" value="Final1" />
+          </node>
+        </node>
+        <node uin="156h5rcqhqw23ej_n">
+          <property name="$metaclass" value="Region20" />
+          <property name="$name" value="Region3" />
+          <node uin="s23ljx4kn_n">
+            <property name="$metaclass" value="PseudoState20" />
+            <property name="$name" value="Initial1" />
+            <property name="$kind" value="initial" />
+            <link uin="xu2fddfas_l">
+              <property name="$metaclass" value="TransitionLink20" />
+              <property name="$name" value="Transition Link1" />
+              <participant referencedUin="design:node:::s23ljx4kn_n:156h5rcqhqw23ej_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" role="Client" />
+              <participant referencedUin="design:node:::jy5y7ha0h_n:156h5rcqhqw23ej_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" role="Supplier" />
+            </link>
+          </node>
+          <node uin="jy5y7ha0h_n">
+            <property name="$metaclass" value="State20" />
+            <property name="$name" value="Final Test" />
+            <link uin="nv91ztxok_l">
+              <property name="$metaclass" value="TransitionLink20" />
+              <property name="$name" value="Transition Link1" />
+              <property name="__trigger" value="pass" />
+              <participant referencedUin="design:node:::jy5y7ha0h_n:156h5rcqhqw23ej_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" role="Client" />
+              <participant referencedUin="design:node:::g233b57tg_n:156h5rcqhqw23ej_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" role="Supplier" />
+            </link>
+            <link uin="4f950tbjq_l">
+              <property name="$metaclass" value="TransitionLink20" />
+              <property name="$name" value="Transition Link2" />
+              <property name="__trigger" value="fail" />
+              <participant referencedUin="design:node:::jy5y7ha0h_n:156h5rcqhqw23ej_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" role="Client" />
+              <participant referencedUin="design:node:::b23yez24o_n:00657fw5o_n:506hz0xol_n" role="Supplier" />
+            </link>
+          </node>
+          <node uin="g233b57tg_n">
+            <property name="$metaclass" value="FinalState20" />
+            <property name="$name" value="Final1" />
+          </node>
+        </node>
+        <link uin="1e953a1dt_l">
+          <property name="$metaclass" value="TransitionLink20" />
+          <property name="$name" value="Transition Link3" />
+          <participant referencedUin="design:node:::z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" role="Client" />
+          <participant referencedUin="design:node:::d2393csij_n:00657fw5o_n:506hz0xol_n" role="Supplier" />
+        </link>
+      </node>
+      <node uin="b23yez24o_n">
+        <property name="$metaclass" value="State20" />
+        <property name="$name" value="Failed" />
+      </node>
+      <node uin="d2393csij_n">
+        <property name="$metaclass" value="State20" />
+        <property name="$name" value="Passed" />
+      </node>
+      <node uin="nv2ntg8fi_n">
+        <property name="$metaclass" value="PseudoState20" />
+        <property name="$name" value="Initial2" />
+        <property name="$kind" value="initial" />
+        <link uin="zz24tcief_l">
+          <property name="$metaclass" value="TransitionLink20" />
+          <property name="$name" value="Transition Link1" />
+          <participant referencedUin="design:node:::nv2ntg8fi_n:00657fw5o_n:506hz0xol_n" role="Client" />
+          <participant referencedUin="design:node:::z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" role="Supplier" />
+        </link>
+      </node>
+    </node>
+  </node>
+  <node uin="026qkwbucj76z2o_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note1" />
+    <property name="$note_text" value="Composite state or state machine with regions is shown by tiling the graph region of the state/state machine using dashed lines to divide it into regions" />
+    <link uin="iu5mc3t9p00wcxp_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::026qkwbucj76z2o_n" role="Client" />
+      <participant referencedUin="design:node:::z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="zu5pysedh3v360p_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note2" />
+    <property name="$note_text" value="A region is an orthogonal part of either a composite state or a state machine. It contains states and transitions." />
+    <link uin="rt5va30kq8uwjwg_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::zu5pysedh3v360p_n" role="Client" />
+      <participant referencedUin="design:node:::p06dn1vdhqt2dml_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" role="Supplier" />
+    </link>
+    <link uin="ou5ym0lir49ry2j_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link2" />
+      <participant referencedUin="design:node:::zu5pysedh3v360p_n" role="Client" />
+      <participant referencedUin="design:node:::u16uw0wf521mbwq_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" role="Supplier" />
+    </link>
+    <link uin="6v5i1uo9scqcnlr_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link3" />
+      <participant referencedUin="design:node:::zu5pysedh3v360p_n" role="Client" />
+      <participant referencedUin="design:node:::156h5rcqhqw23ej_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="lt5v2wwjlcu0fel_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note3" />
+    <property name="$note_text" value="Diagram represents modified sample from the &#xD;&#xA;UML 2.0 Superstructure FTF convenience document&#xD;&#xA;http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 387 on page 611" />
+  </node>
+  <node uin="j733ag5n6ewdecn_n">
+    <property name="$metaclass" value="State20" />
+    <property name="$name" value="ReadAmountSM" />
+    <property name="@url" value="element://model:project::UML-2.0/design:node:::6d3c0392l3wyfrs_n" />
+    <property name="url" value="element://model:project::UML-2.0/design:node:::6d3c0392l3wyfrs_n" />
+    <node uin="f733ag5n67wtpei_n">
+      <property name="$metaclass" value="Region20" />
+      <property name="$name" value="Region1" />
+      <node uin="g03yucie9kn3h8g_n">
+        <property name="$metaclass" value="State20" />
+        <property name="$name" value="selectAmount" />
+        <link uin="kr3jhhpdn_l">
+          <property name="$metaclass" value="TransitionLink20" />
+          <property name="$name" value="Transition Link1" />
+          <property name="__trigger" value="amount" />
+          <participant referencedUin="design:node:::g03yucie9kn3h8g_n:f733ag5n67wtpei_n:j733ag5n6ewdecn_n" role="Client" />
+          <participant referencedUin="design:node:::1j39p5csl_n:f733ag5n67wtpei_n:j733ag5n6ewdecn_n" role="Supplier" />
+        </link>
+        <link uin="lr361qmyf_l">
+          <property name="$metaclass" value="TransitionLink20" />
+          <property name="$name" value="Transition Link2" />
+          <property name="__trigger" value="otherAmount" />
+          <participant referencedUin="design:node:::g03yucie9kn3h8g_n:f733ag5n67wtpei_n:j733ag5n6ewdecn_n" role="Client" />
+          <participant referencedUin="design:node:::h331q4esbm5sydp_n:f733ag5n67wtpei_n:j733ag5n6ewdecn_n" role="Supplier" />
+        </link>
+        <link uin="gg3rns8zh_l">
+          <property name="$metaclass" value="TransitionLink20" />
+          <property name="$name" value="Transition Link3" />
+          <property name="__trigger" value="abort" />
+          <participant referencedUin="design:node:::g03yucie9kn3h8g_n:f733ag5n67wtpei_n:j733ag5n6ewdecn_n" role="Client" />
+          <participant referencedUin="design:node:::a030yye4o8uhquk_n:j733ag5n6ewdecn_n" role="Supplier" />
+        </link>
+      </node>
+      <node uin="h331q4esbm5sydp_n">
+        <property name="$metaclass" value="State20" />
+        <property name="$name" value="enterAmount" />
+        <link uin="7j39vn9ht_l">
+          <property name="$metaclass" value="TransitionLink20" />
+          <property name="$name" value="Transition Link1" />
+          <property name="__trigger" value="abort" />
+          <participant referencedUin="design:node:::h331q4esbm5sydp_n:f733ag5n67wtpei_n:j733ag5n6ewdecn_n" role="Client" />
+          <participant referencedUin="design:node:::a030yye4o8uhquk_n:j733ag5n6ewdecn_n" role="Supplier" />
+        </link>
+        <link uin="wm3l0l62s_l">
+          <property name="$metaclass" value="TransitionLink20" />
+          <property name="$name" value="Transition Link2" />
+          <property name="__trigger" value="ok" />
+          <property name="guard" value="" />
+          <participant referencedUin="design:node:::h331q4esbm5sydp_n:f733ag5n67wtpei_n:j733ag5n6ewdecn_n" role="Client" />
+          <participant referencedUin="design:node:::1j39p5csl_n:f733ag5n67wtpei_n:j733ag5n6ewdecn_n" role="Supplier" />
+        </link>
+      </node>
+      <node uin="zf3otyems_n">
+        <property name="$metaclass" value="PseudoState20" />
+        <property name="$name" value="Initial1" />
+        <property name="$kind" value="initial" />
+        <link uin="0l3sp40cp_l">
+          <property name="$metaclass" value="TransitionLink20" />
+          <property name="$name" value="Transition Link1" />
+          <participant referencedUin="design:node:::zf3otyems_n:f733ag5n67wtpei_n:j733ag5n6ewdecn_n" role="Client" />
+          <participant referencedUin="design:node:::g03yucie9kn3h8g_n:f733ag5n67wtpei_n:j733ag5n6ewdecn_n" role="Supplier" />
+        </link>
+      </node>
+      <node uin="1j39p5csl_n">
+        <property name="$metaclass" value="FinalState20" />
+        <property name="$name" value="Final1" />
+      </node>
+    </node>
+    <node uin="a030yye4o8uhquk_n">
+      <property name="$metaclass" value="PseudoState20" />
+      <property name="$name" value="aborted" />
+      <property name="$kind" value="exitPoint" />
+    </node>
+  </node>
+  <node uin="kd3tydwfkalqjds_n">
+    <property name="$metaclass" value="State20" />
+    <property name="$name" value="VerifyCard" />
+    <link uin="lq3kool3l_l">
+      <property name="$metaclass" value="TransitionLink20" />
+      <property name="$name" value="Transition Link1" />
+      <property name="__trigger" value="acceptCard" />
+      <participant referencedUin="design:node:::kd3tydwfkalqjds_n" role="Client" />
+      <participant referencedUin="design:node:::6d3c0392l3wyfrs_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="6d3c0392l3wyfrs_n">
+    <property name="$metaclass" value="State20" />
+    <property name="$name" value="ReadAmount : ReadAmountSM" />
+    <property name="@url" value="element://model:project::UML-2.0/design:node:::j733ag5n6ewdecn_n" />
+    <property name="url" value="element://model:project::UML-2.0/design:node:::j733ag5n6ewdecn_n" />
+    <link uin="le39ea2jj_l">
+      <property name="$metaclass" value="TransitionLink20" />
+      <property name="$name" value="Transition Link1" />
+      <property name="__trigger" value="outOfService" />
+      <participant referencedUin="design:node:::6d3c0392l3wyfrs_n" role="Client" />
+      <participant referencedUin="design:node:::283vbll5n0yyqio_n" role="Supplier" />
+    </link>
+    <link uin="0r3dxpyjt_l">
+      <property name="$metaclass" value="TransitionLink20" />
+      <property name="$name" value="Transition Link2" />
+      <participant referencedUin="design:node:::6d3c0392l3wyfrs_n" role="Client" />
+      <participant referencedUin="design:node:::wc3q1r99mcbrjyq_n" role="Supplier" />
+    </link>
+    <node uin="2d3n312qk_n">
+      <property name="$metaclass" value="PseudoState20" />
+      <property name="$name" value="aborted" />
+      <property name="$kind" value="exitPoint" />
+      <link uin="ud3yf0ujh_l">
+        <property name="$metaclass" value="TransitionLink20" />
+        <property name="$name" value="Transition Link1" />
+        <property name="__trigger" value="" />
+        <participant referencedUin="design:node:::2d3n312qk_n:6d3c0392l3wyfrs_n" role="Client" />
+        <participant referencedUin="design:node:::hd3ucfopmz0dlke_n" role="Supplier" />
+      </link>
+    </node>
+  </node>
+  <node uin="wc3q1r99mcbrjyq_n">
+    <property name="$metaclass" value="State20" />
+    <property name="$name" value="VerifyTransaction" />
+    <link uin="ub3fj0wzg_l">
+      <property name="$metaclass" value="TransitionLink20" />
+      <property name="$name" value="Transition Link1" />
+      <property name="__trigger" value="releaseCard" />
+      <participant referencedUin="design:node:::wc3q1r99mcbrjyq_n" role="Client" />
+      <participant referencedUin="design:node:::hd3ucfopmz0dlke_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="hd3ucfopmz0dlke_n">
+    <property name="$metaclass" value="State20" />
+    <property name="$name" value="ReleaseCard" />
+  </node>
+  <node uin="283vbll5n0yyqio_n">
+    <property name="$metaclass" value="State20" />
+    <property name="$name" value="OutOfService" />
+  </node>
+  <node uin="cl3n6pv5k_n">
+    <property name="$metaclass" value="PseudoState20" />
+    <property name="$name" value="Initial3" />
+    <property name="$kind" value="initial" />
+    <link uin="2e30f0htt_l">
+      <property name="$metaclass" value="TransitionLink20" />
+      <property name="$name" value="Transition Link1" />
+      <participant referencedUin="design:node:::cl3n6pv5k_n" role="Client" />
+      <participant referencedUin="design:node:::kd3tydwfkalqjds_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="4632b3jio_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note4" />
+    <property name="$note_text" value="Hyperlink to ReadAmountSM" />
+    <link uin="a73szm1s1qq0gji_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::4632b3jio_n" role="Client" />
+      <participant referencedUin="design:node:::6d3c0392l3wyfrs_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="wy214sjw28wptih_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note5" />
+    <property name="$note_text" value="Exit Point" />
+    <link uin="jf3dxwbb56oqt0i_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::wy214sjw28wptih_n" role="Client" />
+      <participant referencedUin="design:node:::2d3n312qk_n:6d3c0392l3wyfrs_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="fs2i9kz8od8kn7i_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note6" />
+    <property name="$note_text" value="Diagram represents modified sample from the &#xD;&#xA;UML 2.0 Superstructure FTF convenience document&#xD;&#xA;http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 391 on page 614" />
+  </node>
+  <node uin="ut2xat2ytf4lbzl_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note7" />
+    <property name="$note_text" value="Diagram represents modified sample from the &#xD;&#xA;UML 2.0 Superstructure FTF convenience document&#xD;&#xA;http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 390 on page 613" />
+  </node>
+</nodeSet>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="V1hexuhe013baia-umrfrm">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="ClassDiagram20" />
+    <property name="$name" value="default" />
+    <property name="__options" value="option.layout.recursive = false&#xD;&#xA;" />
+    <reference referencedUin="design:view:::V-k88o91e05ln9gg-j279n4">
+      <property name="$shortcutReference" value="true" />
+      <property name="@location_set_by_user" value="true" />
+      <property name="bounds" value="200,20,160,44" />
+      <property name="bounds_setted_by_user" value="True" />
+    </reference>
+    <reference referencedUin="design:view:::Vam8ynke05h7ht03997cb">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="20,20,140,44" />
+      <property name="bounds_setted_by_user" value="True" />
+    </reference>
+  </view>
+</nodeSet>

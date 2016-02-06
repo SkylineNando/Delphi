@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <node uin="t85i48wxk_n">
+    <property name="$metaclass" value="Collaboration20" />
+    <property name="$name" value="Observer" />
+    <link uin="175pd06gk_l">
+      <property name="$metaclass" value="CollaborationRoleLink20" />
+      <property name="$name" value="Collaboration Role1" />
+      <property name="supplierRole" value="Subject" />
+      <participant referencedUin="design:node:::t85i48wxk_n" role="Client" />
+      <participant referencedUin="design:node:::s55lyblrn_n" role="Supplier" />
+    </link>
+    <link uin="065ks51tj_l">
+      <property name="$metaclass" value="CollaborationRoleLink20" />
+      <property name="$name" value="Collaboration Role2" />
+      <property name="supplierRole" value="Observer" />
+      <participant referencedUin="design:node:::t85i48wxk_n" role="Client" />
+      <participant referencedUin="design:node:::185mvzakq_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="s55lyblrn_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="CallQueue" />
+  </node>
+  <node uin="185mvzakq_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="SlidingBarIcon" />
+  </node>
+  <node uin="z554tyif2z01ugl_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note1" />
+    <property name="$note_text" value="Observer.reading = length(Subject.queue)&#xD;&#xA;Observer.range = (0..Subject.capacity)" />
+    <link uin="sr41kftf49p4yof_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::z554tyif2z01ugl_n" role="Client" />
+      <participant referencedUin="design:node:::t85i48wxk_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="t45kya197jkzfzn_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note2" />
+    <property name="$note_text" value="Diagram portion represents modified sample from the &#xD;&#xA;UML 2.0 Superstructure FTF convenience document http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 105 on page 178" />
+  </node>
+  <node uin="oq4mg7oz0504klp_n">
+    <property name="$metaclass" value="Collaboration20" />
+    <property name="$name" value="Sale" />
+    <node uin="3r4b0hp3csousre_n">
+      <property name="$metaclass" value="Part20" />
+      <property name="$name" value="Buyer" />
+      <property name="isOrdered" value="False" />
+      <property name="isUnique" value="False" />
+      <link uin="kn4ubpkdjmmo5gf_l">
+        <property name="$metaclass" value="Connector20" />
+        <property name="$name" value="Connector1" />
+        <participant referencedUin="design:node:::3r4b0hp3csousre_n:oq4mg7oz0504klp_n" role="Client" />
+        <participant referencedUin="design:node:::ep4bpahudxs9kjj_n:oq4mg7oz0504klp_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="ep4bpahudxs9kjj_n">
+      <property name="$metaclass" value="Part20" />
+      <property name="$name" value="Seller" />
+      <property name="isOrdered" value="False" />
+      <property name="isUnique" value="False" />
+    </node>
+  </node>
+  <node uin="ao4087acmebumes_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note3" />
+    <property name="$note_text" value="Diagram portion represents modified sample from the &#xD;&#xA;UML 2.0 Superstructure FTF convenience document http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 107 on page 181" />
+  </node>
+  <node uin="lw4xgtg1qc0q1re_n">
+    <property name="$metaclass" value="Collaboration20" />
+    <property name="$name" value="BrokeredSale" />
+    <node uin="mr4upv8jqkp8yxp_n">
+      <property name="$metaclass" value="CollaborationOccurrence20" />
+      <property name="$name" value="wholesale" />
+      <property name="mod__type" value="Sale" />
+      <link uin="kj4n1ud2p_l">
+        <property name="$metaclass" value="UML20:Collaborations:CollaborationOccurrence:+type" />
+        <property name="$name" value="1" />
+        <participant referencedUin="design:node:::mr4upv8jqkp8yxp_n:lw4xgtg1qc0q1re_n" role="Client" />
+        <participant referencedUin="design:node:::oq4mg7oz0504klp_n" role="Supplier" />
+      </link>
+      <link uin="sh4j71550a1f9jf_l">
+        <property name="$metaclass" value="RoleBindingLink20" />
+        <property name="$name" value="Role Binding1" />
+        <property name="supplierRole" value="seller" />
+        <participant referencedUin="design:node:::mr4upv8jqkp8yxp_n:lw4xgtg1qc0q1re_n" role="Client" />
+        <participant referencedUin="design:node:::4m40as0pr_n:lw4xgtg1qc0q1re_n" role="Supplier" />
+      </link>
+      <link uin="5e4x4sjo0ibbw2h_l">
+        <property name="$metaclass" value="RoleBindingLink20" />
+        <property name="$name" value="Role Binding2" />
+        <property name="supplierRole" value="buyer" />
+        <participant referencedUin="design:node:::mr4upv8jqkp8yxp_n:lw4xgtg1qc0q1re_n" role="Client" />
+        <participant referencedUin="design:node:::we4t4r8wt_n:lw4xgtg1qc0q1re_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="qh4xf11ls_n">
+      <property name="$metaclass" value="CollaborationOccurrence20" />
+      <property name="$name" value="retail" />
+      <property name="mod__type" value="Sale" />
+      <link uin="0h4flc0fo_l">
+        <property name="$metaclass" value="UML20:Collaborations:CollaborationOccurrence:+type" />
+        <property name="$name" value="1" />
+        <participant referencedUin="design:node:::qh4xf11ls_n:lw4xgtg1qc0q1re_n" role="Client" />
+        <participant referencedUin="design:node:::oq4mg7oz0504klp_n" role="Supplier" />
+      </link>
+      <link uin="ah48raab0kdby3m_l">
+        <property name="$metaclass" value="RoleBindingLink20" />
+        <property name="$name" value="Role Binding1" />
+        <property name="supplierRole" value="buyer" />
+        <participant referencedUin="design:node:::qh4xf11ls_n:lw4xgtg1qc0q1re_n" role="Client" />
+        <participant referencedUin="design:node:::4g4y4asxp_n:lw4xgtg1qc0q1re_n" role="Supplier" />
+      </link>
+      <link uin="1f47unjh004f0qt_l">
+        <property name="$metaclass" value="RoleBindingLink20" />
+        <property name="$name" value="Role Binding2" />
+        <property name="supplierRole" value="seller" />
+        <participant referencedUin="design:node:::qh4xf11ls_n:lw4xgtg1qc0q1re_n" role="Client" />
+        <participant referencedUin="design:node:::we4t4r8wt_n:lw4xgtg1qc0q1re_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="4m40as0pr_n">
+      <property name="$metaclass" value="Part20" />
+      <property name="$name" value="producer" />
+      <property name="isOrdered" value="False" />
+      <property name="isUnique" value="False" />
+    </node>
+    <node uin="4g4y4asxp_n">
+      <property name="$metaclass" value="Part20" />
+      <property name="$name" value="consumer" />
+      <property name="isOrdered" value="False" />
+      <property name="isUnique" value="False" />
+    </node>
+    <node uin="we4t4r8wt_n">
+      <property name="$metaclass" value="Part20" />
+      <property name="$name" value="broker" />
+      <property name="isOrdered" value="False" />
+      <property name="isUnique" value="False" />
+    </node>
+  </node>
+  <node uin="ce40cbw3kmx9rtj_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note4" />
+    <property name="$note_text" value="Diagram portion represents modified sample from the &#xD;&#xA;UML 2.0 Superstructure FTF convenience document http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 108 on page 181" />
+  </node>
+  <node uin="rc4nj2yyrclivmi_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="OrderProcess" />
+    <node uin="0e4ln1mgsxgr9pr_n">
+      <property name="$metaclass" value="Port20" />
+      <property name="$name" value="Online Services" />
+      <link uin="ky30krhxk_l">
+        <property name="$metaclass" value="RequiredInterface20" />
+        <property name="$name" value="Required Interface1" />
+        <participant referencedUin="design:node:::0e4ln1mgsxgr9pr_n:rc4nj2yyrclivmi_n" role="Client" />
+        <participant referencedUin="design:node:::i04x1q7nf_n" role="Supplier" />
+      </link>
+      <link uin="y043tia4f_l">
+        <property name="$metaclass" value="ProvidedInterface20" />
+        <property name="$name" value="Provided Interface1" />
+        <participant referencedUin="design:node:::0e4ln1mgsxgr9pr_n:rc4nj2yyrclivmi_n" role="Client" />
+        <participant referencedUin="design:node:::kz37avtpj_n" role="Supplier" />
+      </link>
+      <link uin="gy3hsn38j_l">
+        <property name="$metaclass" value="ProvidedInterface20" />
+        <property name="$name" value="Provided Interface2" />
+        <participant referencedUin="design:node:::0e4ln1mgsxgr9pr_n:rc4nj2yyrclivmi_n" role="Client" />
+        <participant referencedUin="design:node:::n14drb4hq_n" role="Supplier" />
+      </link>
+    </node>
+  </node>
+  <node uin="kz37avtpj_n">
+    <property name="$metaclass" value="Interface20" />
+    <property name="$name" value="OrderEntry" />
+  </node>
+  <node uin="n14drb4hq_n">
+    <property name="$metaclass" value="Interface20" />
+    <property name="$name" value="Tracking" />
+  </node>
+  <node uin="i04x1q7nf_n">
+    <property name="$metaclass" value="Interface20" />
+    <property name="$name" value="Payment" />
+  </node>
+  <node uin="9x3l70vze_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note5" />
+    <property name="$note_text" value="Diagram portion represents modified sample from the &#xD;&#xA;UML 2.0 Superstructure FTF convenience document http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 112 on page 191" />
+  </node>
+  <node uin="rz3bbk0t12709xp_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Boat" />
+    <node uin="fx3ub3x66j35wng_n">
+      <property name="$metaclass" value="Part20" />
+      <property name="$name" value="p" />
+      <property name="mod__type" value="Propeller" />
+      <node uin="ty3i7rtvjy4l80n_n">
+        <property name="$metaclass" value="Port20" />
+        <property name="$name" value="e" />
+        <link uin="5x3luk1xp_l">
+          <property name="$metaclass" value="Connector20" />
+          <property name="$name" value="Connector1" />
+          <property name="label" value="shaft" />
+          <participant referencedUin="design:node:::ty3i7rtvjy4l80n_n:fx3ub3x66j35wng_n:rz3bbk0t12709xp_n" role="Client" />
+          <participant referencedUin="design:node:::3y3y33lupcj141h_n:ns3bmw0hlfkte0s_n:rz3bbk0t12709xp_n" role="Supplier" />
+        </link>
+      </node>
+    </node>
+    <node uin="ns3bmw0hlfkte0s_n">
+      <property name="$metaclass" value="Part20" />
+      <property name="$name" value="e" />
+      <property name="isOrdered" value="False" />
+      <property name="isUnique" value="False" />
+      <property name="mod__type" value="Engine" />
+      <node uin="3y3y33lupcj141h_n">
+        <property name="$metaclass" value="Port20" />
+        <property name="$name" value="p" />
+      </node>
+    </node>
+  </node>
+  <node uin="7s3cnzhhj_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note6" />
+    <property name="$note_text" value="Diagram portion represents modified sample from the &#xD;&#xA;UML 2.0 Superstructure FTF convenience document http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 113 on page 192" />
+  </node>
+</nodeSet>

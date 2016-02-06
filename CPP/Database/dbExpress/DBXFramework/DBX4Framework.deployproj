@@ -1,0 +1,135 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<Import Condition="Exists('$(BDS)\bin\CodeGear.Deployment.targets')" Project="$(BDS)\bin\CodeGear.Deployment.targets"/>
+		<ProjectExtensions>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+		<ItemGroup Condition="'$(Platform)'=='OSX32'">
+			<DeployFile Condition="'$(Config)'=='Debug'" Include="$(BDS)\Redist\OSX32\bplDbxCommonDriver160.dylib">
+				<RemoteDir>DBX4Framework\</RemoteDir>
+				<RemoteName>bplDbxCommonDriver160.dylib</RemoteName>
+				<Operation>1</Operation>
+				<LocalCommand/>
+				<RemoteCommand/>
+				<Required>True</Required>
+			</DeployFile>
+			<DeployFile Condition="'$(Config)'=='Debug'" Include=".\OSX32\Debug\DBX4Framework.tds">
+				<RemoteDir>DBX4Framework\</RemoteDir>
+				<RemoteName>DBX4Framework.tds</RemoteName>
+				<Operation>1</Operation>
+				<LocalCommand/>
+				<RemoteCommand/>
+			</DeployFile>
+			<DeployFile Condition="'$(Config)'=='Debug'" Include="$(BDS)\Redist\OSX32\bplrtl160.dylib">
+				<RemoteDir>DBX4Framework\</RemoteDir>
+				<RemoteName>bplrtl160.dylib</RemoteName>
+				<Operation>1</Operation>
+				<LocalCommand/>
+				<RemoteCommand/>
+				<Required>True</Required>
+			</DeployFile>
+			<DeployFile Condition="'$(Config)'=='Debug'" Include="$(BDS)\Redist\OSX32\bpldbrtl160.dylib">
+				<RemoteDir>DBX4Framework\</RemoteDir>
+				<RemoteName>bpldbrtl160.dylib</RemoteName>
+				<Operation>1</Operation>
+				<LocalCommand/>
+				<RemoteCommand/>
+				<Required>True</Required>
+			</DeployFile>
+			<DeployFile Condition="'$(Config)'=='Debug'" Include="$(BDS)\Redist\OSX32\bplDBXInterBaseDriver160.dylib">
+				<RemoteDir>DBX4Framework\</RemoteDir>
+				<RemoteName>bplDBXInterBaseDriver160.dylib</RemoteName>
+				<Operation>1</Operation>
+				<LocalCommand/>
+				<RemoteCommand/>
+				<Required>True</Required>
+			</DeployFile>
+			<DeployFile Condition="'$(DynamicRTL)'=='true'" Include="$(BDS)\Redist\osx32\libcgstl.dylib">
+				<RemoteDir>DBX4Framework\</RemoteDir>
+				<RemoteName>libcgstl.dylib</RemoteName>
+				<Operation>1</Operation>
+				<LocalCommand/>
+				<RemoteCommand/>
+			</DeployFile>
+			<DeployFile Condition="'$(Config)'=='Debug'" Include="$(BDS)\Redist\OSX32\bpldsnap160.dylib">
+				<RemoteDir>DBX4Framework\</RemoteDir>
+				<RemoteName>bpldsnap160.dylib</RemoteName>
+				<Operation>1</Operation>
+				<LocalCommand/>
+				<RemoteCommand/>
+				<Required>True</Required>
+			</DeployFile>
+			<DeployFile Condition="'$(Config)'=='Debug'" Include=".\OSX32\Debug\DBX4Framework">
+				<RemoteDir>DBX4Framework\</RemoteDir>
+				<RemoteName>DBX4Framework</RemoteName>
+				<Operation>1</Operation>
+				<LocalCommand/>
+				<RemoteCommand/>
+				<Required>True</Required>
+			</DeployFile>
+			<DeployFile Include="..\..\..\..\..\..\dbExpress\12.0\dbxconnections.ini">
+				<RemoteDir>DBX4Framework\</RemoteDir>
+				<RemoteName>dbxconnections.ini</RemoteName>
+				<Operation>0</Operation>
+				<LocalCommand/>
+				<RemoteCommand/>
+			</DeployFile>
+			<DeployFile Include="..\..\..\..\..\..\dbExpress\12.0\dbxdrivers.ini">
+				<RemoteDir>DBX4Framework\</RemoteDir>
+				<RemoteName>dbxdrivers.ini</RemoteName>
+				<Operation>0</Operation>
+				<LocalCommand/>
+				<RemoteCommand/>
+			</DeployFile>
+			<DeployFile Condition="'$(DynamicRTL)'=='true'" Include="$(BDS)\Redist\osx32\libcgcrtl.dylib">
+				<RemoteDir>DBX4Framework\</RemoteDir>
+				<RemoteName>libcgcrtl.dylib</RemoteName>
+				<Operation>1</Operation>
+				<LocalCommand/>
+				<RemoteCommand/>
+			</DeployFile>
+			<DeployFile Include="$(BDS)\Redist\osx32\libcgunwind.1.0.dylib">
+				<RemoteDir>DBX4Framework\</RemoteDir>
+				<RemoteName>libcgunwind.1.0.dylib</RemoteName>
+				<Operation>1</Operation>
+				<LocalCommand/>
+				<RemoteCommand/>
+			</DeployFile>
+		</ItemGroup>
+		<ItemGroup Condition="'$(Platform)'=='Win32'">
+			<DeployFile Condition="'$(UsingDelphiRTL)'=='true'" Include="$(BDS)\bin\borlndmm.dll">
+				<RemoteDir>DBX4Framework\</RemoteDir>
+				<RemoteName>borlndmm.dll</RemoteName>
+				<Operation>0</Operation>
+				<LocalCommand/>
+				<RemoteCommand/>
+			</DeployFile>
+			<DeployFile Include="..\..\..\..\..\..\dbExpress\12.0\dbxconnections.ini">
+				<RemoteDir>DBX4Framework\</RemoteDir>
+				<RemoteName>dbxconnections.ini</RemoteName>
+				<Operation>0</Operation>
+				<LocalCommand/>
+				<RemoteCommand/>
+			</DeployFile>
+			<DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'!='true'" Include="$(BDS)\bin\cc32120.dll">
+				<RemoteDir>DBX4Framework\</RemoteDir>
+				<RemoteName>cc32120.dll</RemoteName>
+				<Operation>0</Operation>
+				<LocalCommand/>
+				<RemoteCommand/>
+			</DeployFile>
+			<DeployFile Include="..\..\..\..\..\..\dbExpress\12.0\dbxdrivers.ini">
+				<RemoteDir>DBX4Framework\</RemoteDir>
+				<RemoteName>dbxdrivers.ini</RemoteName>
+				<Operation>0</Operation>
+				<LocalCommand/>
+				<RemoteCommand/>
+			</DeployFile>
+			<DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'=='true'" Include="$(BDS)\bin\cc32120mt.dll">
+				<RemoteDir>DBX4Framework\</RemoteDir>
+				<RemoteName>cc32120mt.dll</RemoteName>
+				<Operation>0</Operation>
+				<LocalCommand/>
+				<RemoteCommand/>
+			</DeployFile>
+		</ItemGroup>
+	</Project>

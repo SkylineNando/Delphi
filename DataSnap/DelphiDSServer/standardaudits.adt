@@ -1,0 +1,861 @@
+<?xml version="1.0"?>
+<analyzer-configuration version="1.0">
+  <analyzer id="ANR" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="2" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="AIOR" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="2" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="ALN" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="2" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="ALTL" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="2" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="FNI" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="IOB" inspector="Audit">
+    <settings>
+      <parameter id="level" type="0" value="1" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="MANR" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="max_deep" type="0" value="2" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="MAIOR" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="MALN" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="NSR" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="CLU" inspector="Audit">
+    <settings>
+      <parameter id="language" type="5">
+        <parameter id="java" type="1" value="True" />
+        <parameter id="csharp" type="1" value="True" />
+        <parameter id="delphi" type="1" value="True" />
+        <parameter id="cpp" type="1" value="True" />
+      </parameter>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="IL" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="2" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="IR" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="2" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="LNU" inspector="Audit">
+    <settings>
+      <parameter id="language" type="5">
+        <parameter id="java" type="1" value="True" />
+        <parameter id="csharp" type="1" value="True" />
+        <parameter id="vbnet" type="1" value="True" />
+        <parameter id="delphi" type="1" value="True" />
+        <parameter id="cpp" type="1" value="True" />
+      </parameter>
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="LBEEO" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="2" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="LBNE" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="2" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="SU" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="2" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="ASMDCN" inspector="Audit">
+    <settings>
+      <parameter id="filter-out" type="2" value="tec" />
+      <parameter id="language" type="5">
+        <parameter id="java" type="1" value="True" />
+        <parameter id="csharp" type="1" value="True" />
+        <parameter id="vbnet" type="1" value="True" />
+        <parameter id="delphi" type="1" value="True" />
+      </parameter>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="AFP" inspector="Audit">
+    <settings>
+      <parameter id="filter-out" type="2" value="tec" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="SSSIDC" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="CQS" inspector="Audit">
+    <settings>
+      <parameter id="ignoreLazyInitialization" type="1" value="True" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="LF" inspector="Audit">
+    <settings>
+      <parameter id="language" type="5">
+        <parameter id="java" type="1" value="True" />
+        <parameter id="csharp" type="1" value="True" />
+        <parameter id="vbnet" type="1" value="True" />
+        <parameter id="delphi" type="1" value="True" />
+        <parameter id="cpp" type="1" value="True" />
+      </parameter>
+      <parameter id="enabled" type="1" value="False" />
+      <parameter id="max-lines" type="0" value="2000" />
+      <parameter id="severity" type="0" value="0" />
+    </settings>
+  </analyzer>
+  <analyzer id="LL" inspector="Audit">
+    <settings>
+      <parameter id="max-line" type="0" value="80" />
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="language" type="5">
+        <parameter id="java" type="1" value="True" />
+        <parameter id="csharp" type="1" value="True" />
+        <parameter id="vbnet" type="1" value="True" />
+        <parameter id="delphi" type="1" value="True" />
+        <parameter id="cpp" type="1" value="True" />
+      </parameter>
+      <parameter id="enabled" type="1" value="False" />
+      <parameter id="end-line-comment" type="1" value="False" />
+      <parameter id="tab-size" type="0" value="4" />
+    </settings>
+  </analyzer>
+  <analyzer id="MSOL" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="NOIS" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="NLC" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="PCSS" inspector="Audit">
+    <settings>
+      <parameter id="Side" type="4" value="0" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="PSIB" inspector="Audit">
+    <settings>
+      <parameter id="language" type="5">
+        <parameter id="java" type="1" value="True" />
+        <parameter id="csharp" type="1" value="True" />
+        <parameter id="delphi" type="1" value="True" />
+        <parameter id="cpp" type="1" value="True" />
+      </parameter>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="RICEC" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="False" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="RCD" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="check-non-public" type="1" value="True" />
+      <parameter id="check-non-instantiable" type="1" value="True" />
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="check-public" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="TVUSP" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="ACD" inspector="Audit">
+    <settings>
+      <parameter id="language" type="5">
+        <parameter id="java" type="1" value="True" />
+        <parameter id="csharp" type="1" value="True" />
+        <parameter id="vbnet" type="1" value="True" />
+        <parameter id="delphi" type="1" value="True" />
+      </parameter>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="DIH" inspector="Audit">
+    <settings>
+      <parameter id="filter-out" type="2" value="tec" />
+      <parameter id="inherited" type="1" value="True" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="IMCM" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="2" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="MCS" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="MCP" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="Allow protected" type="1" value="False" />
+      <parameter id="Allow public" type="1" value="False" />
+      <parameter id="Allow internal" type="1" value="True" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="MVDOS" inspector="Audit">
+    <settings>
+      <parameter id="language" type="5">
+        <parameter id="java" type="1" value="True" />
+        <parameter id="csharp" type="1" value="True" />
+        <parameter id="vbnet" type="1" value="True" />
+        <parameter id="delphi" type="1" value="True" />
+        <parameter id="cpp" type="1" value="True" />
+      </parameter>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="ONAMAM" inspector="Audit">
+    <settings>
+      <parameter id="language" type="5">
+        <parameter id="java" type="1" value="True" />
+        <parameter id="csharp" type="1" value="True" />
+        <parameter id="delphi" type="1" value="True" />
+        <parameter id="cpp" type="1" value="True" />
+      </parameter>
+      <parameter id="severity" type="0" value="2" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="PMSNT" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="WOP" inspector="Audit">
+    <settings>
+      <parameter id="language" type="5">
+        <parameter id="csharp" type="1" value="True" />
+        <parameter id="vbnet" type="1" value="True" />
+        <parameter id="delphi" type="1" value="True" />
+      </parameter>
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="DATACLASS" inspector="DetectAudit">
+    <settings>
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="DCL" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="FE" inspector="DetectAudit">
+    <settings>
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="FUTV" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="GC" inspector="DetectAudit">
+    <settings>
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="GM" inspector="DetectAudit">
+    <settings>
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="GP" inspector="DetectAudit">
+    <settings>
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="ISPV" inspector="DetectAudit">
+    <settings>
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="LMC" inspector="Audit">
+    <settings>
+      <parameter id="Max call length" type="0" value="2" />
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="RB" inspector="DetectAudit">
+    <settings>
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="RZLA" inspector="Audit">
+    <settings>
+      <parameter id="language" type="5">
+        <parameter id="java" type="1" value="True" />
+        <parameter id="csharp" type="1" value="True" />
+        <parameter id="vbnet" type="1" value="True" />
+        <parameter id="delphi" type="1" value="True" />
+      </parameter>
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="SS" inspector="DetectAudit">
+    <settings>
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="SDMC" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="SSM" inspector="Audit">
+    <settings>
+      <parameter id="percent" type="0" value="100" />
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="SSU" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="UIII" inspector="Audit">
+    <settings>
+      <parameter id="language" type="5">
+        <parameter id="java" type="1" value="True" />
+        <parameter id="csharp" type="1" value="True" />
+        <parameter id="vbnet" type="1" value="True" />
+        <parameter id="cpp" type="1" value="True" />
+        <parameter id="delphi" type="1" value="True" />
+      </parameter>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="USP" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="WSI" inspector="DetectAudit">
+    <settings>
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="DC" inspector="Audit">
+    <settings>
+      <parameter id="weight" type="0" value="5" />
+      <parameter id="depth" type="0" value="1" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="DCCB" inspector="Audit">
+    <settings>
+      <parameter id="weight" type="0" value="1" />
+      <parameter id="depth" type="0" value="1" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="DCC" inspector="Audit">
+    <settings>
+      <parameter id="weight" type="0" value="2" />
+      <parameter id="depth" type="0" value="2" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="CSR" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="2" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="DL" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="2" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="DBM" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="DBZ" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="2" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="EVAZ" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="EVC" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="FIN" inspector="Audit">
+    <settings>
+      <parameter id="language" type="5">
+        <parameter id="java" type="1" value="True" />
+        <parameter id="csharp" type="1" value="True" />
+        <parameter id="vbnet" type="1" value="True" />
+        <parameter id="delphi" type="1" value="True" />
+        <parameter id="cpp" type="1" value="True" />
+      </parameter>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="2" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="EVNU" inspector="Audit">
+    <settings>
+      <parameter id="ignoreNull" type="1" value="True" />
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="IDFC" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="2" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="IOU" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="2" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="MDL" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="MSCOR" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="ONE" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="SCOR" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="2" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="NC" inspector="Audit">
+    <settings>
+      <parameter id="prefixMyField-delphi" type="2" value="" />
+      <parameter id="classConvention-java" type="4" value="1" />
+      <parameter id="prefixOurField-cpp" type="2" value="" />
+      <parameter id="prefixOurField-java" type="2" value="our" />
+      <parameter id="variableConvention-vbnet" type="4" value="3" />
+      <parameter id="namespaceConvention-cpp" type="4" value="2" />
+      <parameter id="prefixMyField-vbnet" type="2" value="" />
+      <parameter id="classConvention-vbnet" type="4" value="1" />
+      <parameter id="staticFieldConvention-cpp" type="4" value="3" />
+      <parameter id="namespaceConvention-java" type="4" value="2" />
+      <parameter id="classConvention-csharp" type="4" value="1" />
+      <parameter id="publicFieldConvention-java" type="4" value="3" />
+      <parameter id="operationConvention-vbnet" type="4" value="1" />
+      <parameter id="constFieldConvention-cpp" type="4" value="4" />
+      <parameter id="otherFieldConvention-vbnet" type="4" value="1" />
+      <parameter id="namespaceConvention-delphi" type="4" value="1" />
+      <parameter id="classConvention-cpp" type="4" value="1" />
+      <parameter id="classConvention-delphi" type="4" value="1" />
+      <parameter id="variableConvention-cpp" type="4" value="3" />
+      <parameter id="variableConvention-java" type="4" value="3" />
+      <parameter id="constFieldConvention-java" type="4" value="4" />
+      <parameter id="prefixOurField-vbnet" type="2" value="" />
+      <parameter id="prefixOurField-delphi" type="2" value="" />
+      <parameter id="constFieldConvention-delphi" type="4" value="1" />
+      <parameter id="exceptionClasses" type="1" value="True" />
+      <parameter id="constFieldConvention-csharp" type="4" value="1" />
+      <parameter id="staticFieldConvention-vbnet" type="4" value="1" />
+      <parameter id="namespaceConvention-vbnet" type="4" value="1" />
+      <parameter id="otherFieldConvention-java" type="4" value="3" />
+      <parameter id="prefixMyField-java" type="2" value="my" />
+      <parameter id="operationConvention-cpp" type="4" value="3" />
+      <parameter id="prefixOurField-csharp" type="2" value="" />
+      <parameter id="operationConvention-csharp" type="4" value="1" />
+      <parameter id="variableConvention-csharp" type="4" value="3" />
+      <parameter id="staticFieldConvention-csharp" type="4" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="staticFieldConvention-delphi" type="4" value="1" />
+      <parameter id="constFieldConvention-vbnet" type="4" value="1" />
+      <parameter id="namespaceConvention-csharp" type="4" value="1" />
+      <parameter id="variableConvention-delphi" type="4" value="3" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="prefixMyField-cpp" type="2" value="" />
+      <parameter id="publicFieldConvention-delphi" type="4" value="1" />
+      <parameter id="operationConvention-java" type="4" value="3" />
+      <parameter id="publicFieldConvention-csharp" type="4" value="1" />
+      <parameter id="publicFieldConvention-cpp" type="4" value="3" />
+      <parameter id="otherFieldConvention-cpp" type="4" value="3" />
+      <parameter id="prefixMyField-csharp" type="2" value="" />
+      <parameter id="otherFieldConvention-delphi" type="4" value="1" />
+      <parameter id="checkInterfaceFirstLetter" type="1" value="False" />
+      <parameter id="otherFieldConvention-csharp" type="4" value="1" />
+      <parameter id="publicFieldConvention-vbnet" type="4" value="1" />
+      <parameter id="operationConvention-delphi" type="4" value="1" />
+      <parameter id="staticFieldConvention-java" type="4" value="3" />
+    </settings>
+  </analyzer>
+  <analyzer id="DTC" inspector="Audit">
+    <settings>
+      <parameter id="maxcasts" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="RIEWS" inspector="Audit">
+    <settings>
+      <parameter id="mincases" type="0" value="3" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="SRVLV" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="USEAS" inspector="Audit">
+    <settings>
+      <parameter id="language" type="5">
+        <parameter id="csharp" type="1" value="True" />
+        <parameter id="delphi" type="1" value="True" />
+      </parameter>
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="BAAS" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="CAMC" inspector="Audit">
+    <settings>
+      <parameter id="language" type="5">
+        <parameter id="java" type="1" value="True" />
+        <parameter id="csharp" type="1" value="True" />
+        <parameter id="vbnet" type="1" value="True" />
+        <parameter id="delphi" type="1" value="True" />
+      </parameter>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="CVFCD" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="CFPV" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="CEV" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="CTCOC" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="DUCOCRV" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="DIC" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="ECNHS" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="ENH" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="IAC" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="ITCOC" inspector="Audit">
+    <settings>
+      <parameter id="ErrorsOnly" type="1" value="True" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="IVNU" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="MIC" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="MWAOP" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="MAP" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="MLOWP" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="False" />
+    </settings>
+  </analyzer>
+  <analyzer id="MCE" inspector="Audit">
+    <settings>
+      <parameter id="language" type="5">
+        <parameter id="csharp" type="1" value="True" />
+        <parameter id="vbnet" type="1" value="True" />
+        <parameter id="delphi" type="1" value="True" />
+      </parameter>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="PIOBCL" inspector="Audit">
+    <settings>
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="RVNC" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="EOBA" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="0" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="MNU" inspector="Audit">
+    <settings>
+      <parameter id="private-only" type="1" value="False" />
+      <parameter id="message-out" type="2" value="AuditMNU.2,AuditMNU.4," />
+      <parameter id="methods" type="1" value="True" />
+      <parameter id="fields" type="1" value="True" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+      <parameter id="use-dataflow" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="SEB" inspector="Audit">
+    <settings>
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="filter-out" type="2" value="tec" />
+      <parameter id="enabled" type="1" value="False" />
+      <parameter id="loop-bodies" type="1" value="True" />
+      <parameter id="method-bodies" type="1" value="True" />
+      <parameter id="catch-clauses" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="UC" inspector="Audit">
+    <settings>
+      <parameter id="filter-out" type="2" value="tec" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+  <analyzer id="ULVFP" inspector="Audit">
+    <settings>
+      <parameter id="filter-out" type="2" value="tec" />
+      <parameter id="severity" type="0" value="1" />
+      <parameter id="enabled" type="1" value="True" />
+    </settings>
+  </analyzer>
+</analyzer-configuration>

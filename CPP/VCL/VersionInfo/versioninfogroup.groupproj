@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{5B93B3F5-846A-4BB6-A9A6-16FC85C06ED4}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="versioninfo.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dclversioninfo.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="versioninfosample.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="testproject.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="versioninfo">
+        <MSBuild Projects="versioninfo.cbproj"/>
+    </Target>
+    <Target Name="versioninfo:Clean">
+        <MSBuild Projects="versioninfo.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="versioninfo:Make">
+        <MSBuild Projects="versioninfo.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="dclversioninfo">
+        <MSBuild Projects="dclversioninfo.cbproj"/>
+    </Target>
+    <Target Name="dclversioninfo:Clean">
+        <MSBuild Projects="dclversioninfo.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dclversioninfo:Make">
+        <MSBuild Projects="dclversioninfo.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="versioninfosample">
+        <MSBuild Projects="versioninfosample.cbproj"/>
+    </Target>
+    <Target Name="versioninfosample:Clean">
+        <MSBuild Projects="versioninfosample.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="versioninfosample:Make">
+        <MSBuild Projects="versioninfosample.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="testproject">
+        <MSBuild Projects="testproject.cbproj"/>
+    </Target>
+    <Target Name="testproject:Clean">
+        <MSBuild Projects="testproject.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="testproject:Make">
+        <MSBuild Projects="testproject.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="versioninfo;dclversioninfo;versioninfosample;testproject"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="versioninfo:Clean;dclversioninfo:Clean;versioninfosample:Clean;testproject:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="versioninfo:Make;dclversioninfo:Make;versioninfosample:Make;testproject:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

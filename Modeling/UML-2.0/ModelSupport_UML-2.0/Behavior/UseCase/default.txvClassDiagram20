@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="lx591cdjp_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="ClassDiagram20" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::0446he0k4r341il_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="20,20,120,44" />
+      <property name="bounds_setted_by_user" value="True" />
+    </reference>
+  </view>
+</nodeSet>

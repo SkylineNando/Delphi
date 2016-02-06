@@ -1,0 +1,138 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'C++ InterBase ToGo Demo'
+  ClientHeight = 589
+  ClientWidth = 753
+  FormFactor.Width = 1440
+  FormFactor.Height = 900
+  FormFactor.Devices = [dkDesktop]
+  DesignerMobile = False
+  DesignerWidth = 0
+  DesignerHeight = 0
+  DesignerDeviceName = ''
+  DesignerOrientation = 0
+  object CheckBox1: TCheckBox
+    Height = 19.000000000000000000
+    Position.X = 32.000000000000000000
+    Position.Y = 16.000000000000000000
+    TabOrder = 0
+    Text = 'Employee GDB'
+    Width = 120.000000000000000000
+    OnChange = CheckBox1Change
+  end
+  object StringGridBindSourceDB1: TStringGrid
+    Height = 169.000000000000000000
+    Position.X = 16.000000000000000000
+    Position.Y = 72.000000000000000000
+    TabOrder = 1
+    Width = 601.000000000000000000
+    RowCount = 0
+    RowHeight = 21.000000000000000000
+  end
+  object NavigatorBindSourceDB1: TBindNavigator
+    Height = 25.000000000000000000
+    Position.X = 184.000000000000000000
+    Position.Y = 32.000000000000000000
+    Width = 320.000000000000000000
+    OnClick = NavigatorBindSourceDB1Click
+    DataSource = BindSourceDB1
+    VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast, nbRefresh]
+    xRadius = 4.000000000000000000
+    yRadius = 4.000000000000000000
+  end
+  object StringGridBindSourceDB2: TStringGrid
+    Height = 193.000000000000000000
+    Position.X = 24.000000000000000000
+    Position.Y = 312.000000000000000000
+    TabOrder = 3
+    Width = 593.000000000000000000
+    RowCount = 0
+    RowHeight = 21.000000000000000000
+  end
+  object NavigatorBindSourceDB2: TBindNavigator
+    Height = 25.000000000000000000
+    Position.X = 184.000000000000000000
+    Position.Y = 264.000000000000000000
+    Width = 322.000000000000000000
+    DataSource = BindSourceDB2
+    VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast, nbDelete, nbCancel, nbRefresh]
+    xRadius = 4.000000000000000000
+    yRadius = 4.000000000000000000
+  end
+  object IBDatabase1: TIBDatabase
+    DatabaseName = 
+      'C:\Users\Public\Documents\RAD Studio\12.0\Samples\Data\EMPLOYEE.' +
+      'GDB'
+    Params.Strings = (
+      'user_name=SYSDBA'
+      'password=masterkey')
+    LoginPrompt = False
+    DefaultTransaction = IBTransaction1
+    ServerType = 'IBServer'
+    Left = 664
+    Top = 16
+  end
+  object IBTransaction1: TIBTransaction
+    Left = 664
+    Top = 72
+  end
+  object IBDataSet1: TIBDataSet
+    Database = IBDatabase1
+    Transaction = IBTransaction1
+    BufferChunks = 1000
+    CachedUpdates = False
+    SelectSQL.Strings = (
+      'select  * from CUSTOMER')
+    ParamCheck = True
+    UniDirectional = False
+    Left = 664
+    Top = 120
+  end
+  object IBDataSet2: TIBDataSet
+    Database = IBDatabase1
+    Transaction = IBTransaction1
+    AutoCalcFields = False
+    BufferChunks = 1000
+    CachedUpdates = False
+    SelectSQL.Strings = (
+      'select * from sales where Cust_No = :Cust_No')
+    ParamCheck = True
+    UniDirectional = False
+    Filtered = True
+    Left = 664
+    Top = 192
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = IBDataSet1
+    ScopeMappings = <>
+    Left = 664
+    Top = 256
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 20
+    Top = 5
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      GridControl = StringGridBindSourceDB1
+      AutoBufferCount = False
+      Columns = <>
+    end
+    object LinkGridToDataSourceBindSourceDB2: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB2
+      GridControl = StringGridBindSourceDB2
+      AutoBufferCount = False
+      Columns = <>
+    end
+  end
+  object BindSourceDB2: TBindSourceDB
+    DataSet = IBDataSet2
+    ScopeMappings = <>
+    Left = 664
+    Top = 312
+  end
+end

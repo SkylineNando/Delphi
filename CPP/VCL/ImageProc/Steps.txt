@@ -1,0 +1,76 @@
+Steps:
+
+test 1:
+
+1 - File | Open (lucas5.bmp)
+2 - Edit | Convert to Grayscale
+3 - Edit | Flip Horizontally
+4 - Edit | Flip Vertically
+5 - Select | Image 2
+6 - File | Open lucas5.bmp
+7 - Edit | Convert to Grayscale
+8 - Select | Image 3
+9 - Edit | Arithmetic Operations
+10 - Select the following options:
+     First Image: Image 1
+     Operator: Average
+     Second Image: Image 2
+     Result: Image 3
+11 - Click ok
+12 - Light | Auto Contrast
+13 - File | Save as (save as result.bmp)
+
+test 2:
+1 - File | Open (img1.bmp)
+2 - Edit | Negative
+
+test 3:
+1 - File | Open (noise.bmp)
+2 - Filter | Average (Repeat this step some times)
+
+test 4:
+1 - File | Open (noise.bmp)
+2 - Filter | Median
+
+test 5:
+1 - File | Open (img3.bmp)
+2 - Edit | Convert to Grayscale
+3 - Filters | Detect Edges
+4 - Edit | Negative
+
+test 6:
+1 - File | Open (lowcontrast.bmp)
+2 - Light | Auto Contrast
+
+test 7:    
+1 - Select | Image 1
+2 - File | Open (lucas7.bmp)
+3 - Edit | conver to Grayscale
+4 - Select | Image 2
+5 - File | Open (mask.bmp)
+6 - Select | Image 3
+7 - Edit | Arithmetic Operations
+8 - Select the following options:
+     First Image: Image 1
+     Operator: Sum
+     Second Image: Image 2
+     Result: Image 3
+9 - Look at the result
+10- Edit | Arithmetic Operations
+     First Image: Image 3
+     Operator: Subtract
+     Second Image: Image 2
+     Result: Image 3
+
+test 8:
+1 - For every item (X) at the effects menu, do:
+    2 - File | Open (select any image) //Note: for the "Old picture" Effect, you must select a color image
+    3 - Effect | X
+
+test 9
+1 - File | Open (any image)
+2 - Light | Manual adjust
+3 - scroll the bars and see the results
+4 - click ok
+5 - Light | Apply Treshold
+6 - scroll the bars and see the results

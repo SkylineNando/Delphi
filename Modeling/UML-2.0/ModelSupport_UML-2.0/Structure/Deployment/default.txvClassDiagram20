@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="jz5idb0caad74lq_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="ClassDiagram20" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::vi5u009h0vdw05s_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="20,20,120,44" />
+      <property name="bounds_setted_by_user" value="True" />
+    </reference>
+    <reference referencedUin="design:node:::tl51ycnel_n">
+      <property name="$hidden" value="True" />
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="717,59,478,30" />
+    </reference>
+    <reference referencedUin="design:node:::bo5vyps9j_n">
+      <property name="$hidden" value="True" />
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="530,190,805,30" />
+    </reference>
+    <reference referencedUin="design:node:::ip5t50093xg003t_n">
+      <property name="$hidden" value="True" />
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="1028,1,2003,30" />
+    </reference>
+    <reference referencedUin="design:node:::0o5jc6000p1e8up_n">
+      <property name="$hidden" value="True" />
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="736,1,571,51" />
+    </reference>
+  </view>
+</nodeSet>

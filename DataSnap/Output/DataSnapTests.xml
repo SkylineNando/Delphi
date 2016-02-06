@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<testes>
+<TUserClient>
+  <UserData>
+	<item>
+		<author>Andreano Lanusse</author>
+		<description>Test login credentials</description>
+		<firstlastname>1</firstlastname>
+		<login>1</login>
+		<password>True</password>
+		<expected>True</expected>
+		<expectedEnable>True</expectedEnable>
+		<expectedDisable>False</expectedDisable>
+	</item>
+	<item>
+		<author>Andreano Lanusse</author>
+		<description>Test login credentials</description>
+		<firstlastname>9od</firstlastname>
+		<login>ds</login>
+		<password>True</password>
+		<expected>True</expected>
+		<expectedEnable>True</expectedEnable>
+		<expectedDisable>False</expectedDisable>
+	</item>
+  </UserData>
+</TUserClient>
+
+<TDSServerMethods>
+  <Data>
+	<item>
+		<author>Andreano Lanusse</author>
+		<description>Test login credentials</description>
+		<expected>True</expected>
+	</item>
+  </Data>
+</TDSServerMethods>
+
+</testes>
+

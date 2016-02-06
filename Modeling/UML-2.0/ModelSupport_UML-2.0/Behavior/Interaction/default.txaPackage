@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <node uin="-yrgd8ee013bmzww7wnln">
+    <property name="$metaclass" value="SD20_Interaction" />
+    <property name="$name" value="ShowAlbumsDialog" />
+    <node uin="N-y9889se013bpndi2qjbo">
+      <property name="$metaclass" value="SD20_Lifeline" />
+      <property name="$name" value="Lifeline1" />
+      <property name="connectableElementName" value="ShowAlbumsDialog" />
+      <node uin="N-kil01de05iql3q-5jdnvm">
+        <property name="$metaclass" value="SD20_ExecutionSpecification" />
+        <property name="$name" value="SD20_ExecutionSpecification1" />
+        <node uin="N-2ebi49e05iqsvlt6mw6i">
+          <property name="$metaclass" value="SD20_Int_InvocationSpecification" />
+          <property name="$name" value="SD20_Int_InvocationSpecification1" />
+          <property name="call_cachedSequenceNumber" value="1.1" />
+          <property name="receiveExecutionSpecificationPuin" value="design:node:::N-kil01de05iqsvl-87rnbf:N-2ebi49e05iqsvlt6mw6i:N-kil01de05iql3q-5jdnvm:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln" />
+          <property name="signalOrOperationName" value="init" />
+          <node uin="N-kil01de05iqsvl-87rnbf">
+            <property name="$metaclass" value="SD20_ExecutionSpecification" />
+            <property name="$name" value="SD20_ExecutionSpecification1" />
+            <node uin="N-2ebi49e05ir34u-ib2989">
+              <property name="$metaclass" value="SD20_Int_InvocationSpecification" />
+              <property name="$name" value="SD20_Int_InvocationSpecification1" />
+              <property name="call_cachedSequenceNumber" value="1.1.1" />
+              <property name="receiveExecutionSpecificationPuin" value="design:node:::N-kil01de05ir35ayxqfdo:N-y9889se01a79qdgbrrfi:-yrgd8ee013bmzww7wnln" />
+              <property name="returnValue" value="findSession1" />
+              <property name="sd20_reply_message_exists" value="" />
+              <property name="signalOrOperationName" value="listAllAlbums" />
+            </node>
+          </node>
+        </node>
+        <node uin="N-2ebi49e05j1apsjtexwy">
+          <property name="$metaclass" value="SD20_Int_InvocationSpecification" />
+          <property name="$name" value="SD20_Int_InvocationSpecification2" />
+          <property name="call_cachedSequenceNumber" value="1.2" />
+          <property name="receiveExecutionSpecificationPuin" value="design:node:::N-kil01de05j1aps-omufka:N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln" />
+          <property name="returnValue" value="'all done'" />
+          <property name="sd20_reply_message_exists" value="" />
+          <property name="signalOrOperationName" value="getStatus" />
+        </node>
+      </node>
+      <node uin="N7x5rzxe05j56ap-gb467">
+        <property name="$metaclass" value="SD20_Int_MountingRegion" />
+        <property name="$name" value="SD20_Int_MountingRegion1" />
+        <link uin="L7zkgube05j56ap-e68iwm">
+          <property name="$metaclass" value="SD20_Int_MountingLink" />
+          <property name="$name" value="SD20_Int_MountingLink1" />
+          <participant referencedUin="design:node:::N7x5rzxe05j56ap-gb467:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln" role="Client" />
+          <participant referencedUin="design:node:::N7chx8le05j56aayzpg42:-yrgd8ee013bmzww7wnln" role="Supplier" />
+        </link>
+        <node uin="N7x5rzxe05j56ap-40u46m">
+          <property name="$metaclass" value="SD20_Int_MountingRegion" />
+          <property name="$name" value="SD20_Int_MountingRegion1" />
+          <link uin="L7zkgube05j56apwfu4h2">
+            <property name="$metaclass" value="SD20_Int_MountingLink" />
+            <property name="$name" value="SD20_Int_MountingLink1" />
+            <participant referencedUin="design:node:::N7x5rzxe05j56ap-40u46m:N7x5rzxe05j56ap-gb467:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln" role="Client" />
+            <participant referencedUin="design:node:::N-yp8yhe05j56ap-4xsrcg:N7chx8le05j56aayzpg42:-yrgd8ee013bmzww7wnln" role="Supplier" />
+          </link>
+          <node uin="N-kil01de05j5bgja7fu5b">
+            <property name="$metaclass" value="SD20_ExecutionSpecification" />
+            <property name="$name" value="SD20_ExecutionSpecification1" />
+            <node uin="N-2ebi49e05j5ryg-2a7k0g">
+              <property name="$metaclass" value="SD20_Int_InvocationSpecification" />
+              <property name="$name" value="SD20_Int_InvocationSpecification1" />
+              <property name="attribute" value="percentValue" />
+              <property name="call_cachedSequenceNumber" value="2.1" />
+              <property name="receiveExecutionSpecificationPuin" value="design:node:::N-kil01de05j5ryg-bzlu24:N7x5rzxe05j5ry1-cfyosz:N7x5rzxe05j5ry1-m9qjlc:N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln" />
+              <property name="sd20_reply_message_exists" value="" />
+              <property name="signalOrOperationName" value="getStatus()" />
+            </node>
+            <node uin="N-2ebi49e05lhsbx-dzcp23">
+              <property name="$metaclass" value="SD20_Int_InvocationSpecification" />
+              <property name="$name" value="SD20_Int_InvocationSpecification2" />
+              <property name="call_cachedSequenceNumber" value="2.2" />
+              <property name="receiveExecutionSpecificationPuin" value="design:node:::N-kil01de05lhsbx1xhyi9:N-2ebi49e05lhsbx-dzcp23:N-kil01de05j5bgja7fu5b:N7x5rzxe05j56ap-40u46m:N7x5rzxe05j56ap-gb467:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln" />
+              <property name="signalOrOperationName" value="updateProcessBar" />
+              <node uin="N-kil01de05lhsbx1xhyi9">
+                <property name="$metaclass" value="SD20_ExecutionSpecification" />
+                <property name="$name" value="SD20_ExecutionSpecification1" />
+              </node>
+              <node uin="Nrf4xate05lhsbx-oct3d">
+                <property name="$metaclass" value="SD20_Int_Message_Argument" />
+                <property name="$name" value="SD20_Int_Message_Argument1" />
+                <property name="stringValue" value="percentValue" />
+              </node>
+            </node>
+            <node uin="N-2ebi49e05j5zvpjm20zl">
+              <property name="$metaclass" value="SD20_Int_InvocationSpecification" />
+              <property name="$name" value="SD20_Int_InvocationSpecification3" />
+              <property name="call_cachedSequenceNumber" value="2.3" />
+              <property name="messageSort" value="asynchCall" />
+              <property name="receiveExecutionSpecificationPuin" value="design:node:::N-kil01de05licg5w8q1km:N7x5rzxe05j56ap-40u46m:N7x5rzxe05j56ap-gb467:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln" />
+              <property name="signalOrOperationName" value="repaint" />
+            </node>
+          </node>
+          <node uin="N-kil01de05licg5w8q1km">
+            <property name="$metaclass" value="SD20_ExecutionSpecification" />
+            <property name="$name" value="SD20_ExecutionSpecification1" />
+          </node>
+        </node>
+      </node>
+      <node uin="N-kil01de05lj35k-ju49o1">
+        <property name="$metaclass" value="SD20_ExecutionSpecification" />
+        <property name="$name" value="SD20_ExecutionSpecification2" />
+        <node uin="N-2ebi49e05lj35kw15vhz">
+          <property name="$metaclass" value="SD20_Int_InvocationSpecification" />
+          <property name="$name" value="SD20_Int_InvocationSpecification1" />
+          <property name="call_cachedSequenceNumber" value="3.1" />
+          <property name="receiveExecutionSpecificationPuin" value="design:node:::N-kil01de05lj35ktmb432:N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln" />
+          <property name="returnValue" value="'100%'" />
+          <property name="sd20_reply_message_exists" value="" />
+          <property name="signalOrOperationName" value="getStatus()" />
+        </node>
+        <node uin="N-2ebi49e05lj35kpwg12h">
+          <property name="$metaclass" value="SD20_Int_InvocationSpecification" />
+          <property name="$name" value="SD20_Int_InvocationSpecification2" />
+          <property name="call_cachedSequenceNumber" value="3.2" />
+          <property name="messageSort" value="asynchCall" />
+          <property name="receiveExecutionSpecificationPuin" value="design:node:::N-kil01de05ljt7y-2zxhi8:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln" />
+          <property name="signalOrOperationName" value="enableControls()" />
+        </node>
+      </node>
+      <node uin="N-kil01de05ljt7y-2zxhi8">
+        <property name="$metaclass" value="SD20_ExecutionSpecification" />
+        <property name="$name" value="SD20_ExecutionSpecification1" />
+      </node>
+      <link uin="L-4pt500e05iqsw1-ujo4fe">
+        <property name="$metaclass" value="SD20_Int_CommunicationLink" />
+        <property name="$name" value="SD20_Int_CommunicationLink1" />
+        <participant referencedUin="design:node:::N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln" role="Client" />
+        <participant referencedUin="design:node:::N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln" role="Supplier" />
+      </link>
+      <link uin="L-4pt500e05ir35a-zfndd7">
+        <property name="$metaclass" value="SD20_Int_CommunicationLink" />
+        <property name="$name" value="SD20_Int_CommunicationLink2" />
+        <participant referencedUin="design:node:::N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln" role="Client" />
+        <participant referencedUin="design:node:::N-y9889se01a79qdgbrrfi:-yrgd8ee013bmzww7wnln" role="Supplier" />
+      </link>
+      <link uin="L-4pt500e05iz9q1-3l5vw3">
+        <property name="$metaclass" value="SD20_Int_CommunicationLink" />
+        <property name="$name" value="SD20_Int_CommunicationLink3" />
+        <participant referencedUin="design:node:::N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln" role="Client" />
+        <participant referencedUin="design:node:::N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln" role="Supplier" />
+      </link>
+    </node>
+    <node uin="N-y9889se01a79qdgbrrfi">
+      <property name="$metaclass" value="SD20_Lifeline" />
+      <property name="$name" value="Lifeline2" />
+      <property name="connectableElementName" value="Music DB" />
+      <node uin="N-kil01de05ir35ayxqfdo">
+        <property name="$metaclass" value="SD20_ExecutionSpecification" />
+        <property name="$name" value="SD20_ExecutionSpecification1" />
+        <node uin="N-2ebi49e05iry2p-a7a6fm">
+          <property name="$metaclass" value="SD20_Int_InvocationSpecification" />
+          <property name="$name" value="SD20_Int_InvocationSpecification1" />
+          <property name="call_cachedSequenceNumber" value="1.1.1.1" />
+          <property name="receiveExecutionSpecificationPuin" value="design:node:::N-kil01de05iry2p-8z7q38:N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln" />
+          <property name="signalOrOperationName" value="create" />
+        </node>
+      </node>
+      <link uin="L-4pt500e05iry34pak180">
+        <property name="$metaclass" value="SD20_Int_CommunicationLink" />
+        <property name="$name" value="SD20_Int_CommunicationLink1" />
+        <participant referencedUin="design:node:::N-y9889se01a79qdgbrrfi:-yrgd8ee013bmzww7wnln" role="Client" />
+        <participant referencedUin="design:node:::N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln" role="Supplier" />
+      </link>
+    </node>
+    <node uin="N-y9889se05inx30-9sfzfv">
+      <property name="$metaclass" value="SD20_Lifeline" />
+      <property name="$name" value="Lifeline3" />
+      <property name="connectableElementName" value="findSession1" />
+      <property name="SD20_selector" value="awt" />
+      <node uin="N-kil01de05iry2p-8z7q38">
+        <property name="$metaclass" value="SD20_ExecutionSpecification" />
+        <property name="$name" value="SD20_ExecutionSpecification1" />
+        <node uin="N-2ebi49e05ivbir-jqhdek">
+          <property name="$metaclass" value="SD20_Int_InvocationSpecification" />
+          <property name="$name" value="SD20_Int_InvocationSpecification1" />
+          <property name="call_cachedSequenceNumber" value="1.1.1.1.1" />
+          <property name="messageSort" value="asynchCall" />
+          <property name="receiveExecutionSpecificationPuin" value="design:node:::N-kil01de05ivbir-a2qfqt:N-y9889se05iub5a-pva2x7:-yrgd8ee013bmzww7wnln" />
+          <property name="signalOrOperationName" value="go()" />
+        </node>
+      </node>
+      <node uin="N-kil01de05j1aps-omufka">
+        <property name="$metaclass" value="SD20_ExecutionSpecification" />
+        <property name="$name" value="SD20_ExecutionSpecification2" />
+      </node>
+      <node uin="N7x5rzxe05j5ry1-m9qjlc">
+        <property name="$metaclass" value="SD20_Int_MountingRegion" />
+        <property name="$name" value="SD20_Int_MountingRegion2" />
+        <link uin="L7zkgube05j5ry11dwgsg">
+          <property name="$metaclass" value="SD20_Int_MountingLink" />
+          <property name="$name" value="SD20_Int_MountingLink1" />
+          <participant referencedUin="design:node:::N7x5rzxe05j5ry1-m9qjlc:N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln" role="Client" />
+          <participant referencedUin="design:node:::N7chx8le05j56aayzpg42:-yrgd8ee013bmzww7wnln" role="Supplier" />
+        </link>
+        <node uin="N7x5rzxe05j5ry1-cfyosz">
+          <property name="$metaclass" value="SD20_Int_MountingRegion" />
+          <property name="$name" value="SD20_Int_MountingRegion1" />
+          <link uin="L7zkgube05j5rygeug7su">
+            <property name="$metaclass" value="SD20_Int_MountingLink" />
+            <property name="$name" value="SD20_Int_MountingLink1" />
+            <participant referencedUin="design:node:::N7x5rzxe05j5ry1-cfyosz:N7x5rzxe05j5ry1-m9qjlc:N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln" role="Client" />
+            <participant referencedUin="design:node:::N-yp8yhe05j56ap-4xsrcg:N7chx8le05j56aayzpg42:-yrgd8ee013bmzww7wnln" role="Supplier" />
+          </link>
+          <node uin="N-kil01de05j5ryg-bzlu24">
+            <property name="$metaclass" value="SD20_ExecutionSpecification" />
+            <property name="$name" value="SD20_ExecutionSpecification1" />
+          </node>
+          <node uin="Nn68rpbe05lhfv6-ms14ig">
+            <property name="$metaclass" value="SD20_StateInvariant" />
+            <property name="$name" value="SD20_StateInvariant1" />
+            <node uin="Nttifwde05lhfv6yu663d">
+              <property name="$metaclass" value="Constraint" />
+              <property name="$name" value="constraintText" />
+              <node uin="Nul14qae05lhfv630zlq3">
+                <property name="$metaclass" value="ValueSpecification" />
+                <property name="$name" value="ValueSpecification1" />
+                <property name="body" value="findSession.hasMoreAlbums() == true" />
+                <property name="language" value="text" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node uin="N-kil01de05lj35ktmb432">
+        <property name="$metaclass" value="SD20_ExecutionSpecification" />
+        <property name="$name" value="SD20_ExecutionSpecification3" />
+      </node>
+      <node uin="Nn68rpbe05lkfa3764idw">
+        <property name="$metaclass" value="SD20_StateInvariant" />
+        <property name="$name" value="SD20_StateInvariant1" />
+        <node uin="Nttifwde05lkfa3-9tfyk0">
+          <property name="$metaclass" value="Constraint" />
+          <property name="$name" value="constraintText" />
+          <node uin="Nul14qae05lkfa3-s0zh6l">
+            <property name="$metaclass" value="ValueSpecification" />
+            <property name="$name" value="ValueSpecification1" />
+            <property name="body" value="findSession.hasMoreAlbums() == false" />
+            <property name="language" value="text" />
+          </node>
+        </node>
+      </node>
+      <link uin="L-4pt500e05ivbj7-89yrdd">
+        <property name="$metaclass" value="SD20_Int_CommunicationLink" />
+        <property name="$name" value="SD20_Int_CommunicationLink1" />
+        <participant referencedUin="design:node:::N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln" role="Client" />
+        <participant referencedUin="design:node:::N-y9889se05iub5a-pva2x7:-yrgd8ee013bmzww7wnln" role="Supplier" />
+      </link>
+    </node>
+    <node uin="N-2ebi49e05iql3q-1cgdb9">
+      <property name="$metaclass" value="SD20_Int_InvocationSpecification" />
+      <property name="$name" value="SD20_Int_InvocationSpecification1" />
+      <property name="call_cachedSequenceNumber" value="1" />
+      <property name="receiveExecutionSpecificationPuin" value="design:node:::N-kil01de05iql3q-5jdnvm:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln" />
+    </node>
+    <node uin="N-y9889se05iub5a-pva2x7">
+      <property name="$metaclass" value="SD20_Lifeline" />
+      <property name="$name" value="Lifeline4" />
+      <property name="connectableElementName" value="findSession1" />
+      <property name="SD20_selector" value="background" />
+      <node uin="N-kil01de05ivbir-a2qfqt">
+        <property name="$metaclass" value="SD20_ExecutionSpecification" />
+        <property name="$name" value="SD20_ExecutionSpecification1" />
+        <node uin="N7x5rzxe05j38a7mj18zd">
+          <property name="$metaclass" value="SD20_Int_MountingRegion" />
+          <property name="$name" value="SD20_Int_MountingRegion1" />
+          <link uin="L7zkgube05j38a7nhxyso">
+            <property name="$metaclass" value="SD20_Int_MountingLink" />
+            <property name="$name" value="SD20_Int_MountingLink1" />
+            <participant referencedUin="design:node:::N7x5rzxe05j38a7mj18zd:N-kil01de05ivbir-a2qfqt:N-y9889se05iub5a-pva2x7:-yrgd8ee013bmzww7wnln" role="Client" />
+            <participant referencedUin="design:node:::N7chx8le05j38a7gwxm9b:-yrgd8ee013bmzww7wnln" role="Supplier" />
+          </link>
+          <node uin="N7x5rzxe05j38b2euz8ph">
+            <property name="$metaclass" value="SD20_Int_MountingRegion" />
+            <property name="$name" value="SD20_Int_MountingRegion1" />
+            <link uin="L7zkgube05j38b2-m0lq21">
+              <property name="$metaclass" value="SD20_Int_MountingLink" />
+              <property name="$name" value="SD20_Int_MountingLink1" />
+              <participant referencedUin="design:node:::N7x5rzxe05j38b2euz8ph:N7x5rzxe05j38a7mj18zd:N-kil01de05ivbir-a2qfqt:N-y9889se05iub5a-pva2x7:-yrgd8ee013bmzww7wnln" role="Client" />
+              <participant referencedUin="design:node:::N-yp8yhe05j38anpuzluj:N7chx8le05j38a7gwxm9b:-yrgd8ee013bmzww7wnln" role="Supplier" />
+            </link>
+            <node uin="N-2ebi49e05j3buq-t1l6am">
+              <property name="$metaclass" value="SD20_Int_InvocationSpecification" />
+              <property name="$name" value="SD20_Int_InvocationSpecification1" />
+              <property name="call_cachedSequenceNumber" value="1.1.1.1.1.1" />
+              <property name="receiveExecutionSpecificationPuin" value="design:node:::N-kil01de05j3buqwhb6g5:N-2ebi49e05j3buq-t1l6am:N7x5rzxe05j38b2euz8ph:N7x5rzxe05j38a7mj18zd:N-kil01de05ivbir-a2qfqt:N-y9889se05iub5a-pva2x7:-yrgd8ee013bmzww7wnln" />
+              <property name="signalOrOperationName" value="nextAlbum" />
+              <node uin="N-kil01de05j3buqwhb6g5">
+                <property name="$metaclass" value="SD20_ExecutionSpecification" />
+                <property name="$name" value="SD20_ExecutionSpecification1" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node uin="Nn68rpbe05llu7m-umg0q9">
+          <property name="$metaclass" value="SD20_StateInvariant" />
+          <property name="$name" value="SD20_StateInvariant1" />
+          <node uin="Nttifwde05llu7m-oqn9mz">
+            <property name="$metaclass" value="Constraint" />
+            <property name="$name" value="constraintText" />
+            <node uin="Nul14qae05llu7m3gslwd">
+              <property name="$metaclass" value="ValueSpecification" />
+              <property name="$name" value="ValueSpecification1" />
+              <property name="body" value="findSession.hasMoreAlbums() == false" />
+              <property name="language" value="text" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <link uin="L-4pt500e05j3buq7br2ae">
+        <property name="$metaclass" value="SD20_Int_CommunicationLink" />
+        <property name="$name" value="SD20_Int_CommunicationLink1" />
+        <participant referencedUin="design:node:::N-y9889se05iub5a-pva2x7:-yrgd8ee013bmzww7wnln" role="Client" />
+        <participant referencedUin="design:node:::N-y9889se05iub5a-pva2x7:-yrgd8ee013bmzww7wnln" role="Supplier" />
+      </link>
+    </node>
+    <node uin="N7chx8le05j38a7gwxm9b">
+      <property name="$metaclass" value="SD20_CombinedFragment" />
+      <property name="$name" value="SD20_CombinedFragment1" />
+      <node uin="N-yydlhse05j38anq0fn2y">
+        <property name="$metaclass" value="SD20_Int_OperatorHolder" />
+        <property name="$name" value="SD20_Int_OperatorHolder1" />
+        <property name="operator" value="loop" />
+      </node>
+      <node uin="N-yp8yhe05j38anpuzluj">
+        <property name="$metaclass" value="SD20_InteractionOperand" />
+        <property name="$name" value="SD20_InteractionOperand1" />
+      </node>
+    </node>
+    <node uin="N7chx8le05j56aayzpg42">
+      <property name="$metaclass" value="SD20_CombinedFragment" />
+      <property name="$name" value="SD20_CombinedFragment3" />
+      <node uin="N-yydlhse05j56ap-9c89f7">
+        <property name="$metaclass" value="SD20_Int_OperatorHolder" />
+        <property name="$name" value="SD20_Int_OperatorHolder1" />
+        <property name="operator" value="loop" />
+      </node>
+      <node uin="N-yp8yhe05j56ap-4xsrcg">
+        <property name="$metaclass" value="SD20_InteractionOperand" />
+        <property name="$name" value="SD20_InteractionOperand1" />
+        <node uin="N-2ebi49e05j5bgj-7f37dl">
+          <property name="$metaclass" value="SD20_Int_InvocationSpecification" />
+          <property name="$name" value="SD20_Int_InvocationSpecification1" />
+          <property name="call_cachedSequenceNumber" value="2" />
+          <property name="receiveExecutionSpecificationPuin" value="design:node:::N-kil01de05j5bgja7fu5b:N7x5rzxe05j56ap-40u46m:N7x5rzxe05j56ap-gb467:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln" />
+          <property name="signalOrOperationName" value="timerClicked" />
+        </node>
+      </node>
+    </node>
+    <node uin="N-2ebi49e05lj35k-o4xwb">
+      <property name="$metaclass" value="SD20_Int_InvocationSpecification" />
+      <property name="$name" value="SD20_Int_InvocationSpecification2" />
+      <property name="call_cachedSequenceNumber" value="3" />
+      <property name="receiveExecutionSpecificationPuin" value="design:node:::N-kil01de05lj35k-ju49o1:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln" />
+      <property name="signalOrOperationName" value="timerClicked" />
+    </node>
+  </node>
+</nodeSet>

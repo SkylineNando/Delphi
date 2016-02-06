@@ -1,0 +1,84 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{0B2FDF1B-6D8F-40A7-A8F5-A213DE76D3C0}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="DelphiDSServer\DelphiDataSnapServer.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DelphiDSClient\DelphiDataSnapClient.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DelphiDSClient\Test\DelphiDataSnapClientTests.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="FMXDSClient\FMXDelphiDSClient.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="CBuilderDSClient\CBuilderDataSnapClient.cbproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="DelphiDataSnapServer">
+			<MSBuild Projects="DelphiDSServer\DelphiDataSnapServer.dproj"/>
+		</Target>
+		<Target Name="DelphiDataSnapServer:Clean">
+			<MSBuild Projects="DelphiDSServer\DelphiDataSnapServer.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="DelphiDataSnapServer:Make">
+			<MSBuild Projects="DelphiDSServer\DelphiDataSnapServer.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="DelphiDataSnapClient">
+			<MSBuild Projects="DelphiDSClient\DelphiDataSnapClient.dproj"/>
+		</Target>
+		<Target Name="DelphiDataSnapClient:Clean">
+			<MSBuild Projects="DelphiDSClient\DelphiDataSnapClient.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="DelphiDataSnapClient:Make">
+			<MSBuild Projects="DelphiDSClient\DelphiDataSnapClient.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="DelphiDataSnapClientTests">
+			<MSBuild Projects="DelphiDSClient\Test\DelphiDataSnapClientTests.dproj"/>
+		</Target>
+		<Target Name="DelphiDataSnapClientTests:Clean">
+			<MSBuild Projects="DelphiDSClient\Test\DelphiDataSnapClientTests.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="DelphiDataSnapClientTests:Make">
+			<MSBuild Projects="DelphiDSClient\Test\DelphiDataSnapClientTests.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="FMXDelphiDSClient">
+			<MSBuild Projects="FMXDSClient\FMXDelphiDSClient.dproj"/>
+		</Target>
+		<Target Name="FMXDelphiDSClient:Clean">
+			<MSBuild Projects="FMXDSClient\FMXDelphiDSClient.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="FMXDelphiDSClient:Make">
+			<MSBuild Projects="FMXDSClient\FMXDelphiDSClient.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="CBuilderDataSnapClient">
+			<MSBuild Projects="CBuilderDSClient\CBuilderDataSnapClient.cbproj"/>
+		</Target>
+		<Target Name="CBuilderDataSnapClient:Clean">
+			<MSBuild Projects="CBuilderDSClient\CBuilderDataSnapClient.cbproj" Targets="Clean"/>
+		</Target>
+		<Target Name="CBuilderDataSnapClient:Make">
+			<MSBuild Projects="CBuilderDSClient\CBuilderDataSnapClient.cbproj" Targets="Make"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="DelphiDataSnapServer;DelphiDataSnapClient;DelphiDataSnapClientTests;FMXDelphiDSClient;CBuilderDataSnapClient"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="DelphiDataSnapServer:Clean;DelphiDataSnapClient:Clean;DelphiDataSnapClientTests:Clean;FMXDelphiDSClient:Clean;CBuilderDataSnapClient:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="DelphiDataSnapServer:Make;DelphiDataSnapClient:Make;DelphiDataSnapClientTests:Make;FMXDelphiDSClient:Make;CBuilderDataSnapClient:Make"/>
+		</Target>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')" Project="$(BDS)\Bin\CodeGear.Group.Targets"/>
+	</Project>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <node uin="536ebodmmaj4zlo_n">
+    <property name="$metaclass" value="Component20" />
+    <property name="$name" value="Store" />
+    <property name="isIndirectlyInstantiated" value="True" />
+    <node uin="o36kcacmp12xowg_n">
+      <property name="$metaclass" value="Component20" />
+      <property name="$name" value="Order" />
+      <property name="isIndirectlyInstantiated" value="True" />
+      <link uin="0w5a3xeb23fpcte_l">
+        <property name="$metaclass" value="Implementation20" />
+        <property name="$name" value="Implementation1" />
+        <participant referencedUin="design:node:::o36kcacmp12xowg_n:536ebodmmaj4zlo_n" role="Client" />
+        <participant referencedUin="design:node:::vz53dfrao_n:536ebodmmaj4zlo_n" role="Supplier" />
+      </link>
+      <link uin="bs50od1b94lkzlj_l">
+        <property name="$metaclass" value="RequiredInterface20" />
+        <property name="$name" value="Required Interface1" />
+        <participant referencedUin="design:node:::o36kcacmp12xowg_n:536ebodmmaj4zlo_n" role="Client" />
+        <participant referencedUin="design:node:::l2692h56f_n:536ebodmmaj4zlo_n" role="Supplier" />
+      </link>
+      <link uin="6w58mr0j9gu677r_l">
+        <property name="$metaclass" value="RequiredInterface20" />
+        <property name="$name" value="Required Interface2" />
+        <participant referencedUin="design:node:::o36kcacmp12xowg_n:536ebodmmaj4zlo_n" role="Client" />
+        <participant referencedUin="design:node:::z26xytsre_n:536ebodmmaj4zlo_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="on5xeif1m_n">
+      <property name="$metaclass" value="Component20" />
+      <property name="$name" value="Customer" />
+      <property name="isIndirectlyInstantiated" value="True" />
+      <link uin="9t5knhvs9t95kvt_l">
+        <property name="$metaclass" value="RequiredInterface20" />
+        <property name="$name" value="Required Interface1" />
+        <participant referencedUin="design:node:::on5xeif1m_n:536ebodmmaj4zlo_n" role="Client" />
+        <participant referencedUin="design:node:::uw5dja5lf_n:536ebodmmaj4zlo_n" role="Supplier" />
+      </link>
+      <link uin="dwh0zx90q2xyktj_l">
+        <property name="$metaclass" value="Implementation20" />
+        <property name="$name" value="Implementation1" />
+        <participant referencedUin="design:node:::on5xeif1m_n:536ebodmmaj4zlo_n" role="Client" />
+        <participant referencedUin="design:node:::z26xytsre_n:536ebodmmaj4zlo_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="m16zcfsat_n">
+      <property name="$metaclass" value="Component20" />
+      <property name="$name" value="Product" />
+      <property name="isIndirectlyInstantiated" value="True" />
+      <link uin="rt5ifbyx372yi7l_l">
+        <property name="$metaclass" value="Implementation20" />
+        <property name="$name" value="Implementation1" />
+        <participant referencedUin="design:node:::m16zcfsat_n:536ebodmmaj4zlo_n" role="Client" />
+        <participant referencedUin="design:node:::l2692h56f_n:536ebodmmaj4zlo_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="vz53dfrao_n">
+      <property name="$metaclass" value="Interface20" />
+      <property name="$name" value="OrderEntry" />
+    </node>
+    <node uin="z26xytsre_n">
+      <property name="$metaclass" value="Interface20" />
+      <property name="$name" value="Person" />
+    </node>
+    <node uin="uw5dja5lf_n">
+      <property name="$metaclass" value="Interface20" />
+      <property name="$name" value="Account" />
+      <link uin="z56ir5omi_l">
+        <property name="$metaclass" value="Connector20" />
+        <property name="$name" value="Delegation Connector1" />
+        <property name="kind" value="delegation" />
+        <participant referencedUin="design:node:::uw5dja5lf_n:536ebodmmaj4zlo_n" role="Client" />
+        <participant referencedUin="design:node:::hy580u7vq_n:536ebodmmaj4zlo_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="l2692h56f_n">
+      <property name="$metaclass" value="Interface20" />
+      <property name="$name" value="OrderableItem" />
+    </node>
+    <node uin="hy580u7vq_n">
+      <property name="$metaclass" value="Port20" />
+      <property name="$name" value="Port1" />
+      <link uin="xs5ku5a800fmput_l">
+        <property name="$metaclass" value="RequiredInterface20" />
+        <property name="$name" value="Required Interface1" />
+        <participant referencedUin="design:node:::hy580u7vq_n:536ebodmmaj4zlo_n" role="Client" />
+        <participant referencedUin="design:node:::2z5xthvgq_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="ex580bmxl_n">
+      <property name="$metaclass" value="Port20" />
+      <property name="$name" value="Port2" />
+      <link uin="gv5g7wwt6498b1o_l">
+        <property name="$metaclass" value="ProvidedInterface20" />
+        <property name="$name" value="Provided Interface1" />
+        <participant referencedUin="design:node:::ex580bmxl_n:536ebodmmaj4zlo_n" role="Client" />
+        <participant referencedUin="design:node:::6x5aoi6cs_n" role="Supplier" />
+      </link>
+      <link uin="q46nu5c0l_l">
+        <property name="$metaclass" value="Connector20" />
+        <property name="$name" value="Delegation Connector1" />
+        <property name="kind" value="delegation" />
+        <participant referencedUin="design:node:::ex580bmxl_n:536ebodmmaj4zlo_n" role="Client" />
+        <participant referencedUin="design:node:::vz53dfrao_n:536ebodmmaj4zlo_n" role="Supplier" />
+      </link>
+    </node>
+  </node>
+  <node uin="6x5aoi6cs_n">
+    <property name="$metaclass" value="Interface20" />
+    <property name="$name" value="OrderEntry" />
+  </node>
+  <node uin="2z5xthvgq_n">
+    <property name="$metaclass" value="Interface20" />
+    <property name="$name" value="Account" />
+  </node>
+  <node uin="b56yl1rgn_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note1" />
+    <property name="$note_text" value="Nested representation of a complex component" />
+    <link uin="q56pwdibg_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::b56yl1rgn_n" role="Client" />
+      <participant referencedUin="design:node:::536ebodmmaj4zlo_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="b66j1f0me_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note2" />
+    <property name="$note_text" value="A component is a self contained unit that encapsulates the state and behavior of a number of classifiers." />
+    <link uin="j76ewxnbl_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::b66j1f0me_n" role="Client" />
+      <participant referencedUin="design:node:::o36kcacmp12xowg_n:536ebodmmaj4zlo_n" role="Supplier" />
+    </link>
+    <link uin="c76km0zut_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link2" />
+      <participant referencedUin="design:node:::b66j1f0me_n" role="Client" />
+      <participant referencedUin="design:node:::m16zcfsat_n:536ebodmmaj4zlo_n" role="Supplier" />
+    </link>
+    <link uin="t66jqfehp_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link3" />
+      <participant referencedUin="design:node:::b66j1f0me_n" role="Client" />
+      <participant referencedUin="design:node:::on5xeif1m_n:536ebodmmaj4zlo_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="r46p07rcl_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note3" />
+    <property name="$note_text" value="A delegation connector is a connector that links the external contract of a component (as specified by its ports) to the internal realization of that behavior by the component’s parts." />
+    <link uin="dzkqwitt90ya5xg_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::r46p07rcl_n" role="Client" />
+      <participant referencedUin="design:link:::z56ir5omi_l:uw5dja5lf_n:536ebodmmaj4zlo_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="qz54ncsh2es194f_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note4" />
+    <property name="$note_text" value="Ports represent interaction points between a classifier and its environment. The interfaces associated with a port specify the nature of the interactions that may occur over a port." />
+    <link uin="646jamtp44z0uqf_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::qz54ncsh2es194f_n" role="Client" />
+      <participant referencedUin="design:node:::hy580u7vq_n:536ebodmmaj4zlo_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="tv5syr8o9wp8bfj_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note5" />
+    <property name="$note_text" value="The required interfaces that the component requires from other components in its environment in order to be able to offer its full set of provided functionality (Component uses Interface)." />
+    <link uin="tzjrl8972crhcaq_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::tv5syr8o9wp8bfj_n" role="Client" />
+      <participant referencedUin="design:link:::bs50od1b94lkzlj_l:o36kcacmp12xowg_n:536ebodmmaj4zlo_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="4k54kv6ll09voqq_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note6" />
+    <property name="$note_text" value="The provided interface that the component exposes to its environment (component implements Interface)." />
+    <link uin="qhklicne1ck2lgo_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::4k54kv6ll09voqq_n" role="Client" />
+      <participant referencedUin="design:link:::rt5ifbyx372yi7l_l:m16zcfsat_n:536ebodmmaj4zlo_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="3f3hpicvrp0bfor_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note7" />
+    <property name="$note_text" value="Diagram represents modified sample from the &#xD;&#xA;UML 2.0 Superstructure FTF convenience document http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 87 on page 157" />
+  </node>
+</nodeSet>

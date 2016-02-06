@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <node uin="c44stpcd0kuhz3n_n">
+    <property name="$metaclass" value="UseCaseClassifier20" />
+    <property name="$name" value="Wireless Client" />
+    <node uin="x24mk6vpeair6eq_n">
+      <property name="$metaclass" value="UseCase20" />
+      <property name="$name" value="Manage Preferences" />
+      <node uin="m24mk6vpe5zlqhj_n">
+        <property name="$metaclass" value="Behavior" />
+        <property name="$name" value="Behavior1" />
+      </node>
+      <link uin="t34mk6vpeholwli_l">
+        <property name="$metaclass" value="classifierBehavior" />
+        <property name="$name" value="Behaviored classifier link1" />
+        <participant referencedUin="design:node:::x24mk6vpeair6eq_n:c44stpcd0kuhz3n_n" role="Client" />
+        <participant referencedUin="design:node:::m24mk6vpe5zlqhj_n:x24mk6vpeair6eq_n:c44stpcd0kuhz3n_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="s04l8j8jg2du0ff_n">
+      <property name="$metaclass" value="UseCase20" />
+      <property name="$name" value="Search for Films and Purchase Tickets" />
+      <node uin="o04l8j8jgxb5qdf_n">
+        <property name="$metaclass" value="Behavior" />
+        <property name="$name" value="Behavior1" />
+      </node>
+      <link uin="m04l8j8jgi09iao_l">
+        <property name="$metaclass" value="classifierBehavior" />
+        <property name="$name" value="Behaviored classifier link1" />
+        <participant referencedUin="design:node:::s04l8j8jg2du0ff_n:c44stpcd0kuhz3n_n" role="Client" />
+        <participant referencedUin="design:node:::o04l8j8jgxb5qdf_n:s04l8j8jg2du0ff_n:c44stpcd0kuhz3n_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="u147kwvel0734xf_n">
+      <property name="$metaclass" value="UseCase20" />
+      <property name="$name" value="View Shedule Offline" />
+      <node uin="h147kwvelqmfx8o_n">
+        <property name="$metaclass" value="Behavior" />
+        <property name="$name" value="Behavior1" />
+      </node>
+      <link uin="y147kwvellqk03l_l">
+        <property name="$metaclass" value="classifierBehavior" />
+        <property name="$name" value="Behaviored classifier link1" />
+        <participant referencedUin="design:node:::u147kwvel0734xf_n:c44stpcd0kuhz3n_n" role="Client" />
+        <participant referencedUin="design:node:::h147kwvelqmfx8o_n:u147kwvel0734xf_n:c44stpcd0kuhz3n_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="014fptw1n3q20nr_n">
+      <property name="$metaclass" value="UseCase20" />
+      <property name="$name" value="Rate Movies Offline" />
+      <node uin="414fptw1np64j9o_n">
+        <property name="$metaclass" value="Behavior" />
+        <property name="$name" value="Behavior1" />
+      </node>
+      <link uin="214fptw1nczcrbj_l">
+        <property name="$metaclass" value="classifierBehavior" />
+        <property name="$name" value="Behaviored classifier link1" />
+        <participant referencedUin="design:node:::014fptw1n3q20nr_n:c44stpcd0kuhz3n_n" role="Client" />
+        <participant referencedUin="design:node:::414fptw1np64j9o_n:014fptw1n3q20nr_n:c44stpcd0kuhz3n_n" role="Supplier" />
+      </link>
+    </node>
+  </node>
+  <node uin="r34xhvj4bxp6weg_n">
+    <property name="$metaclass" value="UseCaseClassifier20" />
+    <property name="$name" value="Web Client" />
+    <node uin="324wqb81rnwxl8q_n">
+      <property name="$metaclass" value="UseCase20" />
+      <property name="$name" value="Create Account" />
+      <node uin="f14wqb81ra2j02p_n">
+        <property name="$metaclass" value="Behavior" />
+        <property name="$name" value="Behavior1" />
+      </node>
+      <link uin="404wqb81rxw90ph_l">
+        <property name="$metaclass" value="classifierBehavior" />
+        <property name="$name" value="Behaviored classifier link1" />
+        <participant referencedUin="design:node:::324wqb81rnwxl8q_n:r34xhvj4bxp6weg_n" role="Client" />
+        <participant referencedUin="design:node:::f14wqb81ra2j02p_n:324wqb81rnwxl8q_n:r34xhvj4bxp6weg_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="5y3x9ow7sxrkr3r_n">
+      <property name="$metaclass" value="UseCase20" />
+      <property name="$name" value="Edit Account Details" />
+      <node uin="1y3x9ow7s6anihf_n">
+        <property name="$metaclass" value="Behavior" />
+        <property name="$name" value="Behavior1" />
+      </node>
+      <link uin="zx3x9ow7s3wr25f_l">
+        <property name="$metaclass" value="classifierBehavior" />
+        <property name="$name" value="Behaviored classifier link1" />
+        <participant referencedUin="design:node:::5y3x9ow7sxrkr3r_n:r34xhvj4bxp6weg_n" role="Client" />
+        <participant referencedUin="design:node:::1y3x9ow7s6anihf_n:5y3x9ow7sxrkr3r_n:r34xhvj4bxp6weg_n" role="Supplier" />
+      </link>
+    </node>
+  </node>
+  <node uin="i9443dj0t_n">
+    <property name="$metaclass" value="Actor20" />
+    <property name="$name" value="Customer" />
+    <link uin="694gc4h4wcdjxk_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association1" />
+      <property name="stereotype" value="communicate" />
+      <participant referencedUin="design:node:::i9443dj0t_n" role="Client" />
+      <participant referencedUin="design:node:::x24mk6vpeair6eq_n:c44stpcd0kuhz3n_n" role="Supplier" />
+    </link>
+    <link uin="r74m4qh71qn5yaf_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association2" />
+      <property name="stereotype" value="communicate" />
+      <participant referencedUin="design:node:::i9443dj0t_n" role="Client" />
+      <participant referencedUin="design:node:::s04l8j8jg2du0ff_n:c44stpcd0kuhz3n_n" role="Supplier" />
+    </link>
+    <link uin="f74gzmrc2f6rqht_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association3" />
+      <property name="stereotype" value="communicate" />
+      <participant referencedUin="design:node:::i9443dj0t_n" role="Client" />
+      <participant referencedUin="design:node:::u147kwvel0734xf_n:c44stpcd0kuhz3n_n" role="Supplier" />
+    </link>
+    <link uin="q84qhzxn2nkh5jk_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association4" />
+      <property name="stereotype" value="communicate" />
+      <participant referencedUin="design:node:::i9443dj0t_n" role="Client" />
+      <participant referencedUin="design:node:::014fptw1n3q20nr_n:c44stpcd0kuhz3n_n" role="Supplier" />
+    </link>
+    <link uin="g744pivr3hy9phj_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association5" />
+      <property name="stereotype" value="communicate" />
+      <participant referencedUin="design:node:::i9443dj0t_n" role="Client" />
+      <participant referencedUin="design:node:::324wqb81rnwxl8q_n:r34xhvj4bxp6weg_n" role="Supplier" />
+    </link>
+    <link uin="n74pnqjq4ke8w2f_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association6" />
+      <property name="stereotype" value="communicate" />
+      <participant referencedUin="design:node:::i9443dj0t_n" role="Client" />
+      <participant referencedUin="design:node:::5y3x9ow7sxrkr3r_n:r34xhvj4bxp6weg_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="684bc1ccs_n">
+    <property name="$metaclass" value="Actor20" />
+    <property name="$name" value="Backend Server" />
+    <link uin="x643jjn065txo8i_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association1" />
+      <property name="stereotype" value="communicate" />
+      <participant referencedUin="design:node:::684bc1ccs_n" role="Client" />
+      <participant referencedUin="design:node:::x24mk6vpeair6eq_n:c44stpcd0kuhz3n_n" role="Supplier" />
+    </link>
+    <link uin="f64z08r17086okt_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association2" />
+      <property name="stereotype" value="communicate" />
+      <participant referencedUin="design:node:::684bc1ccs_n" role="Client" />
+      <participant referencedUin="design:node:::s04l8j8jg2du0ff_n:c44stpcd0kuhz3n_n" role="Supplier" />
+    </link>
+    <link uin="064mnki48qabevf_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association3" />
+      <property name="stereotype" value="communicate" />
+      <participant referencedUin="design:node:::684bc1ccs_n" role="Client" />
+      <participant referencedUin="design:node:::u147kwvel0734xf_n:c44stpcd0kuhz3n_n" role="Supplier" />
+    </link>
+    <link uin="a642wyoh8c3n4cm_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association4" />
+      <property name="stereotype" value="communicate" />
+      <participant referencedUin="design:node:::684bc1ccs_n" role="Client" />
+      <participant referencedUin="design:node:::014fptw1n3q20nr_n:c44stpcd0kuhz3n_n" role="Supplier" />
+    </link>
+    <link uin="t545hpmy9d4cm7t_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association5" />
+      <property name="stereotype" value="communicate" />
+      <participant referencedUin="design:node:::684bc1ccs_n" role="Client" />
+      <participant referencedUin="design:node:::324wqb81rnwxl8q_n:r34xhvj4bxp6weg_n" role="Supplier" />
+    </link>
+    <link uin="054nk0km0lulior_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association6" />
+      <property name="stereotype" value="communicate" />
+      <participant referencedUin="design:node:::684bc1ccs_n" role="Client" />
+      <participant referencedUin="design:node:::5y3x9ow7sxrkr3r_n:r34xhvj4bxp6weg_n" role="Supplier" />
+    </link>
+  </node>
+</nodeSet>

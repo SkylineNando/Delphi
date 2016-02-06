@@ -1,0 +1,32 @@
+<Project DefaultTargets="default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <ItemGroup>
+    <!-- All Projects from location of make.proj file -->
+    <AllProjectFiles  Include="$(MSBuildProjectDirectory)\**\*.cbproj"/>
+    <!-- All Projects from current directory -->
+    <CurProjectFiles  Include="$(MSBuildStartupDirectory)\**\*.cbproj"/>
+  </ItemGroup> 
+
+  <Target Name="default">
+    <MSBuild  Projects="@(AllProjectFiles)" 
+              StopOnFirstFailure="true"/>
+  </Target>
+
+  <Target Name="clean">
+    <MSBuild  Projects="@(AllProjectFiles)" 
+              Targets="clean" 
+              StopOnFirstFailure="true"/>
+  </Target>
+  
+  <Target Name="current">
+    <MSBuild  Projects="@(CurProjectFiles)" 
+              StopOnFirstFailure="true"/>
+  </Target>
+
+  <Target Name="cleanCurrent">
+    <MSBuild  Projects="@(CurProjectFiles)" 
+              Targets="clean" 
+              StopOnFirstFailure="true"/>
+  </Target>
+  
+</Project>

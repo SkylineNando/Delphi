@@ -1,0 +1,60 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{5F938B5A-6338-4ABE-9D99-46CDD62F9143}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<None Include="ModelSupport_UML-2.0\default.txaPackage"/>
+			<None Include="ModelSupport_UML-2.0\default.txvClassDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Behavior\default.txaPackage"/>
+			<None Include="ModelSupport_UML-2.0\Behavior\default.txvClassDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Structure\default.txaPackage"/>
+			<None Include="ModelSupport_UML-2.0\Structure\default.txvClassDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Behavior\UseCase\default.txaPackage"/>
+			<None Include="ModelSupport_UML-2.0\Behavior\UseCase\default.txvClassDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Structure\Class\default.txaPackage"/>
+			<None Include="ModelSupport_UML-2.0\Structure\Class\default.txvClassDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Structure\Component\default.txaPackage"/>
+			<None Include="ModelSupport_UML-2.0\Structure\Component\default.txvClassDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Structure\CompositeStructure\default.txaPackage"/>
+			<None Include="ModelSupport_UML-2.0\Structure\CompositeStructure\default.txvClassDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Structure\Deployment\default.txaPackage"/>
+			<None Include="ModelSupport_UML-2.0\Structure\Deployment\default.txvClassDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Behavior\Interaction\default.txvClassDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Behavior\Interaction\default.txaPackage"/>
+			<None Include="ModelSupport_UML-2.0\Behavior\Activity\default.txaPackage"/>
+			<None Include="ModelSupport_UML-2.0\Behavior\Activity\default.txvClassDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Behavior\StateMachine\Course Attempt.txvStateDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Behavior\StateMachine\default.txaPackage"/>
+			<None Include="ModelSupport_UML-2.0\Behavior\StateMachine\default.txvClassDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Behavior\StateMachine\Submachine State.txvStateDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Behavior\UseCase\Main Use Cases.txvUseCaseDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Behavior\Activity\Data Activity.txvActivityDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Behavior\Activity\Final Nodes.txvActivityDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Behavior\Activity\Process Order.txvActivityDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Structure\Deployment\Application Server.txvDeploymentDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Structure\Component\Store Components.txvComponentDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Structure\CompositeStructure\Composite Structure Diagram1.txvCompositeStructureDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Structure\Class\Class Diagram.txvClassDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Structure\Class\Classes and Associations.txvClassDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Structure\Class\Classes and Features.txvClassDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Behavior\Interaction\ShowAlbumsDialog.txvSequenceDiagram20"/>
+			<None Include="ModelSupport_UML-2.0\Behavior\Interaction\cd ShowAlbumsDialog.txvCommunicationDiagram20"/>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Design.Personality.12</Borland.Personality>
+			<Borland.ProjectType>Application</Borland.ProjectType>
+			<BorlandProject>
+				<Design.Personality>
+					<Options>
+						<OptionsSet>
+							<Together>
+								<Together Name="UMLVersion">2.0</Together>
+							</Together>
+						</OptionsSet>
+					</Options>
+				</Design.Personality>
+				<ModelSupport>True</ModelSupport>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+	</Project>

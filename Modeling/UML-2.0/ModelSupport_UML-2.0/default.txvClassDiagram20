@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="h724wf3ykmwud7f_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="ClassDiagram20" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::4z5wfrgbo_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="20,20,100,160" />
+      <property name="bounds_setted_by_user" value="True" />
+      <reference referencedUin="design:view:::6h2npbmxr_v">
+        <reference referencedUin="design:view:::245re6its_v" />
+        <reference referencedUin="design:view:::b643tmk6r_v" />
+        <reference referencedUin="design:view:::x85fiw0yhh67o5f_v" />
+      </reference>
+      <reference referencedUin="design:view:::lx591cdjp_v">
+        <reference referencedUin="design:view:::0446he0k4r341il_v" />
+      </reference>
+      <reference referencedUin="design:view:::V1hexuhe013baia-umrfrm">
+        <reference referencedUin="design:view:::Vam8ynke05h7ht03997cb" />
+        <reference referencedUin="design:view:::V-k88o91e05ln9gg-j279n4" />
+      </reference>
+      <reference referencedUin="design:view:::fx50zdnug_v">
+        <reference referencedUin="design:view:::av9sfjvyq_v" />
+        <reference referencedUin="design:view:::d73yiyqqo_v" />
+      </reference>
+    </reference>
+    <reference referencedUin="design:view:::j96r26vlf_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="160,20,140,160" />
+      <property name="bounds_setted_by_user" value="True" />
+      <reference referencedUin="design:view:::jz5idb0caad74lq_v">
+        <reference referencedUin="design:view:::vi5u009h0vdw05s_v" />
+      </reference>
+      <reference referencedUin="design:view:::402xsnnn9yqycne_v">
+        <reference referencedUin="design:view:::w75e4csfh_v" />
+      </reference>
+      <reference referencedUin="design:view:::7965htmb8tpjrym_v">
+        <reference referencedUin="design:view:::k36y7tj5h93c8xj_v" />
+      </reference>
+      <reference referencedUin="design:view:::kx5s7i7y6y47bej_v">
+        <reference referencedUin="design:view:::3d5oxynkp_v" />
+        <reference referencedUin="design:view:::x15aouf0kot1hle_v" />
+        <reference referencedUin="design:view:::tg8y3fby9k5mzck_v" />
+      </reference>
+    </reference>
+  </view>
+</nodeSet>

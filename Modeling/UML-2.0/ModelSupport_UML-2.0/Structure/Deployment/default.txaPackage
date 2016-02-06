@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <node uin="bj5ae53zeuckepm_n">
+    <property name="$metaclass" value="Node20" />
+    <property name="$name" value="AppServer1" />
+    <node uin="vk5tntato6ja9oi_n">
+      <property name="$metaclass" value="Artifact20" />
+      <property name="$name" value="ShoppingApp.ear" />
+      <node uin="0l53ni7te_n">
+        <property name="$metaclass" value="Artifact20" />
+        <property name="$name" value="ShoppingCart.jar" />
+        <link uin="7l5ype22k_l">
+          <property name="$metaclass" value="Dependency20" />
+          <property name="$name" value="Dependency1" />
+          <participant referencedUin="design:node:::0l53ni7te_n:vk5tntato6ja9oi_n:bj5ae53zeuckepm_n" role="Client" />
+          <participant referencedUin="design:node:::8k55ckv0m_n:vk5tntato6ja9oi_n:bj5ae53zeuckepm_n" role="Supplier" />
+        </link>
+      </node>
+      <node uin="8k55ckv0m_n">
+        <property name="$metaclass" value="Artifact20" />
+        <property name="$name" value="Order.jar" />
+      </node>
+      <node uin="ri5538s8q_n">
+        <property name="$metaclass" value="DeploymentSpecification20" />
+        <property name="$name" value="ShoppingAppDesc.xml" />
+      </node>
+      <node uin="tj5ca5r4i_n">
+        <property name="$metaclass" value="DeploymentSpecification20" />
+        <property name="$name" value="OrderDesc.xml" />
+        <link uin="vm5xjfo8o_l">
+          <property name="$metaclass" value="Dependency20" />
+          <property name="$name" value="Dependency1" />
+          <participant referencedUin="design:node:::tj5ca5r4i_n:vk5tntato6ja9oi_n:bj5ae53zeuckepm_n" role="Client" />
+          <participant referencedUin="design:node:::8k55ckv0m_n:vk5tntato6ja9oi_n:bj5ae53zeuckepm_n" role="Supplier" />
+        </link>
+      </node>
+    </node>
+  </node>
+  <node uin="tl51ycnel_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note1" />
+    <property name="$note_text" value="Node is computational resource upon which artifacts may be deployed for execution" />
+    <link uin="tm5xzhr1m_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::tl51ycnel_n" role="Client" />
+      <participant referencedUin="design:node:::bj5ae53zeuckepm_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="bo5vyps9j_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note2" />
+    <property name="$note_text" value="Deployment Specification specifies a set of properties which determine execution parameters of a component artifact that is deployed on a node" />
+    <link uin="0p5b09ab1kop1nm_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::bo5vyps9j_n" role="Client" />
+      <participant referencedUin="design:node:::ri5538s8q_n:vk5tntato6ja9oi_n:bj5ae53zeuckepm_n" role="Supplier" />
+    </link>
+    <link uin="no5ygspj1avnkpm_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link2" />
+      <participant referencedUin="design:node:::bo5vyps9j_n" role="Client" />
+      <participant referencedUin="design:node:::tj5ca5r4i_n:vk5tntato6ja9oi_n:bj5ae53zeuckepm_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="ip5t50093xg003t_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note3" />
+    <property name="$note_text" value="Artifact is the specification of a physical piece of information that is used or produced by a software development process, or by deployment and operation of a system. Examples of artifacts include model files, source files, scripts, and binary executable files, a table in a database system, a development deliverable, or a word-processing document, a mail message" />
+    <link uin="8q56gknh8dh3emk_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::ip5t50093xg003t_n" role="Client" />
+      <participant referencedUin="design:node:::vk5tntato6ja9oi_n:bj5ae53zeuckepm_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="0o5jc6000p1e8up_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note4" />
+    <property name="$note_text" value="Diagram represents modified sample from the &#xD;&#xA;UML 2.0 Superstructure FTF convenience document http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 134 on page 215" />
+  </node>
+</nodeSet>

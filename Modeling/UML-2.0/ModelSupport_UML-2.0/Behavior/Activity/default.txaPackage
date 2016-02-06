@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <node uin="154f226ek_n">
+    <property name="$metaclass" value="CentralBufferNode20" />
+    <property name="$name" value="Part [Finished]" />
+    <link uin="qu3am6gkflzk8if_l">
+      <property name="$metaclass" value="ObjectFlow20" />
+      <property name="$name" value="Object Flow1" />
+      <participant referencedUin="design:node:::154f226ek_n" role="Client" />
+      <participant referencedUin="design:node:::gx3hn8g9aqila0g_n:9w3uy7qhi_n" role="Supplier" />
+    </link>
+    <link uin="hx31zqvufdkqmjs_l">
+      <property name="$metaclass" value="ObjectFlow20" />
+      <property name="$name" value="Object Flow2" />
+      <participant referencedUin="design:node:::154f226ek_n" role="Client" />
+      <participant referencedUin="design:node:::164g89akay9z46s_n:xw3dnwqrs_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="n54ogl60n_n">
+    <property name="$metaclass" value="Action20" />
+    <property name="$name" value="Make Part at Factory 1" />
+    <node uin="t94uvwfpi_n">
+      <property name="$metaclass" value="OutputPin20" />
+      <property name="$name" value="Part [finished]" />
+      <link uin="2v3wh1m1f2o2ftk_l">
+        <property name="$metaclass" value="ObjectFlow20" />
+        <property name="$name" value="Object Flow1" />
+        <participant referencedUin="design:node:::t94uvwfpi_n:n54ogl60n_n" role="Client" />
+        <participant referencedUin="design:node:::154f226ek_n" role="Supplier" />
+      </link>
+    </node>
+  </node>
+  <node uin="0g40z6k1m_n">
+    <property name="$metaclass" value="Action20" />
+    <property name="$name" value="Make Part at Factory 2" />
+    <node uin="q94t9cuyf_n">
+      <property name="$metaclass" value="OutputPin20" />
+      <property name="$name" value="Part [finished]" />
+      <link uin="zu39jr7afvc0rur_l">
+        <property name="$metaclass" value="ObjectFlow20" />
+        <property name="$name" value="Object Flow1" />
+        <participant referencedUin="design:node:::q94t9cuyf_n:0g40z6k1m_n" role="Client" />
+        <participant referencedUin="design:node:::154f226ek_n" role="Supplier" />
+      </link>
+    </node>
+  </node>
+  <node uin="9w3uy7qhi_n">
+    <property name="$metaclass" value="Action20" />
+    <property name="$name" value="Pack Parts" />
+    <node uin="gx3hn8g9aqila0g_n">
+      <property name="$metaclass" value="InputPin20" />
+      <property name="$name" value="Part [finished]" />
+    </node>
+  </node>
+  <node uin="xw3dnwqrs_n">
+    <property name="$metaclass" value="Action20" />
+    <property name="$name" value="Use Parts" />
+    <node uin="164g89akay9z46s_n">
+      <property name="$metaclass" value="InputPin20" />
+      <property name="$name" value="Part [finished]" />
+    </node>
+  </node>
+  <node uin="fl4204o0i_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note1" />
+    <property name="$note_text" value="Central Buffer Node is a node for managing flows from multiple sources and destinations" />
+    <link uin="4l4rws97n_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::fl4204o0i_n" role="Client" />
+      <participant referencedUin="design:node:::154f226ek_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="tl48rambl_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note2" />
+    <property name="$note_text" value="Output Pin holds output values produced by an action" />
+    <link uin="zj4gqroos_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::tl48rambl_n" role="Client" />
+      <participant referencedUin="design:node:::q94t9cuyf_n:0g40z6k1m_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="rj4ckq8ap_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note3" />
+    <property name="$note_text" value="Input Pin holds input values to be consumed by an action" />
+    <link uin="ki4mki7rr_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::rj4ckq8ap_n" role="Client" />
+      <participant referencedUin="design:node:::164g89akay9z46s_n:xw3dnwqrs_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="fo4k2o0k1m4jcip_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note4" />
+    <property name="$note_text" value="Upper part of the diagram is a courtesy of the UML 2.0 Superstructure FTF convenience document&#xD;&#xA;http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 243 on page 379" />
+  </node>
+  <node uin="8o4g1mfl6jv5iih_n">
+    <property name="$metaclass" value="DataStoreNode20" />
+    <property name="$name" value="Personnel database" />
+    <link uin="ci47lpl0j_l">
+      <property name="$metaclass" value="ObjectFlow20" />
+      <property name="$name" value="Object Flow1" />
+      <participant referencedUin="design:node:::8o4g1mfl6jv5iih_n" role="Client" />
+      <participant referencedUin="design:node:::go4b0zo1m77qmlh_n" role="Supplier" />
+    </link>
+    <link uin="eu3ck0gz5gwpatg_l">
+      <property name="$metaclass" value="ObjectFlow20" />
+      <property name="$name" value="Object Flow2" />
+      <property name="weight" value="all" />
+      <participant referencedUin="design:node:::8o4g1mfl6jv5iih_n" role="Client" />
+      <participant referencedUin="design:node:::om45uz5vow10o4m_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="mn47twusagezzbm_n">
+    <property name="$metaclass" value="Action20" />
+    <property name="$name" value="Hire Employee" />
+    <link uin="yh45ivx4r_l">
+      <property name="$metaclass" value="ObjectFlow20" />
+      <property name="$name" value="Object Flow1" />
+      <participant referencedUin="design:node:::mn47twusagezzbm_n" role="Client" />
+      <participant referencedUin="design:node:::8o4g1mfl6jv5iih_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="am4yzdx6f8tw7ip_n">
+    <property name="$metaclass" value="Action20" />
+    <property name="$name" value="Review Employee" />
+  </node>
+  <node uin="km4ygus0i8tjtht_n">
+    <property name="$metaclass" value="AcceptTimeEventAction20" />
+    <property name="$name" value="Once a year" />
+    <link uin="4y5k78b2q_l">
+      <property name="$metaclass" value="ObjectFlow20" />
+      <property name="$name" value="Object Flow1" />
+      <participant referencedUin="design:node:::km4ygus0i8tjtht_n" role="Client" />
+      <participant referencedUin="design:node:::om45uz5vow10o4m_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="go4b0zo1m77qmlh_n">
+    <property name="$metaclass" value="Action20" />
+    <property name="$name" value="Assign Employee" />
+  </node>
+  <node uin="om45uz5vow10o4m_n">
+    <property name="$metaclass" value="JoinNode20" />
+    <property name="$name" value="Join1" />
+    <link uin="ru3yboul9ugrlth_l">
+      <property name="$metaclass" value="ObjectFlow20" />
+      <property name="$name" value="Object Flow1" />
+      <participant referencedUin="design:node:::om45uz5vow10o4m_n" role="Client" />
+      <participant referencedUin="design:node:::am4yzdx6f8tw7ip_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="7i420ojpt_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note5" />
+    <property name="$note_text" value="Data Store Node is a node for non-transient information" />
+    <link uin="am2a0v652b34ver_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::7i420ojpt_n" role="Client" />
+      <participant referencedUin="design:node:::8o4g1mfl6jv5iih_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="1h4iapunt_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note6" />
+    <property name="$note_text" value="AcceptTimeEventAction waits for the occurrence of an event meeting specified time conditions" />
+    <link uin="gm2f5ul43poa0fo_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::1h4iapunt_n" role="Client" />
+      <participant referencedUin="design:node:::km4ygus0i8tjtht_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="wh4t22vxg_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note7" />
+    <property name="$note_text" value="Lower part of the diagram is a courtesy of the UML 2.0 Superstructure FTF convenience document&#xD;&#xA;http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 249 on page 387" />
+  </node>
+  <node uin="o3503hqpt_n">
+    <property name="$metaclass" value="Action20" />
+    <property name="$name" value="Build Component" />
+    <link uin="ty4swvy6gzkzigq_l">
+      <property name="$metaclass" value="ControlFlow20" />
+      <property name="$name" value="Control Flow1" />
+      <participant referencedUin="design:node:::o3503hqpt_n" role="Client" />
+      <participant referencedUin="design:node:::935xn9eck_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="935xn9eck_n">
+    <property name="$metaclass" value="ForkNode20" />
+    <property name="$name" value="Fork1" />
+    <link uin="t259f6wtgeqv6ar_l">
+      <property name="$metaclass" value="ControlFlow20" />
+      <property name="$name" value="Control Flow2" />
+      <participant referencedUin="design:node:::935xn9eck_n" role="Client" />
+      <participant referencedUin="design:node:::b359kh00t_n" role="Supplier" />
+    </link>
+    <link uin="tm4l876cce0y3yp_l">
+      <property name="$metaclass" value="ControlFlow20" />
+      <property name="$name" value="Control Flow1" />
+      <participant referencedUin="design:node:::935xn9eck_n" role="Client" />
+      <participant referencedUin="design:node:::e35hg9ajh_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="e35hg9ajh_n">
+    <property name="$metaclass" value="DecisionNode20" />
+    <property name="$name" value="D1" />
+    <link uin="4b4oby2pr_l">
+      <property name="$metaclass" value="ControlFlow20" />
+      <property name="$name" value="Control Flow1" />
+      <property name="guard" value="nothing to build" />
+      <participant referencedUin="design:node:::e35hg9ajh_n" role="Client" />
+      <participant referencedUin="design:node:::s15osi0sj_n" role="Supplier" />
+    </link>
+    <link uin="ga4ywg872aopx6j_l">
+      <property name="$metaclass" value="ControlFlow20" />
+      <property name="$name" value="Control Flow2" />
+      <property name="guard" value="more to build" />
+      <participant referencedUin="design:node:::e35hg9ajh_n" role="Client" />
+      <participant referencedUin="design:node:::o3503hqpt_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="b359kh00t_n">
+    <property name="$metaclass" value="Action20" />
+    <property name="$name" value="Install Component" />
+    <link uin="zx4lgwg3hm4zidm_l">
+      <property name="$metaclass" value="ControlFlow20" />
+      <property name="$name" value="Control Flow1" />
+      <participant referencedUin="design:node:::b359kh00t_n" role="Client" />
+      <participant referencedUin="design:node:::p35x3hljq_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="p35x3hljq_n">
+    <property name="$metaclass" value="DecisionNode20" />
+    <property name="$name" value="D2" />
+    <link uin="az4j9etdh9pau1n_l">
+      <property name="$metaclass" value="ControlFlow20" />
+      <property name="$name" value="Control Flow1" />
+      <property name="guard" value="more to install" />
+      <participant referencedUin="design:node:::p35x3hljq_n" role="Client" />
+      <participant referencedUin="design:node:::x35ffwucq_n" role="Supplier" />
+    </link>
+    <link uin="d05ue63aihocqgk_l">
+      <property name="$metaclass" value="ControlFlow20" />
+      <property name="$name" value="Control Flow2" />
+      <property name="guard" value="nothing to install" />
+      <participant referencedUin="design:node:::p35x3hljq_n" role="Client" />
+      <participant referencedUin="design:node:::t35r37ejo_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="t35r37ejo_n">
+    <property name="$metaclass" value="Action20" />
+    <property name="$name" value="Deliver Application" />
+    <link uin="pz43bvnhidkwtzp_l">
+      <property name="$metaclass" value="ControlFlow20" />
+      <property name="$name" value="Control Flow1" />
+      <participant referencedUin="design:node:::t35r37ejo_n" role="Client" />
+      <participant referencedUin="design:node:::uz4wrf0sh_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="s15osi0sj_n">
+    <property name="$metaclass" value="FlowFinalNode20" />
+    <property name="$name" value="Flow Final1" />
+  </node>
+  <node uin="x35ffwucq_n">
+    <property name="$metaclass" value="FlowFinalNode20" />
+    <property name="$name" value="Flow Final2" />
+  </node>
+  <node uin="uz4wrf0sh_n">
+    <property name="$metaclass" value="ActivityFinalNode20" />
+    <property name="$name" value="Activity Final1" />
+  </node>
+  <node uin="mo4cj14yk_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note8" />
+    <property name="$note_text" value="Activity final node stops all flows in an activity" />
+    <link uin="uk4b3q154441dxs_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::mo4cj14yk_n" role="Client" />
+      <participant referencedUin="design:node:::uz4wrf0sh_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="r64m4ewl57dwxbj_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note9" />
+    <property name="$note_text" value="Final node terminates a flow" />
+    <link uin="ct3g2oo0807kcln_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::r64m4ewl57dwxbj_n" role="Client" />
+      <participant referencedUin="design:node:::s15osi0sj_n" role="Supplier" />
+    </link>
+    <link uin="me49551i81aut7q_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link2" />
+      <participant referencedUin="design:node:::r64m4ewl57dwxbj_n" role="Client" />
+      <participant referencedUin="design:node:::x35ffwucq_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="ce3vmgw5afryphg_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note10" />
+    <property name="$note_text" value="Diagram represents sample from the &#xD;&#xA;UML 2.0 Superstructure FTF convenience document&#xD;&#xA;http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 265 on page 403" />
+  </node>
+  <node uin="f85xg09clb1y0xq_n">
+    <property name="$metaclass" value="Activity20" />
+    <property name="$name" value="Process Order" />
+    <node uin="c95e09lxm17fzke_n">
+      <property name="$metaclass" value="ActivityParameterNode20" />
+      <property name="$name" value="Requested Order" />
+      <link uin="do2x4xq0k0yq2vq_l">
+        <property name="$metaclass" value="ObjectFlow20" />
+        <property name="$name" value="Object Flow1" />
+        <participant referencedUin="design:node:::c95e09lxm17fzke_n:f85xg09clb1y0xq_n" role="Client" />
+        <participant referencedUin="design:node:::d657tc9eryblc2n_n:f85xg09clb1y0xq_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="d657tc9eryblc2n_n">
+      <property name="$metaclass" value="Action20" />
+      <property name="$name" value="Receive Order" />
+      <link uin="ud4k22578o9gf6r_l">
+        <property name="$metaclass" value="ControlFlow20" />
+        <property name="$name" value="Control Flow1" />
+        <participant referencedUin="design:node:::d657tc9eryblc2n_n:f85xg09clb1y0xq_n" role="Client" />
+        <participant referencedUin="design:node:::085qqmrie_n:f85xg09clb1y0xq_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="5952u3vetuhqg5n_n">
+      <property name="$metaclass" value="InitialNode20" />
+      <property name="$name" value="Initial1" />
+      <link uin="je48zqix6v4gyis_l">
+        <property name="$metaclass" value="ControlFlow20" />
+        <property name="$name" value="Control Flow1" />
+        <participant referencedUin="design:node:::5952u3vetuhqg5n_n:f85xg09clb1y0xq_n" role="Client" />
+        <participant referencedUin="design:node:::d657tc9eryblc2n_n:f85xg09clb1y0xq_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="085qqmrie_n">
+      <property name="$metaclass" value="DecisionNode20" />
+      <property name="$name" value="Decision1" />
+      <link uin="y24u45qjf_l">
+        <property name="$metaclass" value="ControlFlow20" />
+        <property name="$name" value="Control Flow1" />
+        <participant referencedUin="design:node:::085qqmrie_n:f85xg09clb1y0xq_n" role="Client" />
+        <participant referencedUin="design:node:::f759l0d1q_n:f85xg09clb1y0xq_n" role="Supplier" />
+      </link>
+      <link uin="234xpwuth_l">
+        <property name="$metaclass" value="ControlFlow20" />
+        <property name="$name" value="Control Flow2" />
+        <participant referencedUin="design:node:::085qqmrie_n:f85xg09clb1y0xq_n" role="Client" />
+        <participant referencedUin="design:node:::0p4od2iih_n:f85xg09clb1y0xq_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="f759l0d1q_n">
+      <property name="$metaclass" value="Action20" />
+      <property name="$name" value="Fill Order" />
+      <link uin="1c4hg5bt9xhekur_l">
+        <property name="$metaclass" value="ControlFlow20" />
+        <property name="$name" value="Control Flow1" />
+        <participant referencedUin="design:node:::f759l0d1q_n:f85xg09clb1y0xq_n" role="Client" />
+        <participant referencedUin="design:node:::215hap9xs_n:f85xg09clb1y0xq_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="215hap9xs_n">
+      <property name="$metaclass" value="ForkNode20" />
+      <property name="$name" value="Fork1" />
+      <link uin="ub42hzku01ryxdi_l">
+        <property name="$metaclass" value="ControlFlow20" />
+        <property name="$name" value="Control Flow1" />
+        <participant referencedUin="design:node:::215hap9xs_n:f85xg09clb1y0xq_n" role="Client" />
+        <participant referencedUin="design:node:::g659ewwjh_n:f85xg09clb1y0xq_n" role="Supplier" />
+      </link>
+      <link uin="9b4df3hud0jxt4n_l">
+        <property name="$metaclass" value="ControlFlow20" />
+        <property name="$name" value="Control Flow2" />
+        <participant referencedUin="design:node:::215hap9xs_n:f85xg09clb1y0xq_n" role="Client" />
+        <participant referencedUin="design:node:::xo4a6z06n_n:f85xg09clb1y0xq_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="g659ewwjh_n">
+      <property name="$metaclass" value="SendSignalAction20" />
+      <property name="$name" value="Request Payment" />
+      <link uin="wb4ejholahbpgkn_l">
+        <property name="$metaclass" value="ControlFlow20" />
+        <property name="$name" value="Control Flow1" />
+        <participant referencedUin="design:node:::g659ewwjh_n:f85xg09clb1y0xq_n" role="Client" />
+        <participant referencedUin="design:node:::3w4m1p94g_n:f85xg09clb1y0xq_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="3w4m1p94g_n">
+      <property name="$metaclass" value="AcceptEventAction20" />
+      <property name="$name" value="Payment Confirmed" />
+      <link uin="jb4d4iixajv1dye_l">
+        <property name="$metaclass" value="ControlFlow20" />
+        <property name="$name" value="Control Flow1" />
+        <participant referencedUin="design:node:::3w4m1p94g_n:f85xg09clb1y0xq_n" role="Client" />
+        <participant referencedUin="design:node:::e75nlk17j_n:f85xg09clb1y0xq_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="e75nlk17j_n">
+      <property name="$metaclass" value="Action20" />
+      <property name="$name" value="Ship Order" />
+      <link uin="1b4zcoi8ba7uxmo_l">
+        <property name="$metaclass" value="ControlFlow20" />
+        <property name="$name" value="Control Flow1" />
+        <participant referencedUin="design:node:::e75nlk17j_n:f85xg09clb1y0xq_n" role="Client" />
+        <participant referencedUin="design:node:::fy4txtmbs_n:f85xg09clb1y0xq_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="fy4txtmbs_n">
+      <property name="$metaclass" value="JoinNode20" />
+      <property name="$name" value="Join1" />
+      <link uin="1a4wrluxfo0tuno_l">
+        <property name="$metaclass" value="ControlFlow20" />
+        <property name="$name" value="Control Flow1" />
+        <participant referencedUin="design:node:::fy4txtmbs_n:f85xg09clb1y0xq_n" role="Client" />
+        <participant referencedUin="design:node:::0p4od2iih_n:f85xg09clb1y0xq_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="0p4od2iih_n">
+      <property name="$metaclass" value="MergeNode20" />
+      <property name="$name" value="Merge1" />
+      <link uin="f55q3pvosx504gk_l">
+        <property name="$metaclass" value="ControlFlow20" />
+        <property name="$name" value="Control Flow1" />
+        <participant referencedUin="design:node:::0p4od2iih_n:f85xg09clb1y0xq_n" role="Client" />
+        <participant referencedUin="design:node:::nd170s7umlly6xk_n:f85xg09clb1y0xq_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="xo4a6z06n_n">
+      <property name="$metaclass" value="Action20" />
+      <property name="$name" value="Prepare Invoice" />
+      <link uin="m04mt23zjafxalk_l">
+        <property name="$metaclass" value="ObjectFlow20" />
+        <property name="$name" value="Object Flow1" />
+        <participant referencedUin="design:node:::xo4a6z06n_n:f85xg09clb1y0xq_n" role="Client" />
+        <participant referencedUin="design:node:::kd4lvb21l_n:f85xg09clb1y0xq_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="kd4lvb21l_n">
+      <property name="$metaclass" value="ObjectNode20" />
+      <property name="$name" value="Invoice" />
+      <link uin="z84kxa94kb514le_l">
+        <property name="$metaclass" value="ObjectFlow20" />
+        <property name="$name" value="Object Flow1" />
+        <participant referencedUin="design:node:::kd4lvb21l_n:f85xg09clb1y0xq_n" role="Client" />
+        <participant referencedUin="design:node:::ee46bka2h_n:f85xg09clb1y0xq_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="ee46bka2h_n">
+      <property name="$metaclass" value="Action20" />
+      <property name="$name" value="Make Payment" />
+      <link uin="qa4hxmt8e1d9dve_l">
+        <property name="$metaclass" value="ControlFlow20" />
+        <property name="$name" value="Control Flow1" />
+        <participant referencedUin="design:node:::ee46bka2h_n:f85xg09clb1y0xq_n" role="Client" />
+        <participant referencedUin="design:node:::2e4fcwbri_n:f85xg09clb1y0xq_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="2e4fcwbri_n">
+      <property name="$metaclass" value="Action20" />
+      <property name="$name" value="Accept Payment" />
+      <link uin="ja40k4inf4rx0us_l">
+        <property name="$metaclass" value="ControlFlow20" />
+        <property name="$name" value="Control Flow1" />
+        <participant referencedUin="design:node:::2e4fcwbri_n:f85xg09clb1y0xq_n" role="Client" />
+        <participant referencedUin="design:node:::fy4txtmbs_n:f85xg09clb1y0xq_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="nd170s7umlly6xk_n">
+      <property name="$metaclass" value="Action20" />
+      <property name="$name" value="Close Order" />
+      <link uin="iv4mg25ws5mbbrm_l">
+        <property name="$metaclass" value="ControlFlow20" />
+        <property name="$name" value="Control Flow1" />
+        <participant referencedUin="design:node:::nd170s7umlly6xk_n:f85xg09clb1y0xq_n" role="Client" />
+        <participant referencedUin="design:node:::755tiwm2oivf6lg_n:f85xg09clb1y0xq_n" role="Supplier" />
+      </link>
+    </node>
+    <node uin="755tiwm2oivf6lg_n">
+      <property name="$metaclass" value="ActivityFinalNode20" />
+      <property name="$name" value="Activity Final1" />
+    </node>
+  </node>
+  <node uin="ov426k01s_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note11" />
+    <property name="$note_text" value="Decision Node chooses between outgoing flows" />
+    <link uin="fu40b17dn_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::ov426k01s_n" role="Client" />
+      <participant referencedUin="design:node:::085qqmrie_n:f85xg09clb1y0xq_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="dt40ok4zn_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note12" />
+    <property name="$note_text" value="Fork Node splites a flow into multiple concurrent flows" />
+    <link uin="kt4a1x1hs_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::dt40ok4zn_n" role="Client" />
+      <participant referencedUin="design:node:::215hap9xs_n:f85xg09clb1y0xq_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="3t486a03m_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note13" />
+    <property name="$note_text" value="Send Signal Action creates a signal instance from its inputs, and transmits it to the target object, where it may cause the firing of a state machine transition or the execution of an activity" />
+    <link uin="0957rg0i084fe8i_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::3t486a03m_n" role="Client" />
+      <participant referencedUin="design:node:::g659ewwjh_n:f85xg09clb1y0xq_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="ur451x3e4zjtnut_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note14" />
+    <property name="$note_text" value="Accept Event Action waits for the occurrence of an event meeting specified conditions" />
+    <link uin="y6597ev4anrdxdj_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::ur451x3e4zjtnut_n" role="Client" />
+      <participant referencedUin="design:node:::3w4m1p94g_n:f85xg09clb1y0xq_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="v55p4s54casv3hn_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note15" />
+    <property name="$note_text" value="Join node synchronizes multiple flows" />
+    <link uin="pw4bnwi9fhtmi1g_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::v55p4s54casv3hn_n" role="Client" />
+      <participant referencedUin="design:node:::fy4txtmbs_n:f85xg09clb1y0xq_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="tu4lymwphh1f2jo_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note16" />
+    <property name="$note_text" value="Merge node is used to accept one among several alternate flows" />
+    <link uin="uu47v4prk0nc34j_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::tu4lymwphh1f2jo_n" role="Client" />
+      <participant referencedUin="design:node:::0p4od2iih_n:f85xg09clb1y0xq_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="mu4aay59nkozxme_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note17" />
+    <property name="$note_text" value="Activity Parameter &#xD;&#xA;Node is a mode for inputs and outputs to activities" />
+    <link uin="gt4lr0mrh_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::mu4aay59nkozxme_n" role="Client" />
+      <participant referencedUin="design:node:::c95e09lxm17fzke_n:f85xg09clb1y0xq_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="cy405nyrp_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note18" />
+    <property name="$note_text" value="Activity specifies the coordination of executions of subordinate behaviors, using a control and data flow model" />
+    <link uin="wd4uikqph_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::cy405nyrp_n" role="Client" />
+      <participant referencedUin="design:node:::f85xg09clb1y0xq_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="cr4avt2kn_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note19" />
+    <property name="$note_text" value="Actions is an executable activity node, as opposed to control and data flow among actions" />
+    <link uin="yy4luq2k36gzxe_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link1" />
+      <participant referencedUin="design:node:::cr4avt2kn_n" role="Client" />
+      <participant referencedUin="design:node:::ee46bka2h_n:f85xg09clb1y0xq_n" role="Supplier" />
+    </link>
+    <link uin="ga4n319re3lrnr_l">
+      <property name="$metaclass" value="Note Link" />
+      <property name="$name" value="Note Link2" />
+      <participant referencedUin="design:node:::cr4avt2kn_n" role="Client" />
+      <participant referencedUin="design:node:::2e4fcwbri_n:f85xg09clb1y0xq_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="y04nw7ye32mlbpg_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note20" />
+    <property name="$note_text" value="Diagram represents modified sample from the &#xD;&#xA;UML 2.0 Superstructure FTF convenience document&#xD;&#xA;http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 209 on page 347" />
+  </node>
+</nodeSet>

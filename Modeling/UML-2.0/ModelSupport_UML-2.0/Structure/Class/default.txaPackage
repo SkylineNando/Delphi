@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <node uin="gd5tukpsklmnneg_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Purchase" />
+  </node>
+  <node uin="5b5me2hzl9ac2vf_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Customer" />
+    <link uin="z05u1ax3f_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association1" />
+      <property name="clientCardinality" value="" />
+      <property name="directed" value="True" />
+      <property name="supplierCardinality" value="*" />
+      <property name="supplierIsOrdered" value="True" />
+      <property name="supplierIsUnique" value="True" />
+      <property name="supplierRole" value="purchase" />
+      <participant referencedUin="design:node:::5b5me2hzl9ac2vf_n" role="Client" />
+      <participant referencedUin="design:node:::gd5tukpsklmnneg_n" role="Supplier" />
+    </link>
+    <link uin="mw4ibvdul_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association2" />
+      <property name="clientRole" value="" />
+      <property name="directed" value="True" />
+      <property name="supplierCardinality" value="0..5" />
+      <property name="supplierIsUnique" value="True" />
+      <property name="supplierRole" value="account" />
+      <participant referencedUin="design:node:::5b5me2hzl9ac2vf_n" role="Client" />
+      <participant referencedUin="design:node:::0w4e5h93ntdw9ti_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="0w4e5h93ntdw9ti_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Account" />
+  </node>
+  <node uin="qm3lxkzrckxtgan_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note1" />
+    <property name="$note_text" value="Diagram part above represents modified sample from the UML 2.0 Superstructure FTF convenience document http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 60 on page 99" />
+  </node>
+  <node uin="co3f44uynpmsynf_n">
+    <property name="$metaclass" value="AssociationClass" />
+    <property name="$name" value="TernaryAssociation" />
+    <link uin="zg3f44uynt8i7cq_l">
+      <property name="$metaclass" value="AssociationClassConnectorAspect" />
+      <property name="$name" value="Association Class Connector Link1" />
+      <participant referencedUin="design:node:::co3f44uynpmsynf_n" role="Client" />
+      <participant referencedUin="design:node:::pp3f44uynv0t40f_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="pp3f44uynv0t40f_n">
+    <property name="$metaclass" value="AssociationClassLinkAspect" />
+    <property name="$name" value="Association Class Link Aspect1" />
+    <property name="__associationClass" value="design:node:::co3f44uynpmsynf_n" />
+    <link uin="3u3cry2hs_l">
+      <property name="$metaclass" value="AssociationEnd" />
+      <property name="$name" value="Association End1" />
+      <property name="multiplicity" value="*" />
+      <property name="role" value="team" />
+      <participant referencedUin="design:node:::pp3f44uynv0t40f_n" role="Client" />
+      <participant referencedUin="design:node:::m05jphhwk_n" role="Supplier" />
+    </link>
+    <link uin="t958jdxop_l">
+      <property name="$metaclass" value="AssociationEnd" />
+      <property name="$name" value="Association End2" />
+      <property name="multiplicity" value="*" />
+      <property name="role" value="season" />
+      <participant referencedUin="design:node:::pp3f44uynv0t40f_n" role="Client" />
+      <participant referencedUin="design:node:::b03qbmkqk_n" role="Supplier" />
+    </link>
+    <link uin="0n4u9rfrf_l">
+      <property name="$metaclass" value="AssociationEnd" />
+      <property name="$name" value="Association End3" />
+      <property name="multiplicity" value="*" />
+      <property name="role" value="goalie" />
+      <participant referencedUin="design:node:::pp3f44uynv0t40f_n" role="Client" />
+      <participant referencedUin="design:node:::q950wp9ij_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="b03qbmkqk_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Year" />
+  </node>
+  <node uin="m05jphhwk_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Team" />
+  </node>
+  <node uin="q950wp9ij_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Player" />
+    <link uin="c05t8xy3g_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association1" />
+      <property name="directed" value="True" />
+      <property name="label" value="PlayedInYear" />
+      <property name="supplierCardinality" value="*" />
+      <property name="supplierRole" value="year" />
+      <participant referencedUin="design:node:::q950wp9ij_n" role="Client" />
+      <participant referencedUin="design:node:::b03qbmkqk_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="n95d5rg42zmqoyo_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note2" />
+    <property name="$note_text" value="Diagram part above represents modified sample from the UML 2.0 Superstructure FTF convenience document http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 19 on page 40" />
+  </node>
+  <node uin="bq55u04w9hsq2qj_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="A" />
+    <link uin="mp5dmhwit_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association1" />
+      <property name="clientCardinality" value="0..1" />
+      <property name="clientQualifier" value="" />
+      <property name="clientRole" value="a" />
+      <property name="supplierCardinality" value="*" />
+      <property name="supplierIsOrdered" value="True" />
+      <property name="supplierRole" value="b" />
+      <participant referencedUin="design:node:::bq55u04w9hsq2qj_n" role="Client" />
+      <participant referencedUin="design:node:::gp5deb1j01p9vfm_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="gp5deb1j01p9vfm_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="B" />
+  </node>
+  <node uin="xp5phohrmwuoxgk_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="C" />
+    <property name="mod__extends" value="Structure.Class.A" />
+    <link uin="1q5468x5t_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association1" />
+      <property name="clientCardinality" value="1" />
+      <property name="supplierCardinality" value="0..1" />
+      <property name="supplierRole" value="d" />
+      <property name="supplierSubsets" value="b" />
+      <participant referencedUin="design:node:::xp5phohrmwuoxgk_n" role="Client" />
+      <participant referencedUin="design:node:::am59igrmnvva3cr_n" role="Supplier" />
+    </link>
+    <link uin="7g5i50knt_l">
+      <property name="$metaclass" value="Generalization20" />
+      <property name="$name" value="Generalization1" />
+      <property name="mod__cachedBaseName" value="Structure.Class.A" />
+      <participant referencedUin="design:node:::xp5phohrmwuoxgk_n" role="Client" />
+      <participant referencedUin="design:node:::bq55u04w9hsq2qj_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="am59igrmnvva3cr_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="D" />
+    <property name="mod__extends" value="Structure.Class.B" />
+    <link uin="uf5t3qh4h_l">
+      <property name="$metaclass" value="Generalization20" />
+      <property name="$name" value="Generalization1" />
+      <property name="mod__cachedBaseName" value="Structure.Class.B" />
+      <participant referencedUin="design:node:::am59igrmnvva3cr_n" role="Client" />
+      <participant referencedUin="design:node:::gp5deb1j01p9vfm_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="n061jjt4h_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note3" />
+    <property name="$note_text" value="Diagram part above represents modified sample from the UML 2.0 Superstructure FTF convenience document http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 20 on page 41" />
+  </node>
+  <node uin="816j479tk_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Shape" />
+  </node>
+  <node uin="ry5a6ycqe_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Polygon" />
+    <property name="mod__extends" value="Structure.Class.Shape" />
+    <link uin="8c672weqg_l">
+      <property name="$metaclass" value="Generalization20" />
+      <property name="$name" value="Generalization1" />
+      <property name="mod__cachedBaseName" value="Structure.Class.Shape" />
+      <participant referencedUin="design:node:::ry5a6ycqe_n" role="Client" />
+      <participant referencedUin="design:node:::816j479tk_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="sy5yzmnpo_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Ellipse" />
+    <property name="mod__extends" value="Structure.Class.Shape" />
+    <link uin="r06o4or2s_l">
+      <property name="$metaclass" value="Generalization20" />
+      <property name="$name" value="Generalization1" />
+      <property name="mod__cachedBaseName" value="Structure.Class.Shape" />
+      <participant referencedUin="design:node:::sy5yzmnpo_n" role="Client" />
+      <participant referencedUin="design:node:::816j479tk_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="nx58usk0h_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Spline" />
+    <property name="mod__extends" value="Structure.Class.Shape" />
+    <link uin="8z5ky4grl_l">
+      <property name="$metaclass" value="Generalization20" />
+      <property name="$name" value="Generalization1" />
+      <property name="mod__cachedBaseName" value="Structure.Class.Shape" />
+      <participant referencedUin="design:node:::nx58usk0h_n" role="Client" />
+      <participant referencedUin="design:node:::816j479tk_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="b06xq83c1mp6rsr_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note4" />
+    <property name="$note_text" value="Diagram part above represents modified sample from the UML 2.0 Superstructure FTF convenience document http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 41 on page 74" />
+  </node>
+  <node uin="ad6lr63a60v16wh_n">
+    <property name="$metaclass" value="InstanceSpecification20" />
+    <property name="$name" value="Don" />
+  </node>
+  <node uin="1e6325i67egty4h_n">
+    <property name="$metaclass" value="InstanceSpecification20" />
+    <property name="$name" value="Josh" />
+    <link uin="uy5k1kvy82m77ct_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association1" />
+      <property name="clientRole" value="son" />
+      <property name="supplierRole" value="father" />
+      <participant referencedUin="design:node:::1e6325i67egty4h_n" role="Client" />
+      <participant referencedUin="design:node:::ad6lr63a60v16wh_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="ge67kfe9f2p3xzf_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note5" />
+    <property name="$note_text" value="Diagram part above represents modified sample from the UML 2.0 Superstructure FTF convenience document http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 52 on page 86" />
+  </node>
+  <node uin="0f62fvhuknggsmn_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Person1" />
+  </node>
+  <node uin="jc61aafolc41wap_n">
+    <property name="$metaclass" value="AssociationClass" />
+    <property name="$name" value="Job" />
+    <link uin="zc61aafol5zd9mq_l">
+      <property name="$metaclass" value="AssociationClassConnectorAspect" />
+      <property name="$name" value="Association Class Connector Link1" />
+      <participant referencedUin="design:node:::jc61aafolc41wap_n" role="Client" />
+      <participant referencedUin="design:node:::pc61aafolqp0uzm_n" role="Supplier" />
+    </link>
+    <node uin="sj6rlpmcf_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="salary" />
+      <property name="isDerived" value="False" />
+      <property name="isDerivedUnion" value="False" />
+      <property name="isOrdered" value="False" />
+      <property name="isUnique" value="False" />
+      <property name="mod__type" value="Integer" />
+      <property name="readOnly" value="False" />
+    </node>
+  </node>
+  <node uin="pc61aafolqp0uzm_n">
+    <property name="$metaclass" value="AssociationClassLinkAspect" />
+    <property name="$name" value="Association Class Link Aspect2" />
+    <property name="__associationClass" value="design:node:::jc61aafolc41wap_n" />
+    <link uin="fi68wye6q22g6bo_l">
+      <property name="$metaclass" value="AssociationEnd" />
+      <property name="$name" value="Association End1" />
+      <property name="multiplicity" value="*" />
+      <property name="role" value="person" />
+      <participant referencedUin="design:node:::pc61aafolqp0uzm_n" role="Client" />
+      <participant referencedUin="design:node:::0f62fvhuknggsmn_n" role="Supplier" />
+    </link>
+    <link uin="bk6z05ffqo6m7ns_l">
+      <property name="$metaclass" value="AssociationEnd" />
+      <property name="$name" value="Association End2" />
+      <property name="multiplicity" value="1..*" />
+      <property name="role" value="company" />
+      <participant referencedUin="design:node:::pc61aafolqp0uzm_n" role="Client" />
+      <participant referencedUin="design:node:::0h6skm2joo1y11g_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="0h6skm2joo1y11g_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Company" />
+  </node>
+  <node uin="hi6x3inze_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note6" />
+    <property name="$note_text" value="Diagram part above represents modified sample from the UML 2.0 Superstructure FTF convenience document http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 25 on page 45" />
+  </node>
+  <node uin="bn6eonnxk_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Window" />
+    <link uin="0l6cmrkd5x30p7n_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association1" />
+      <property name="clientCardinality" value="1" />
+      <property name="directed" value="True" />
+      <property name="label" value="scrollbar" />
+      <property name="supplierCardinality" value="2" />
+      <participant referencedUin="design:node:::bn6eonnxk_n" role="Client" />
+      <participant referencedUin="design:node:::sc6l4jh477918t_n" role="Supplier" />
+    </link>
+    <link uin="dl6t9qel5jav0or_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association2" />
+      <property name="clientCardinality" value="1" />
+      <property name="directed" value="True" />
+      <property name="label" value="title" />
+      <property name="supplierCardinality" value="1" />
+      <participant referencedUin="design:node:::bn6eonnxk_n" role="Client" />
+      <participant referencedUin="design:node:::gd66yhu51nzmg1s_n" role="Supplier" />
+    </link>
+    <link uin="ce6ioxhs5dkxldm_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association3" />
+      <property name="clientCardinality" value="1" />
+      <property name="directed" value="True" />
+      <property name="label" value="body" />
+      <property name="supplierCardinality" value="1" />
+      <participant referencedUin="design:node:::bn6eonnxk_n" role="Client" />
+      <participant referencedUin="design:node:::lf5td3v326qs2ug_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="sc6l4jh477918t_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Slider" />
+  </node>
+  <node uin="gd66yhu51nzmg1s_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Header" />
+  </node>
+  <node uin="lf5td3v326qs2ug_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Panel" />
+  </node>
+  <node uin="2d44x0mhgga3vtt_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note7" />
+    <property name="$note_text" value="Diagram part above represents modified sample from the UML 2.0 Superstructure FTF convenience document http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 24 on page 43" />
+  </node>
+  <node uin="wn63m87xk18kjxq_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="TheftAlarm" />
+    <link uin="jo6svwa0s_l">
+      <property name="$metaclass" value="RequiredInterface20" />
+      <property name="$name" value="Required Interface1" />
+      <participant referencedUin="design:node:::wn63m87xk18kjxq_n" role="Client" />
+      <participant referencedUin="design:node:::oq6l2kv1r7t8y0g_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="tp6n955jmz6t45t_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="ProximitySensor" />
+    <property name="mod__implements" value="Structure.Class.ISensor" />
+    <link uin="3o65nhh9tch0zeo_l">
+      <property name="$metaclass" value="Implementation20" />
+      <property name="$name" value="Implementation1" />
+      <property name="mod__cachedBaseName" value="Structure.Class.ISensor" />
+      <participant referencedUin="design:node:::tp6n955jmz6t45t_n" role="Client" />
+      <participant referencedUin="design:node:::oq6l2kv1r7t8y0g_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="oq6l2kv1r7t8y0g_n">
+    <property name="$metaclass" value="Interface20" />
+    <property name="$name" value="ISensor" />
+  </node>
+  <node uin="tq6g2tjxn_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note8" />
+    <property name="$note_text" value="Diagram part above represents modified sample from the UML 2.0 Superstructure FTF convenience document http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 55 on page 89" />
+  </node>
+  <node uin="qf8iwffkar1amvs_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Class1" />
+    <node uin="rf8mrigfc7hkz8n_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="purchase" />
+      <property name="isDerived" value="False" />
+      <property name="isDerivedUnion" value="False" />
+      <property name="isOrdered" value="True" />
+      <property name="isUnique" value="True" />
+      <property name="mod__type" value="Purshase" />
+      <property name="mod_Visibility" value="$packageLocal" />
+      <property name="multiplicity" value="*" />
+      <property name="readOnly" value="False" />
+    </node>
+    <node uin="nd88rw8vipr9buj_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="account" />
+      <property name="isDerived" value="False" />
+      <property name="isDerivedUnion" value="False" />
+      <property name="isOrdered" value="False" />
+      <property name="isUnique" value="True" />
+      <property name="mod__type" value="Structure.Class.Account" />
+      <property name="mod__typeReferencedElement" value="design:node:::0w4e5h93ntdw9ti_n" />
+      <property name="mod_Visibility" value="$packageLocal" />
+      <property name="multiplicity" value="0..5" />
+      <property name="readOnly" value="False" />
+    </node>
+  </node>
+  <node uin="te8esu35q1rxoyk_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note9" />
+    <property name="$note_text" value="Diagram portion represents modified sample from the &#xD;&#xA;UML 2.0 Superstructure FTF convenience document http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 59 on page 99" />
+  </node>
+  <node uin="7f8zlt43s_n">
+    <property name="$metaclass" value="InstanceSpecification20" />
+    <property name="$name" value="streetName" />
+  </node>
+  <node uin="bd8zgapvr_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note10" />
+    <property name="$note_text" value="Diagram portion represents modified sample from the &#xD;&#xA;UML 2.0 Superstructure FTF convenience document http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 50 on page 85" />
+  </node>
+  <node uin="0c8m3fn4q_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Address" />
+    <node uin="qd8a5k63g_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="streetName" />
+      <property name="isDerived" value="False" />
+      <property name="isDerivedUnion" value="False" />
+      <property name="isOrdered" value="False" />
+      <property name="isUnique" value="False" />
+      <property name="mod__type" value="String" />
+      <property name="mod_Visibility" value="$public" />
+      <property name="readOnly" value="False" />
+    </node>
+    <node uin="6a8rp0ekm_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="streetNumber" />
+      <property name="isDerived" value="False" />
+      <property name="isDerivedUnion" value="False" />
+      <property name="isOrdered" value="False" />
+      <property name="isUnique" value="False" />
+      <property name="mod__type" value="Integer" />
+      <property name="mod_Visibility" value="$public" />
+      <property name="readOnly" value="False" />
+    </node>
+  </node>
+  <node uin="hc8nmf9rby0k9lr_n">
+    <property name="$metaclass" value="InstanceSpecification20" />
+    <property name="$name" value="myAddress" />
+    <property name="classifier" value="Structure.Class.Address" />
+    <link uin="cd8ycz3zclj2rhr_l">
+      <property name="$metaclass" value="InstantiatesLink20" />
+      <property name="$name" value="Dependency1" />
+      <property name="mod__cachedBaseName" value="Structure.Class.Address" />
+      <participant referencedUin="design:node:::hc8nmf9rby0k9lr_n" role="Client" />
+      <participant referencedUin="design:node:::0c8m3fn4q_n" role="Supplier" />
+    </link>
+    <node uin="398xkyf3eeetybr_n">
+      <property name="$metaclass" value="Slot20" />
+      <property name="$name" value="Slot1" />
+      <property name="definingFeature" value="streetName" />
+      <property name="value" value="&quot;S. Crown St.&quot;" />
+    </node>
+    <node uin="l08sd4dujljwskj_n">
+      <property name="$metaclass" value="Slot20" />
+      <property name="$name" value="Slot2" />
+      <property name="definingFeature" value="streetNumber" />
+      <property name="value" value="381" />
+    </node>
+  </node>
+  <node uin="z98w58cmntgx6qg_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note11" />
+    <property name="$note_text" value="Diagram portion represents modified sample from the &#xD;&#xA;UML 2.0 Superstructure FTF convenience document http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 51 on page 85" />
+  </node>
+  <node uin="898pzu3sszeiy0f_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="ClassA" />
+    <node uin="e68utgovo_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="width" />
+      <property name="isDerived" value="False" />
+      <property name="isDerivedUnion" value="False" />
+      <property name="isOrdered" value="False" />
+      <property name="isUnique" value="False" />
+      <property name="mod__type" value="Integer" />
+      <property name="mod_Visibility" value="$packageLocal" />
+      <property name="readOnly" value="False" />
+    </node>
+    <node uin="f88ujf22j_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="height" />
+      <property name="isDerived" value="False" />
+      <property name="isDerivedUnion" value="False" />
+      <property name="isOrdered" value="False" />
+      <property name="isUnique" value="False" />
+      <property name="mod__initialValue" value="5" />
+      <property name="mod__type" value="Integer" />
+      <property name="mod_Visibility" value="$private" />
+      <property name="readOnly" value="False" />
+    </node>
+    <node uin="068523wel_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="area" />
+      <property name="isDerived" value="True" />
+      <property name="isDerivedUnion" value="False" />
+      <property name="isOrdered" value="False" />
+      <property name="isUnique" value="False" />
+      <property name="mod__type" value="Integer" />
+      <property name="mod_Visibility" value="$packageLocal" />
+      <property name="readOnly" value="True" />
+    </node>
+    <node uin="ca8f4wo5l_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="size" />
+      <property name="isDerived" value="False" />
+      <property name="isDerivedUnion" value="False" />
+      <property name="isOrdered" value="False" />
+      <property name="isUnique" value="False" />
+      <property name="mod__type" value="Integer" />
+      <property name="mod_Visibility" value="$public" />
+      <property name="multiplicity" value="0..1" />
+      <property name="readOnly" value="False" />
+    </node>
+    <node uin="v48z6v7zh_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="shape" />
+      <property name="isDerived" value="False" />
+      <property name="isDerivedUnion" value="False" />
+      <property name="isOrdered" value="False" />
+      <property name="isUnique" value="False" />
+      <property name="mod__type" value="Rectangle" />
+      <property name="mod_Visibility" value="$packageLocal" />
+      <property name="readOnly" value="False" />
+    </node>
+    <node uin="288g6jz9d6bft3o_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="name" />
+      <property name="isDerived" value="False" />
+      <property name="isDerivedUnion" value="False" />
+      <property name="isOrdered" value="False" />
+      <property name="isUnique" value="False" />
+      <property name="mod__type" value="String" />
+      <property name="mod_Visibility" value="$packageLocal" />
+      <property name="readOnly" value="False" />
+    </node>
+  </node>
+  <node uin="7h8v63o3r_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="ClassB" />
+    <property name="mod__extends" value="Structure.Class.ClassA" />
+    <node uin="jh8solmzm_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="id" />
+      <property name="isDerived" value="False" />
+      <property name="isDerivedUnion" value="False" />
+      <property name="isOrdered" value="False" />
+      <property name="isUnique" value="False" />
+      <property name="mod__type" value="String" />
+      <property name="mod_Visibility" value="$packageLocal" />
+      <property name="readOnly" value="False" />
+      <property name="redefines" value="name" />
+    </node>
+    <node uin="n48r9mw2gdefmhm_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="width" />
+      <property name="isDerived" value="True" />
+      <property name="isDerivedUnion" value="False" />
+      <property name="isOrdered" value="False" />
+      <property name="isUnique" value="False" />
+      <property name="mod__type" value="Integer" />
+      <property name="mod_Visibility" value="$packageLocal" />
+      <property name="readOnly" value="False" />
+    </node>
+    <node uin="n582dqr0i6jtutf_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="height" />
+      <property name="isDerived" value="False" />
+      <property name="isDerivedUnion" value="False" />
+      <property name="isOrdered" value="False" />
+      <property name="isUnique" value="False" />
+      <property name="mod__initialValue" value="7" />
+      <property name="mod__type" value="Integer" />
+      <property name="mod_Visibility" value="$packageLocal" />
+      <property name="readOnly" value="False" />
+    </node>
+    <node uin="pl6ewueom396f0j_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="shape" />
+      <property name="isDerived" value="False" />
+      <property name="isDerivedUnion" value="False" />
+      <property name="isOrdered" value="False" />
+      <property name="isUnique" value="False" />
+      <property name="mod__type" value="Square" />
+      <property name="mod_Visibility" value="$packageLocal" />
+      <property name="readOnly" value="False" />
+    </node>
+    <link uin="058q9gwus_l">
+      <property name="$metaclass" value="Generalization20" />
+      <property name="$name" value="Generalization1" />
+      <property name="mod__cachedBaseName" value="Structure.Class.ClassA" />
+      <participant referencedUin="design:node:::7h8v63o3r_n" role="Client" />
+      <participant referencedUin="design:node:::898pzu3sszeiy0f_n" role="Supplier" />
+    </link>
+    <node uin="9k8fk0xfex8wbfl_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="Attribute1" />
+      <property name="mod__type" value="Integer" />
+      <property name="mod_Visibility" value="$private" />
+    </node>
+  </node>
+  <node uin="7s6u8jhnk_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note12" />
+    <property name="$note_text" value="Diagram portion represents modified sample from the &#xD;&#xA;UML 2.0 Superstructure FTF convenience document&#xD;&#xA;http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 28 on page 54" />
+  </node>
+  <node uin="zm6k517zi_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Operations" />
+    <node uin="9i8otua8k_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="a" />
+      <property name="isDerived" value="False" />
+      <property name="isDerivedUnion" value="False" />
+      <property name="isOrdered" value="False" />
+      <property name="isUnique" value="False" />
+      <property name="mod__type" value="Integer" />
+      <property name="mod_Visibility" value="$private" />
+      <property name="readOnly" value="False" />
+    </node>
+    <node uin="mi88e1vvbsb9to_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="flag" />
+      <property name="isDerived" value="False" />
+      <property name="isDerivedUnion" value="False" />
+      <property name="isOrdered" value="False" />
+      <property name="isUnique" value="False" />
+      <property name="mod__type" value="Boolean" />
+      <property name="mod_Visibility" value="$packageLocal" />
+      <property name="readOnly" value="False" />
+    </node>
+    <node uin="3j8avy42t_n">
+      <property name="$metaclass" value="Operation20" />
+      <property name="$name" value="display" />
+      <property name="mod_Visibility" value="$packageLocal" />
+    </node>
+    <node uin="2l8mw67gi_n">
+      <property name="$metaclass" value="Operation20" />
+      <property name="$name" value="toString" />
+      <property name="mod__returnType" value="String" />
+      <property name="mod_Visibility" value="$public" />
+    </node>
+    <node uin="yi8ya7yz8zrd5xs_n">
+      <property name="$metaclass" value="Operation20" />
+      <property name="$name" value="createWindow" />
+      <property name="mod__returnType" value="Structure.Class.Window" />
+      <property name="mod__returnTypeReferencedElement" value="design:node:::bn6eonnxk_n" />
+      <property name="mod__static" value="True" />
+      <property name="mod_Visibility" value="$public" />
+      <node uin="wl8nbt4s9k6v6ko_n">
+        <property name="$metaclass" value="Parameter" />
+        <property name="$name" value="location" />
+        <property name="mod__type" value="Coordinates" />
+      </node>
+      <node uin="yl8igw7s9kip6cg_n">
+        <property name="$metaclass" value="Parameter" />
+        <property name="$name" value="container" />
+        <property name="mod__type" value="Container" />
+        <property name="multiplicity" value="0..1" />
+      </node>
+    </node>
+    <node uin="1k8sjvp0k0dw41t_n">
+      <property name="$metaclass" value="Operation20" />
+      <property name="$name" value="hide" />
+      <property name="mod_Visibility" value="$private" />
+    </node>
+  </node>
+  <node uin="1m8o184rnyuu7ym_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note13" />
+    <property name="$note_text" value="Diagram portion represents modified sample from the &#xD;&#xA;UML 2.0 Superstructure FTF convenience document http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Examples on page 109" />
+  </node>
+  <node uin="l12n3y88k_n">
+    <property name="$abstract" value="1" />
+    <property name="$metaclass" value="Interface20" />
+    <property name="$name" value="AbstractProduct" />
+    <property name="mod_Visibility" value="$public" />
+  </node>
+  <node uin="se13qoq3t_n">
+    <property name="$abstract" value="1" />
+    <property name="$metaclass" value="Interface20" />
+    <property name="$name" value="AbstractFactory" />
+    <property name="mod_Visibility" value="$public" />
+    <node uin="rd1vt140o_n">
+      <property name="$metaclass" value="Operation20" />
+      <property name="$name" value="createAbstractProduct" />
+      <property name="mod__abstract" value="True" />
+      <property name="mod__returnType" value="Structure.Class.AbstractProduct" />
+      <property name="mod__returnTypeReferencedElement" value="design:node:::l12n3y88k_n" />
+      <property name="mod_Visibility" value="$public" />
+    </node>
+  </node>
+  <node uin="ge12td1th_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="ConcreteProduct1" />
+    <property name="mod__implements" value="Structure.Class.AbstractProduct" />
+    <property name="mod_Visibility" value="$public" />
+    <link uin="0c1tple8g_l">
+      <property name="$metaclass" value="Implementation20" />
+      <property name="$name" value="ImplementationLink from ConcreteProduct1 to AbstractProduct" />
+      <property name="mod__cachedBaseName" value="Structure.Class.AbstractProduct" />
+      <participant referencedUin="design:node:::ge12td1th_n" role="Client" />
+      <participant referencedUin="design:node:::l12n3y88k_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="be1k36xkq_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="ConcreteFactory" />
+    <property name="mod__implements" value="Structure.Class.AbstractFactory" />
+    <property name="mod_Visibility" value="$public" />
+    <node uin="wc1nja0un_n">
+      <property name="$metaclass" value="Operation20" />
+      <property name="$name" value="createAbstractProduct" />
+      <property name="mod__returnType" value="Structure.Class.AbstractProduct" />
+      <property name="mod__returnTypeReferencedElement" value="design:node:::l12n3y88k_n" />
+      <property name="mod_Visibility" value="$public" />
+    </node>
+    <link uin="ryktlf3g_l">
+      <property name="$metaclass" value="Implementation20" />
+      <property name="$name" value="ImplementationLink from ConcreteFactory to AbstractFactory" />
+      <property name="mod__cachedBaseName" value="Structure.Class.AbstractFactory" />
+      <participant referencedUin="design:node:::be1k36xkq_n" role="Client" />
+      <participant referencedUin="design:node:::se13qoq3t_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="feb0gsqh_n">
+    <property name="$metaclass" value="Pattern" />
+    <property name="$name" value="AbstractFactory" />
+    <property name="PatternUPID" value="design-node-Abstract_Factory" />
+    <link uin="qr3dh5mci_l">
+      <property name="$metaclass" value="DesignPatternLink" />
+      <property name="$name" value="AbstractFactory" />
+      <property name="stereotype" value="AbstractFactory" />
+      <property name="supplierRole" value="_AbstractFactory" />
+      <participant referencedUin="design:node:::feb0gsqh_n" role="Client" />
+      <participant referencedUin="design:node:::se13qoq3t_n" role="Supplier" />
+    </link>
+    <link uin="gq3cq21bk_l">
+      <property name="$metaclass" value="DesignPatternLink" />
+      <property name="$name" value="AbstractProduct" />
+      <property name="stereotype" value="AbstractProduct" />
+      <property name="supplierRole" value="_AbstractProduct" />
+      <participant referencedUin="design:node:::feb0gsqh_n" role="Client" />
+      <participant referencedUin="design:node:::l12n3y88k_n" role="Supplier" />
+    </link>
+    <link uin="9p3sjikrj_l">
+      <property name="$metaclass" value="DesignPatternLink" />
+      <property name="$name" value="ConcreteFactory" />
+      <property name="stereotype" value="ConcreteFactory" />
+      <property name="supplierRole" value="_ConcreteFactory" />
+      <participant referencedUin="design:node:::feb0gsqh_n" role="Client" />
+      <participant referencedUin="design:node:::be1k36xkq_n" role="Supplier" />
+    </link>
+    <link uin="6p3cua7qi_l">
+      <property name="$metaclass" value="DesignPatternLink" />
+      <property name="$name" value="ConcreteProduct1" />
+      <property name="stereotype" value="ConcreteProduct" />
+      <property name="supplierRole" value="_ConcreteProduct" />
+      <participant referencedUin="design:node:::feb0gsqh_n" role="Client" />
+      <participant referencedUin="design:node:::ge12td1th_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="p9ftqtnen_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Bank" />
+    <link uin="xmhqc9ee6ngplzr_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association1" />
+      <property name="clientCardinality" value="*" />
+      <property name="clientQualifier" value="accountNo:Integer" />
+      <property name="supplierCardinality" value="0..1" />
+      <property name="__clientQualifier_1" value="accountNo" />
+      <participant referencedUin="design:node:::p9ftqtnen_n" role="Client" />
+      <participant referencedUin="design:node:::eihyavlbl_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="eihyavlbl_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Person" />
+    <node uin="74hgt3tyehpy4vs_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="accountNo" />
+      <property name="mod__type" value="Integer" />
+      <property name="mod_Visibility" value="$packageLocal" />
+    </node>
+  </node>
+  <node uin="1jhv2dwch_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Chessboard" />
+    <link uin="t7hduu9q7np91sn_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association1" />
+      <property name="clientCardinality" value="1" />
+      <property name="clientQualifier" value="file:File" />
+      <property name="clientQualifier" value=" rank:Rank" />
+      <property name="supplierCardinality" value="1" />
+      <property name="__clientQualifier_1" value="rank:Rank" />
+      <property name="__clientQualifier_2" value=" file:File" />
+      <participant referencedUin="design:node:::1jhv2dwch_n" role="Client" />
+      <participant referencedUin="design:node:::cjh26bnyq_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="cjh26bnyq_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Square" />
+    <node uin="39fu2filo_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="file" />
+      <property name="mod__type" value="File" />
+      <property name="mod_Visibility" value="$packageLocal" />
+    </node>
+    <node uin="vihbta7po_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="rank" />
+      <property name="mod__type" value="Rank" />
+      <property name="mod_Visibility" value="$packageLocal" />
+    </node>
+  </node>
+  <node uin="b7hbqf419q7b15n_n">
+    <property name="$metaclass" value="Note" />
+    <property name="$name" value="Note14" />
+    <property name="$note_text" value="Diagram part above represents modified sample from the UML 2.0 Superstructure FTF convenience document http://www.omg.org/cgi-bin/doc?ptc/2004-10-02&#xD;&#xA;Figure 70 on page 131" />
+  </node>
+</nodeSet>

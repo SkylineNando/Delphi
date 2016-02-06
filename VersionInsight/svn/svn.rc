@@ -1,0 +1,46 @@
+/****************************************************************************
+
+
+svn.rcp
+
+produced by Borland Resource Workshop
+
+
+*****************************************************************************/
+#include <windows.h>
+#include <winver.h>
+
+LANGUAGE LANG_ENGLISH,SUBLANG_ENGLISH_US
+
+
+1 VERSIONINFO LOADONCALL MOVEABLE DISCARDABLE IMPURE
+FILEVERSION 19, 0, 13336, 3648
+PRODUCTVERSION 19, 0, 0, 0
+FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+FILEOS VOS__WINDOWS32
+FILETYPE VFT_DLL
+{
+ BLOCK "StringFileInfo"
+ {
+  BLOCK "040904E4"
+  {
+   VALUE "CompanyName", "Embarcadero Technologies, Inc.\000\000"
+   VALUE "FileDescription", "Embarcadero Subverion integration\000\000"
+   VALUE "FileVersion", "19.0.13336.3648\000"
+   VALUE "InternalName", "SVN190\000\000"
+   VALUE "LegalCopyright", "Copyright \251 2005-2013 Embarcadero Technologies, Inc.\000\000"
+   VALUE "OriginalFilename", "SVN190.BPL\000\000"
+   VALUE "ProductName", "Package Library\000\000"
+   VALUE "ProductVersion", "19.0\000\000"
+   VALUE "InternalRevision", "63648000"
+  }
+
+ }
+
+ BLOCK "VarFileInfo"
+ {
+  VALUE "Translation", 1033, 1252
+ }
+
+}
+PLATFORMTARGETS RCDATA {1}

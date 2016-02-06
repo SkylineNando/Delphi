@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="4z5wfrgbo_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="ClassDiagram20" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::6h2npbmxr_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="20,20,100,200" />
+      <property name="bounds_setted_by_user" value="True" />
+      <reference referencedUin="design:node:::154f226ek_n">
+        <reference referencedUin="design:link:::qu3am6gkflzk8if_l:154f226ek_n" />
+        <reference referencedUin="design:link:::hx31zqvufdkqmjs_l:154f226ek_n" />
+      </reference>
+      <reference referencedUin="design:node:::n54ogl60n_n">
+        <reference referencedUin="design:node:::t94uvwfpi_n:n54ogl60n_n">
+          <reference referencedUin="design:link:::2v3wh1m1f2o2ftk_l:t94uvwfpi_n:n54ogl60n_n" />
+        </reference>
+      </reference>
+      <reference referencedUin="design:node:::0g40z6k1m_n">
+        <reference referencedUin="design:node:::q94t9cuyf_n:0g40z6k1m_n">
+          <reference referencedUin="design:link:::zu39jr7afvc0rur_l:q94t9cuyf_n:0g40z6k1m_n" />
+        </reference>
+      </reference>
+      <reference referencedUin="design:node:::9w3uy7qhi_n">
+        <reference referencedUin="design:node:::gx3hn8g9aqila0g_n:9w3uy7qhi_n" />
+      </reference>
+      <reference referencedUin="design:node:::xw3dnwqrs_n">
+        <reference referencedUin="design:node:::164g89akay9z46s_n:xw3dnwqrs_n" />
+      </reference>
+      <reference referencedUin="design:node:::fl4204o0i_n">
+        <reference referencedUin="design:link:::4l4rws97n_l:fl4204o0i_n" />
+      </reference>
+      <reference referencedUin="design:node:::tl48rambl_n">
+        <reference referencedUin="design:link:::zj4gqroos_l:tl48rambl_n" />
+      </reference>
+      <reference referencedUin="design:node:::rj4ckq8ap_n">
+        <reference referencedUin="design:link:::ki4mki7rr_l:rj4ckq8ap_n" />
+      </reference>
+      <reference referencedUin="design:node:::fo4k2o0k1m4jcip_n" />
+      <reference referencedUin="design:node:::8o4g1mfl6jv5iih_n">
+        <reference referencedUin="design:link:::ci47lpl0j_l:8o4g1mfl6jv5iih_n" />
+        <reference referencedUin="design:link:::eu3ck0gz5gwpatg_l:8o4g1mfl6jv5iih_n" />
+      </reference>
+      <reference referencedUin="design:node:::mn47twusagezzbm_n">
+        <reference referencedUin="design:link:::yh45ivx4r_l:mn47twusagezzbm_n" />
+      </reference>
+      <reference referencedUin="design:node:::am4yzdx6f8tw7ip_n" />
+      <reference referencedUin="design:node:::km4ygus0i8tjtht_n">
+        <reference referencedUin="design:link:::4y5k78b2q_l:km4ygus0i8tjtht_n" />
+      </reference>
+      <reference referencedUin="design:node:::go4b0zo1m77qmlh_n" />
+      <reference referencedUin="design:node:::om45uz5vow10o4m_n">
+        <reference referencedUin="design:link:::ru3yboul9ugrlth_l:om45uz5vow10o4m_n" />
+      </reference>
+      <reference referencedUin="design:node:::7i420ojpt_n">
+        <reference referencedUin="design:link:::am2a0v652b34ver_l:7i420ojpt_n" />
+      </reference>
+      <reference referencedUin="design:node:::1h4iapunt_n">
+        <reference referencedUin="design:link:::gm2f5ul43poa0fo_l:1h4iapunt_n" />
+      </reference>
+      <reference referencedUin="design:node:::wh4t22vxg_n" />
+      <reference referencedUin="design:node:::o3503hqpt_n">
+        <reference referencedUin="design:link:::ty4swvy6gzkzigq_l:o3503hqpt_n" />
+      </reference>
+      <reference referencedUin="design:node:::935xn9eck_n">
+        <reference referencedUin="design:link:::t259f6wtgeqv6ar_l:935xn9eck_n" />
+        <reference referencedUin="design:link:::tm4l876cce0y3yp_l:935xn9eck_n" />
+      </reference>
+      <reference referencedUin="design:node:::e35hg9ajh_n">
+        <reference referencedUin="design:link:::4b4oby2pr_l:e35hg9ajh_n" />
+        <reference referencedUin="design:link:::ga4ywg872aopx6j_l:e35hg9ajh_n" />
+      </reference>
+      <reference referencedUin="design:node:::b359kh00t_n">
+        <reference referencedUin="design:link:::zx4lgwg3hm4zidm_l:b359kh00t_n" />
+      </reference>
+      <reference referencedUin="design:node:::p35x3hljq_n">
+        <reference referencedUin="design:link:::az4j9etdh9pau1n_l:p35x3hljq_n" />
+        <reference referencedUin="design:link:::d05ue63aihocqgk_l:p35x3hljq_n" />
+      </reference>
+      <reference referencedUin="design:node:::t35r37ejo_n">
+        <reference referencedUin="design:link:::pz43bvnhidkwtzp_l:t35r37ejo_n" />
+      </reference>
+      <reference referencedUin="design:node:::s15osi0sj_n" />
+      <reference referencedUin="design:node:::x35ffwucq_n" />
+      <reference referencedUin="design:node:::uz4wrf0sh_n" />
+      <reference referencedUin="design:node:::mo4cj14yk_n">
+        <reference referencedUin="design:link:::uk4b3q154441dxs_l:mo4cj14yk_n" />
+      </reference>
+      <reference referencedUin="design:node:::r64m4ewl57dwxbj_n">
+        <reference referencedUin="design:link:::ct3g2oo0807kcln_l:r64m4ewl57dwxbj_n" />
+        <reference referencedUin="design:link:::me49551i81aut7q_l:r64m4ewl57dwxbj_n" />
+      </reference>
+      <reference referencedUin="design:node:::ce3vmgw5afryphg_n" />
+      <reference referencedUin="design:node:::f85xg09clb1y0xq_n">
+        <reference referencedUin="design:node:::c95e09lxm17fzke_n:f85xg09clb1y0xq_n">
+          <reference referencedUin="design:link:::do2x4xq0k0yq2vq_l:c95e09lxm17fzke_n:f85xg09clb1y0xq_n" />
+        </reference>
+        <reference referencedUin="design:node:::d657tc9eryblc2n_n:f85xg09clb1y0xq_n">
+          <reference referencedUin="design:link:::ud4k22578o9gf6r_l:d657tc9eryblc2n_n:f85xg09clb1y0xq_n" />
+        </reference>
+        <reference referencedUin="design:node:::5952u3vetuhqg5n_n:f85xg09clb1y0xq_n">
+          <reference referencedUin="design:link:::je48zqix6v4gyis_l:5952u3vetuhqg5n_n:f85xg09clb1y0xq_n" />
+        </reference>
+        <reference referencedUin="design:node:::085qqmrie_n:f85xg09clb1y0xq_n">
+          <reference referencedUin="design:link:::y24u45qjf_l:085qqmrie_n:f85xg09clb1y0xq_n" />
+          <reference referencedUin="design:link:::234xpwuth_l:085qqmrie_n:f85xg09clb1y0xq_n" />
+        </reference>
+        <reference referencedUin="design:node:::f759l0d1q_n:f85xg09clb1y0xq_n">
+          <reference referencedUin="design:link:::1c4hg5bt9xhekur_l:f759l0d1q_n:f85xg09clb1y0xq_n" />
+        </reference>
+        <reference referencedUin="design:node:::215hap9xs_n:f85xg09clb1y0xq_n">
+          <reference referencedUin="design:link:::ub42hzku01ryxdi_l:215hap9xs_n:f85xg09clb1y0xq_n" />
+          <reference referencedUin="design:link:::9b4df3hud0jxt4n_l:215hap9xs_n:f85xg09clb1y0xq_n" />
+        </reference>
+        <reference referencedUin="design:node:::g659ewwjh_n:f85xg09clb1y0xq_n">
+          <reference referencedUin="design:link:::wb4ejholahbpgkn_l:g659ewwjh_n:f85xg09clb1y0xq_n" />
+        </reference>
+        <reference referencedUin="design:node:::3w4m1p94g_n:f85xg09clb1y0xq_n">
+          <reference referencedUin="design:link:::jb4d4iixajv1dye_l:3w4m1p94g_n:f85xg09clb1y0xq_n" />
+        </reference>
+        <reference referencedUin="design:node:::e75nlk17j_n:f85xg09clb1y0xq_n">
+          <reference referencedUin="design:link:::1b4zcoi8ba7uxmo_l:e75nlk17j_n:f85xg09clb1y0xq_n" />
+        </reference>
+        <reference referencedUin="design:node:::fy4txtmbs_n:f85xg09clb1y0xq_n">
+          <reference referencedUin="design:link:::1a4wrluxfo0tuno_l:fy4txtmbs_n:f85xg09clb1y0xq_n" />
+        </reference>
+        <reference referencedUin="design:node:::0p4od2iih_n:f85xg09clb1y0xq_n">
+          <reference referencedUin="design:link:::f55q3pvosx504gk_l:0p4od2iih_n:f85xg09clb1y0xq_n" />
+        </reference>
+        <reference referencedUin="design:node:::xo4a6z06n_n:f85xg09clb1y0xq_n">
+          <reference referencedUin="design:link:::m04mt23zjafxalk_l:xo4a6z06n_n:f85xg09clb1y0xq_n" />
+        </reference>
+        <reference referencedUin="design:node:::kd4lvb21l_n:f85xg09clb1y0xq_n">
+          <reference referencedUin="design:link:::z84kxa94kb514le_l:kd4lvb21l_n:f85xg09clb1y0xq_n" />
+        </reference>
+        <reference referencedUin="design:node:::ee46bka2h_n:f85xg09clb1y0xq_n">
+          <reference referencedUin="design:link:::qa4hxmt8e1d9dve_l:ee46bka2h_n:f85xg09clb1y0xq_n" />
+        </reference>
+        <reference referencedUin="design:node:::2e4fcwbri_n:f85xg09clb1y0xq_n">
+          <reference referencedUin="design:link:::ja40k4inf4rx0us_l:2e4fcwbri_n:f85xg09clb1y0xq_n" />
+        </reference>
+        <reference referencedUin="design:node:::nd170s7umlly6xk_n:f85xg09clb1y0xq_n">
+          <reference referencedUin="design:link:::iv4mg25ws5mbbrm_l:nd170s7umlly6xk_n:f85xg09clb1y0xq_n" />
+        </reference>
+        <reference referencedUin="design:node:::755tiwm2oivf6lg_n:f85xg09clb1y0xq_n" />
+      </reference>
+      <reference referencedUin="design:node:::ov426k01s_n">
+        <reference referencedUin="design:link:::fu40b17dn_l:ov426k01s_n" />
+      </reference>
+      <reference referencedUin="design:node:::dt40ok4zn_n">
+        <reference referencedUin="design:link:::kt4a1x1hs_l:dt40ok4zn_n" />
+      </reference>
+      <reference referencedUin="design:node:::3t486a03m_n">
+        <reference referencedUin="design:link:::0957rg0i084fe8i_l:3t486a03m_n" />
+      </reference>
+      <reference referencedUin="design:node:::ur451x3e4zjtnut_n">
+        <reference referencedUin="design:link:::y6597ev4anrdxdj_l:ur451x3e4zjtnut_n" />
+      </reference>
+      <reference referencedUin="design:node:::v55p4s54casv3hn_n">
+        <reference referencedUin="design:link:::pw4bnwi9fhtmi1g_l:v55p4s54casv3hn_n" />
+      </reference>
+      <reference referencedUin="design:node:::tu4lymwphh1f2jo_n">
+        <reference referencedUin="design:link:::uu47v4prk0nc34j_l:tu4lymwphh1f2jo_n" />
+      </reference>
+      <reference referencedUin="design:node:::mu4aay59nkozxme_n">
+        <reference referencedUin="design:link:::gt4lr0mrh_l:mu4aay59nkozxme_n" />
+      </reference>
+      <reference referencedUin="design:node:::cy405nyrp_n">
+        <reference referencedUin="design:link:::wd4uikqph_l:cy405nyrp_n" />
+      </reference>
+      <reference referencedUin="design:node:::cr4avt2kn_n">
+        <reference referencedUin="design:link:::yy4luq2k36gzxe_l:cr4avt2kn_n" />
+        <reference referencedUin="design:link:::ga4n319re3lrnr_l:cr4avt2kn_n" />
+      </reference>
+      <reference referencedUin="design:node:::y04nw7ye32mlbpg_n" />
+      <reference referencedUin="design:view:::6h2npbmxr_v">
+        <reference referencedUin="design:view:::245re6its_v" />
+        <reference referencedUin="design:view:::b643tmk6r_v" />
+        <reference referencedUin="design:view:::x85fiw0yhh67o5f_v" />
+      </reference>
+      <reference referencedUin="design:view:::6h2npbmxr_v">
+        <reference referencedUin="design:view:::245re6its_v" />
+        <reference referencedUin="design:view:::b643tmk6r_v" />
+        <reference referencedUin="design:view:::x85fiw0yhh67o5f_v" />
+      </reference>
+      <reference referencedUin="design:view:::6h2npbmxr_v">
+        <reference referencedUin="design:view:::245re6its_v" />
+        <reference referencedUin="design:view:::b643tmk6r_v" />
+        <reference referencedUin="design:view:::x85fiw0yhh67o5f_v" />
+      </reference>
+      <reference referencedUin="design:view:::245re6its_v" />
+      <reference referencedUin="design:view:::x85fiw0yhh67o5f_v" />
+      <reference referencedUin="design:view:::b643tmk6r_v" />
+    </reference>
+    <reference referencedUin="design:view:::lx591cdjp_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="160,20,120,140" />
+      <property name="bounds_setted_by_user" value="True" />
+      <reference referencedUin="design:node:::c44stpcd0kuhz3n_n">
+        <reference referencedUin="design:node:::x24mk6vpeair6eq_n:c44stpcd0kuhz3n_n">
+          <reference referencedUin="design:node:::m24mk6vpe5zlqhj_n:x24mk6vpeair6eq_n:c44stpcd0kuhz3n_n" />
+          <reference referencedUin="design:link:::t34mk6vpeholwli_l:x24mk6vpeair6eq_n:c44stpcd0kuhz3n_n" />
+        </reference>
+        <reference referencedUin="design:node:::s04l8j8jg2du0ff_n:c44stpcd0kuhz3n_n">
+          <reference referencedUin="design:node:::o04l8j8jgxb5qdf_n:s04l8j8jg2du0ff_n:c44stpcd0kuhz3n_n" />
+          <reference referencedUin="design:link:::m04l8j8jgi09iao_l:s04l8j8jg2du0ff_n:c44stpcd0kuhz3n_n" />
+        </reference>
+        <reference referencedUin="design:node:::u147kwvel0734xf_n:c44stpcd0kuhz3n_n">
+          <reference referencedUin="design:node:::h147kwvelqmfx8o_n:u147kwvel0734xf_n:c44stpcd0kuhz3n_n" />
+          <reference referencedUin="design:link:::y147kwvellqk03l_l:u147kwvel0734xf_n:c44stpcd0kuhz3n_n" />
+        </reference>
+        <reference referencedUin="design:node:::014fptw1n3q20nr_n:c44stpcd0kuhz3n_n">
+          <reference referencedUin="design:node:::414fptw1np64j9o_n:014fptw1n3q20nr_n:c44stpcd0kuhz3n_n" />
+          <reference referencedUin="design:link:::214fptw1nczcrbj_l:014fptw1n3q20nr_n:c44stpcd0kuhz3n_n" />
+        </reference>
+      </reference>
+      <reference referencedUin="design:node:::r34xhvj4bxp6weg_n">
+        <reference referencedUin="design:node:::324wqb81rnwxl8q_n:r34xhvj4bxp6weg_n">
+          <reference referencedUin="design:node:::f14wqb81ra2j02p_n:324wqb81rnwxl8q_n:r34xhvj4bxp6weg_n" />
+          <reference referencedUin="design:link:::404wqb81rxw90ph_l:324wqb81rnwxl8q_n:r34xhvj4bxp6weg_n" />
+        </reference>
+        <reference referencedUin="design:node:::5y3x9ow7sxrkr3r_n:r34xhvj4bxp6weg_n">
+          <reference referencedUin="design:node:::1y3x9ow7s6anihf_n:5y3x9ow7sxrkr3r_n:r34xhvj4bxp6weg_n" />
+          <reference referencedUin="design:link:::zx3x9ow7s3wr25f_l:5y3x9ow7sxrkr3r_n:r34xhvj4bxp6weg_n" />
+        </reference>
+      </reference>
+      <reference referencedUin="design:node:::i9443dj0t_n">
+        <reference referencedUin="design:link:::694gc4h4wcdjxk_l:i9443dj0t_n" />
+        <reference referencedUin="design:link:::r74m4qh71qn5yaf_l:i9443dj0t_n" />
+        <reference referencedUin="design:link:::f74gzmrc2f6rqht_l:i9443dj0t_n" />
+        <reference referencedUin="design:link:::q84qhzxn2nkh5jk_l:i9443dj0t_n" />
+        <reference referencedUin="design:link:::g744pivr3hy9phj_l:i9443dj0t_n" />
+        <reference referencedUin="design:link:::n74pnqjq4ke8w2f_l:i9443dj0t_n" />
+      </reference>
+      <reference referencedUin="design:node:::684bc1ccs_n">
+        <reference referencedUin="design:link:::x643jjn065txo8i_l:684bc1ccs_n" />
+        <reference referencedUin="design:link:::f64z08r17086okt_l:684bc1ccs_n" />
+        <reference referencedUin="design:link:::064mnki48qabevf_l:684bc1ccs_n" />
+        <reference referencedUin="design:link:::a642wyoh8c3n4cm_l:684bc1ccs_n" />
+        <reference referencedUin="design:link:::t545hpmy9d4cm7t_l:684bc1ccs_n" />
+        <reference referencedUin="design:link:::054nk0km0lulior_l:684bc1ccs_n" />
+      </reference>
+      <reference referencedUin="design:view:::lx591cdjp_v">
+        <reference referencedUin="design:view:::0446he0k4r341il_v" />
+      </reference>
+      <reference referencedUin="design:view:::0446he0k4r341il_v" />
+    </reference>
+    <reference referencedUin="design:view:::V1hexuhe013baia-umrfrm">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="320,20,140,160" />
+      <property name="bounds_setted_by_user" value="True" />
+      <reference referencedUin="design:node:::-yrgd8ee013bmzww7wnln">
+        <property name="$shortcutReference" value="" />
+        <reference referencedUin="design:node:::N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln">
+          <reference referencedUin="design:node:::N-kil01de05iql3q-5jdnvm:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln">
+            <reference referencedUin="design:node:::N-2ebi49e05iqsvlt6mw6i:N-kil01de05iql3q-5jdnvm:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln">
+              <reference referencedUin="design:node:::N-kil01de05iqsvl-87rnbf:N-2ebi49e05iqsvlt6mw6i:N-kil01de05iql3q-5jdnvm:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln">
+                <reference referencedUin="design:node:::N-2ebi49e05ir34u-ib2989:N-kil01de05iqsvl-87rnbf:N-2ebi49e05iqsvlt6mw6i:N-kil01de05iql3q-5jdnvm:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln">
+                  <reference referencedUin="sd20_message|1|reply|155(design:node:::N-2ebi49e05ir34u-ib2989:N-kil01de05iqsvl-87rnbf:N-2ebi49e05iqsvlt6mw6i:N-kil01de05iql3q-5jdnvm:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln)" />
+                  <reference referencedUin="sd20_message|1|call|155(design:node:::N-2ebi49e05ir34u-ib2989:N-kil01de05iqsvl-87rnbf:N-2ebi49e05iqsvlt6mw6i:N-kil01de05iql3q-5jdnvm:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln)" />
+                </reference>
+              </reference>
+              <reference referencedUin="sd20_message|1|call|107(design:node:::N-2ebi49e05iqsvlt6mw6i:N-kil01de05iql3q-5jdnvm:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln)" />
+            </reference>
+            <reference referencedUin="design:node:::N-2ebi49e05j1apsjtexwy:N-kil01de05iql3q-5jdnvm:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln">
+              <reference referencedUin="sd20_message|1|reply|107(design:node:::N-2ebi49e05j1apsjtexwy:N-kil01de05iql3q-5jdnvm:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln)" />
+              <reference referencedUin="sd20_message|1|call|107(design:node:::N-2ebi49e05j1apsjtexwy:N-kil01de05iql3q-5jdnvm:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln)" />
+            </reference>
+          </reference>
+          <reference referencedUin="design:node:::N7x5rzxe05j56ap-gb467:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln">
+            <reference referencedUin="design:node:::N7x5rzxe05j56ap-40u46m:N7x5rzxe05j56ap-gb467:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln">
+              <reference referencedUin="design:node:::N-kil01de05j5bgja7fu5b:N7x5rzxe05j56ap-40u46m:N7x5rzxe05j56ap-gb467:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln">
+                <reference referencedUin="design:node:::N-2ebi49e05j5ryg-2a7k0g:N-kil01de05j5bgja7fu5b:N7x5rzxe05j56ap-40u46m:N7x5rzxe05j56ap-gb467:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln">
+                  <reference referencedUin="sd20_message|1|reply|152(design:node:::N-2ebi49e05j5ryg-2a7k0g:N-kil01de05j5bgja7fu5b:N7x5rzxe05j56ap-40u46m:N7x5rzxe05j56ap-gb467:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln)" />
+                  <reference referencedUin="sd20_message|1|call|152(design:node:::N-2ebi49e05j5ryg-2a7k0g:N-kil01de05j5bgja7fu5b:N7x5rzxe05j56ap-40u46m:N7x5rzxe05j56ap-gb467:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln)" />
+                </reference>
+                <reference referencedUin="design:node:::N-2ebi49e05lhsbx-dzcp23:N-kil01de05j5bgja7fu5b:N7x5rzxe05j56ap-40u46m:N7x5rzxe05j56ap-gb467:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln">
+                  <reference referencedUin="design:node:::N-kil01de05lhsbx1xhyi9:N-2ebi49e05lhsbx-dzcp23:N-kil01de05j5bgja7fu5b:N7x5rzxe05j56ap-40u46m:N7x5rzxe05j56ap-gb467:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln" />
+                  <reference referencedUin="design:node:::Nrf4xate05lhsbx-oct3d:N-2ebi49e05lhsbx-dzcp23:N-kil01de05j5bgja7fu5b:N7x5rzxe05j56ap-40u46m:N7x5rzxe05j56ap-gb467:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln" />
+                  <reference referencedUin="sd20_message|1|call|152(design:node:::N-2ebi49e05lhsbx-dzcp23:N-kil01de05j5bgja7fu5b:N7x5rzxe05j56ap-40u46m:N7x5rzxe05j56ap-gb467:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln)" />
+                </reference>
+                <reference referencedUin="design:node:::N-2ebi49e05j5zvpjm20zl:N-kil01de05j5bgja7fu5b:N7x5rzxe05j56ap-40u46m:N7x5rzxe05j56ap-gb467:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln">
+                  <reference referencedUin="sd20_message|1|call|151(design:node:::N-2ebi49e05j5zvpjm20zl:N-kil01de05j5bgja7fu5b:N7x5rzxe05j56ap-40u46m:N7x5rzxe05j56ap-gb467:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln)" />
+                </reference>
+              </reference>
+              <reference referencedUin="design:node:::N-kil01de05licg5w8q1km:N7x5rzxe05j56ap-40u46m:N7x5rzxe05j56ap-gb467:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln" />
+              <reference referencedUin="design:link:::L7zkgube05j56apwfu4h2:N7x5rzxe05j56ap-40u46m:N7x5rzxe05j56ap-gb467:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln" />
+            </reference>
+            <reference referencedUin="design:link:::L7zkgube05j56ap-e68iwm:N7x5rzxe05j56ap-gb467:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln" />
+          </reference>
+          <reference referencedUin="design:node:::N-kil01de05lj35k-ju49o1:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln">
+            <reference referencedUin="design:node:::N-2ebi49e05lj35kw15vhz:N-kil01de05lj35k-ju49o1:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln">
+              <reference referencedUin="sd20_message|1|reply|107(design:node:::N-2ebi49e05lj35kw15vhz:N-kil01de05lj35k-ju49o1:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln)" />
+              <reference referencedUin="sd20_message|1|call|107(design:node:::N-2ebi49e05lj35kw15vhz:N-kil01de05lj35k-ju49o1:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln)" />
+            </reference>
+            <reference referencedUin="design:node:::N-2ebi49e05lj35kpwg12h:N-kil01de05lj35k-ju49o1:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln">
+              <reference referencedUin="sd20_message|1|call|107(design:node:::N-2ebi49e05lj35kpwg12h:N-kil01de05lj35k-ju49o1:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln)" />
+            </reference>
+          </reference>
+          <reference referencedUin="design:node:::N-kil01de05ljt7y-2zxhi8:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln" />
+          <reference referencedUin="design:link:::L-4pt500e05iqsw1-ujo4fe:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln" />
+          <reference referencedUin="design:link:::L-4pt500e05ir35a-zfndd7:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln" />
+          <reference referencedUin="design:link:::L-4pt500e05iz9q1-3l5vw3:N-y9889se013bpndi2qjbo:-yrgd8ee013bmzww7wnln" />
+        </reference>
+        <reference referencedUin="design:node:::N-y9889se01a79qdgbrrfi:-yrgd8ee013bmzww7wnln">
+          <reference referencedUin="design:node:::N-kil01de05ir35ayxqfdo:N-y9889se01a79qdgbrrfi:-yrgd8ee013bmzww7wnln">
+            <reference referencedUin="design:node:::N-2ebi49e05iry2p-a7a6fm:N-kil01de05ir35ayxqfdo:N-y9889se01a79qdgbrrfi:-yrgd8ee013bmzww7wnln">
+              <reference referencedUin="sd20_message|1|call|107(design:node:::N-2ebi49e05iry2p-a7a6fm:N-kil01de05ir35ayxqfdo:N-y9889se01a79qdgbrrfi:-yrgd8ee013bmzww7wnln)" />
+            </reference>
+          </reference>
+          <reference referencedUin="design:link:::L-4pt500e05iry34pak180:N-y9889se01a79qdgbrrfi:-yrgd8ee013bmzww7wnln" />
+        </reference>
+        <reference referencedUin="design:node:::N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln">
+          <reference referencedUin="design:node:::N-kil01de05iry2p-8z7q38:N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln">
+            <reference referencedUin="design:node:::N-2ebi49e05ivbir-jqhdek:N-kil01de05iry2p-8z7q38:N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln">
+              <reference referencedUin="sd20_message|1|call|109(design:node:::N-2ebi49e05ivbir-jqhdek:N-kil01de05iry2p-8z7q38:N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln)" />
+            </reference>
+          </reference>
+          <reference referencedUin="design:node:::N-kil01de05j1aps-omufka:N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln" />
+          <reference referencedUin="design:node:::N7x5rzxe05j5ry1-m9qjlc:N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln">
+            <reference referencedUin="design:node:::N7x5rzxe05j5ry1-cfyosz:N7x5rzxe05j5ry1-m9qjlc:N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln">
+              <reference referencedUin="design:node:::N-kil01de05j5ryg-bzlu24:N7x5rzxe05j5ry1-cfyosz:N7x5rzxe05j5ry1-m9qjlc:N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln" />
+              <reference referencedUin="design:node:::Nn68rpbe05lhfv6-ms14ig:N7x5rzxe05j5ry1-cfyosz:N7x5rzxe05j5ry1-m9qjlc:N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln">
+                <reference referencedUin="design:node:::Nttifwde05lhfv6yu663d:Nn68rpbe05lhfv6-ms14ig:N7x5rzxe05j5ry1-cfyosz:N7x5rzxe05j5ry1-m9qjlc:N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln">
+                  <reference referencedUin="design:node:::Nul14qae05lhfv630zlq3:Nttifwde05lhfv6yu663d:Nn68rpbe05lhfv6-ms14ig:N7x5rzxe05j5ry1-cfyosz:N7x5rzxe05j5ry1-m9qjlc:N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln" />
+                </reference>
+              </reference>
+              <reference referencedUin="design:link:::L7zkgube05j5rygeug7su:N7x5rzxe05j5ry1-cfyosz:N7x5rzxe05j5ry1-m9qjlc:N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln" />
+            </reference>
+            <reference referencedUin="design:link:::L7zkgube05j5ry11dwgsg:N7x5rzxe05j5ry1-m9qjlc:N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln" />
+          </reference>
+          <reference referencedUin="design:node:::N-kil01de05lj35ktmb432:N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln" />
+          <reference referencedUin="design:node:::Nn68rpbe05lkfa3764idw:N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln">
+            <reference referencedUin="design:node:::Nttifwde05lkfa3-9tfyk0:Nn68rpbe05lkfa3764idw:N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln">
+              <reference referencedUin="design:node:::Nul14qae05lkfa3-s0zh6l:Nttifwde05lkfa3-9tfyk0:Nn68rpbe05lkfa3764idw:N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln" />
+            </reference>
+          </reference>
+          <reference referencedUin="design:link:::L-4pt500e05ivbj7-89yrdd:N-y9889se05inx30-9sfzfv:-yrgd8ee013bmzww7wnln" />
+        </reference>
+        <reference referencedUin="design:node:::N-2ebi49e05iql3q-1cgdb9:-yrgd8ee013bmzww7wnln">
+          <reference referencedUin="sd20_message|1|call|61(design:node:::N-2ebi49e05iql3q-1cgdb9:-yrgd8ee013bmzww7wnln)" />
+        </reference>
+        <reference referencedUin="design:node:::N-y9889se05iub5a-pva2x7:-yrgd8ee013bmzww7wnln">
+          <reference referencedUin="design:node:::N-kil01de05ivbir-a2qfqt:N-y9889se05iub5a-pva2x7:-yrgd8ee013bmzww7wnln">
+            <reference referencedUin="design:node:::N7x5rzxe05j38a7mj18zd:N-kil01de05ivbir-a2qfqt:N-y9889se05iub5a-pva2x7:-yrgd8ee013bmzww7wnln">
+              <reference referencedUin="design:node:::N7x5rzxe05j38b2euz8ph:N7x5rzxe05j38a7mj18zd:N-kil01de05ivbir-a2qfqt:N-y9889se05iub5a-pva2x7:-yrgd8ee013bmzww7wnln">
+                <reference referencedUin="design:node:::N-2ebi49e05j3buq-t1l6am:N7x5rzxe05j38b2euz8ph:N7x5rzxe05j38a7mj18zd:N-kil01de05ivbir-a2qfqt:N-y9889se05iub5a-pva2x7:-yrgd8ee013bmzww7wnln">
+                  <reference referencedUin="design:node:::N-kil01de05j3buqwhb6g5:N-2ebi49e05j3buq-t1l6am:N7x5rzxe05j38b2euz8ph:N7x5rzxe05j38a7mj18zd:N-kil01de05ivbir-a2qfqt:N-y9889se05iub5a-pva2x7:-yrgd8ee013bmzww7wnln" />
+                  <reference referencedUin="sd20_message|1|call|153(design:node:::N-2ebi49e05j3buq-t1l6am:N7x5rzxe05j38b2euz8ph:N7x5rzxe05j38a7mj18zd:N-kil01de05ivbir-a2qfqt:N-y9889se05iub5a-pva2x7:-yrgd8ee013bmzww7wnln)" />
+                </reference>
+                <reference referencedUin="design:link:::L7zkgube05j38b2-m0lq21:N7x5rzxe05j38b2euz8ph:N7x5rzxe05j38a7mj18zd:N-kil01de05ivbir-a2qfqt:N-y9889se05iub5a-pva2x7:-yrgd8ee013bmzww7wnln" />
+              </reference>
+              <reference referencedUin="design:link:::L7zkgube05j38a7nhxyso:N7x5rzxe05j38a7mj18zd:N-kil01de05ivbir-a2qfqt:N-y9889se05iub5a-pva2x7:-yrgd8ee013bmzww7wnln" />
+            </reference>
+            <reference referencedUin="design:node:::Nn68rpbe05llu7m-umg0q9:N-kil01de05ivbir-a2qfqt:N-y9889se05iub5a-pva2x7:-yrgd8ee013bmzww7wnln">
+              <reference referencedUin="design:node:::Nttifwde05llu7m-oqn9mz:Nn68rpbe05llu7m-umg0q9:N-kil01de05ivbir-a2qfqt:N-y9889se05iub5a-pva2x7:-yrgd8ee013bmzww7wnln">
+                <reference referencedUin="design:node:::Nul14qae05llu7m3gslwd:Nttifwde05llu7m-oqn9mz:Nn68rpbe05llu7m-umg0q9:N-kil01de05ivbir-a2qfqt:N-y9889se05iub5a-pva2x7:-yrgd8ee013bmzww7wnln" />
+              </reference>
+            </reference>
+          </reference>
+          <reference referencedUin="design:link:::L-4pt500e05j3buq7br2ae:N-y9889se05iub5a-pva2x7:-yrgd8ee013bmzww7wnln" />
+        </reference>
+        <reference referencedUin="design:node:::N7chx8le05j38a7gwxm9b:-yrgd8ee013bmzww7wnln">
+          <reference referencedUin="design:node:::N-yydlhse05j38anq0fn2y:N7chx8le05j38a7gwxm9b:-yrgd8ee013bmzww7wnln" />
+          <reference referencedUin="design:node:::N-yp8yhe05j38anpuzluj:N7chx8le05j38a7gwxm9b:-yrgd8ee013bmzww7wnln" />
+        </reference>
+        <reference referencedUin="design:node:::N7chx8le05j56aayzpg42:-yrgd8ee013bmzww7wnln">
+          <reference referencedUin="design:node:::N-yydlhse05j56ap-9c89f7:N7chx8le05j56aayzpg42:-yrgd8ee013bmzww7wnln" />
+          <reference referencedUin="design:node:::N-yp8yhe05j56ap-4xsrcg:N7chx8le05j56aayzpg42:-yrgd8ee013bmzww7wnln">
+            <reference referencedUin="design:node:::N-2ebi49e05j5bgj-7f37dl:N-yp8yhe05j56ap-4xsrcg:N7chx8le05j56aayzpg42:-yrgd8ee013bmzww7wnln">
+              <reference referencedUin="sd20_message|1|call|106(design:node:::N-2ebi49e05j5bgj-7f37dl:N-yp8yhe05j56ap-4xsrcg:N7chx8le05j56aayzpg42:-yrgd8ee013bmzww7wnln)" />
+            </reference>
+          </reference>
+        </reference>
+        <reference referencedUin="design:node:::N-2ebi49e05lj35k-o4xwb:-yrgd8ee013bmzww7wnln">
+          <reference referencedUin="sd20_message|1|call|60(design:node:::N-2ebi49e05lj35k-o4xwb:-yrgd8ee013bmzww7wnln)" />
+        </reference>
+      </reference>
+      <reference referencedUin="design:view:::V1hexuhe013baia-umrfrm">
+        <reference referencedUin="design:link:::Lidp95ae05ln9gw-v492in" />
+        <reference referencedUin="design:view:::Vam8ynke05h7ht03997cb">
+          <reference referencedUin="design:link:::Lidp95ae05h7hubkvw26a:Vam8ynke05h7ht03997cb" />
+        </reference>
+        <reference referencedUin="design:view:::V-k88o91e05ln9gg-j279n4">
+          <reference referencedUin="design:link:::Lidp95ae05ln9gw-v492in:V-k88o91e05ln9gg-j279n4" />
+        </reference>
+      </reference>
+      <reference referencedUin="design:view:::V1hexuhe013baia-umrfrm">
+        <reference referencedUin="design:link:::Lidp95ae05h7hubkvw26a" />
+        <reference referencedUin="design:view:::Vam8ynke05h7ht03997cb">
+          <reference referencedUin="design:link:::Lidp95ae05h7hubkvw26a:Vam8ynke05h7ht03997cb" />
+        </reference>
+        <reference referencedUin="design:view:::V-k88o91e05ln9gg-j279n4">
+          <reference referencedUin="design:link:::Lidp95ae05ln9gw-v492in:V-k88o91e05ln9gg-j279n4" />
+        </reference>
+      </reference>
+      <reference referencedUin="design:view:::V-k88o91e05ln9gg-j279n4">
+        <reference referencedUin="design:link:::Lidp95ae05ln9gw-v492in:V-k88o91e05ln9gg-j279n4" />
+      </reference>
+      <reference referencedUin="design:view:::Vam8ynke05h7ht03997cb">
+        <reference referencedUin="design:link:::Lidp95ae05h7hubkvw26a:Vam8ynke05h7ht03997cb" />
+      </reference>
+    </reference>
+    <reference referencedUin="design:view:::fx50zdnug_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="500,20,120,160" />
+      <property name="bounds_setted_by_user" value="True" />
+      <reference referencedUin="design:node:::506hz0xol_n">
+        <reference referencedUin="design:node:::00657fw5o_n:506hz0xol_n">
+          <reference referencedUin="design:node:::z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n">
+            <reference referencedUin="design:node:::u16uw0wf521mbwq_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n">
+              <reference referencedUin="design:node:::856065kmjyutoog_n:u16uw0wf521mbwq_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n">
+                <reference referencedUin="design:link:::aw2o7xrom_l:856065kmjyutoog_n:u16uw0wf521mbwq_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" />
+              </reference>
+              <reference referencedUin="design:node:::b16u6zz0kjxmqfp_n:u16uw0wf521mbwq_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n">
+                <reference referencedUin="design:link:::iv20pj0gk_l:b16u6zz0kjxmqfp_n:u16uw0wf521mbwq_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" />
+              </reference>
+              <reference referencedUin="design:node:::zw5v65shm9e8srh_n:u16uw0wf521mbwq_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n">
+                <reference referencedUin="design:link:::v03ufdy2i_l:zw5v65shm9e8srh_n:u16uw0wf521mbwq_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" />
+              </reference>
+              <reference referencedUin="design:node:::hy5glf01r5cm2jr_n:u16uw0wf521mbwq_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" />
+            </reference>
+            <reference referencedUin="design:node:::p06dn1vdhqt2dml_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n">
+              <reference referencedUin="design:node:::1x525zsmsnp0uei_n:p06dn1vdhqt2dml_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n">
+                <reference referencedUin="design:link:::am46un7fk_l:1x525zsmsnp0uei_n:p06dn1vdhqt2dml_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" />
+              </reference>
+              <reference referencedUin="design:node:::9q4lpczzswcnzmg_n:p06dn1vdhqt2dml_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n">
+                <reference referencedUin="design:link:::9v2uhrcfg_l:9q4lpczzswcnzmg_n:p06dn1vdhqt2dml_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" />
+              </reference>
+              <reference referencedUin="design:node:::ex5sf0tyh_n:p06dn1vdhqt2dml_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" />
+            </reference>
+            <reference referencedUin="design:node:::156h5rcqhqw23ej_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n">
+              <reference referencedUin="design:node:::s23ljx4kn_n:156h5rcqhqw23ej_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n">
+                <reference referencedUin="design:link:::xu2fddfas_l:s23ljx4kn_n:156h5rcqhqw23ej_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" />
+              </reference>
+              <reference referencedUin="design:node:::jy5y7ha0h_n:156h5rcqhqw23ej_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n">
+                <reference referencedUin="design:link:::nv91ztxok_l:jy5y7ha0h_n:156h5rcqhqw23ej_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" />
+                <reference referencedUin="design:link:::4f950tbjq_l:jy5y7ha0h_n:156h5rcqhqw23ej_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" />
+              </reference>
+              <reference referencedUin="design:node:::g233b57tg_n:156h5rcqhqw23ej_n:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" />
+            </reference>
+            <reference referencedUin="design:link:::1e953a1dt_l:z16uw0wf5w613br_n:00657fw5o_n:506hz0xol_n" />
+          </reference>
+          <reference referencedUin="design:node:::b23yez24o_n:00657fw5o_n:506hz0xol_n" />
+          <reference referencedUin="design:node:::d2393csij_n:00657fw5o_n:506hz0xol_n" />
+          <reference referencedUin="design:node:::nv2ntg8fi_n:00657fw5o_n:506hz0xol_n">
+            <reference referencedUin="design:link:::zz24tcief_l:nv2ntg8fi_n:00657fw5o_n:506hz0xol_n" />
+          </reference>
+        </reference>
+      </reference>
+      <reference referencedUin="design:node:::026qkwbucj76z2o_n">
+        <reference referencedUin="design:link:::iu5mc3t9p00wcxp_l:026qkwbucj76z2o_n" />
+      </reference>
+      <reference referencedUin="design:node:::zu5pysedh3v360p_n">
+        <reference referencedUin="design:link:::rt5va30kq8uwjwg_l:zu5pysedh3v360p_n" />
+        <reference referencedUin="design:link:::ou5ym0lir49ry2j_l:zu5pysedh3v360p_n" />
+        <reference referencedUin="design:link:::6v5i1uo9scqcnlr_l:zu5pysedh3v360p_n" />
+      </reference>
+      <reference referencedUin="design:node:::lt5v2wwjlcu0fel_n" />
+      <reference referencedUin="design:node:::j733ag5n6ewdecn_n">
+        <reference referencedUin="design:node:::f733ag5n67wtpei_n:j733ag5n6ewdecn_n">
+          <reference referencedUin="design:node:::g03yucie9kn3h8g_n:f733ag5n67wtpei_n:j733ag5n6ewdecn_n">
+            <reference referencedUin="design:link:::kr3jhhpdn_l:g03yucie9kn3h8g_n:f733ag5n67wtpei_n:j733ag5n6ewdecn_n" />
+            <reference referencedUin="design:link:::lr361qmyf_l:g03yucie9kn3h8g_n:f733ag5n67wtpei_n:j733ag5n6ewdecn_n" />
+            <reference referencedUin="design:link:::gg3rns8zh_l:g03yucie9kn3h8g_n:f733ag5n67wtpei_n:j733ag5n6ewdecn_n" />
+          </reference>
+          <reference referencedUin="design:node:::h331q4esbm5sydp_n:f733ag5n67wtpei_n:j733ag5n6ewdecn_n">
+            <reference referencedUin="design:link:::7j39vn9ht_l:h331q4esbm5sydp_n:f733ag5n67wtpei_n:j733ag5n6ewdecn_n" />
+            <reference referencedUin="design:link:::wm3l0l62s_l:h331q4esbm5sydp_n:f733ag5n67wtpei_n:j733ag5n6ewdecn_n" />
+          </reference>
+          <reference referencedUin="design:node:::zf3otyems_n:f733ag5n67wtpei_n:j733ag5n6ewdecn_n">
+            <reference referencedUin="design:link:::0l3sp40cp_l:zf3otyems_n:f733ag5n67wtpei_n:j733ag5n6ewdecn_n" />
+          </reference>
+          <reference referencedUin="design:node:::1j39p5csl_n:f733ag5n67wtpei_n:j733ag5n6ewdecn_n" />
+        </reference>
+        <reference referencedUin="design:node:::a030yye4o8uhquk_n:j733ag5n6ewdecn_n" />
+      </reference>
+      <reference referencedUin="design:node:::kd3tydwfkalqjds_n">
+        <reference referencedUin="design:link:::lq3kool3l_l:kd3tydwfkalqjds_n" />
+      </reference>
+      <reference referencedUin="design:node:::6d3c0392l3wyfrs_n">
+        <reference referencedUin="design:node:::2d3n312qk_n:6d3c0392l3wyfrs_n">
+          <reference referencedUin="design:link:::ud3yf0ujh_l:2d3n312qk_n:6d3c0392l3wyfrs_n" />
+        </reference>
+        <reference referencedUin="design:link:::le39ea2jj_l:6d3c0392l3wyfrs_n" />
+        <reference referencedUin="design:link:::0r3dxpyjt_l:6d3c0392l3wyfrs_n" />
+      </reference>
+      <reference referencedUin="design:node:::wc3q1r99mcbrjyq_n">
+        <reference referencedUin="design:link:::ub3fj0wzg_l:wc3q1r99mcbrjyq_n" />
+      </reference>
+      <reference referencedUin="design:node:::hd3ucfopmz0dlke_n" />
+      <reference referencedUin="design:node:::283vbll5n0yyqio_n" />
+      <reference referencedUin="design:node:::cl3n6pv5k_n">
+        <reference referencedUin="design:link:::2e30f0htt_l:cl3n6pv5k_n" />
+      </reference>
+      <reference referencedUin="design:node:::4632b3jio_n">
+        <reference referencedUin="design:link:::a73szm1s1qq0gji_l:4632b3jio_n" />
+      </reference>
+      <reference referencedUin="design:node:::wy214sjw28wptih_n">
+        <reference referencedUin="design:link:::jf3dxwbb56oqt0i_l:wy214sjw28wptih_n" />
+      </reference>
+      <reference referencedUin="design:node:::fs2i9kz8od8kn7i_n" />
+      <reference referencedUin="design:node:::ut2xat2ytf4lbzl_n" />
+      <reference referencedUin="design:view:::fx50zdnug_v">
+        <reference referencedUin="design:view:::av9sfjvyq_v" />
+        <reference referencedUin="design:view:::d73yiyqqo_v" />
+      </reference>
+      <reference referencedUin="design:view:::fx50zdnug_v">
+        <reference referencedUin="design:view:::av9sfjvyq_v" />
+        <reference referencedUin="design:view:::d73yiyqqo_v" />
+      </reference>
+      <reference referencedUin="design:view:::d73yiyqqo_v" />
+      <reference referencedUin="design:view:::av9sfjvyq_v" />
+    </reference>
+    <reference referencedUin="label:name:design:node:::km4ygus0i8tjtht_n">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="$name" />
+    </reference>
+    <reference referencedUin="label:name:design:node:::e35hg9ajh_n">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="$name" />
+    </reference>
+    <reference referencedUin="label:name:design:node:::p35x3hljq_n">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="$name" />
+    </reference>
+    <reference referencedUin="label:name:design:node:::t94uvwfpi_n">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="$name" />
+    </reference>
+    <reference referencedUin="label:name:design:node:::q94t9cuyf_n">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="$name" />
+    </reference>
+    <reference referencedUin="label:name:design:node:::gx3hn8g9aqila0g_n">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="$name" />
+    </reference>
+    <reference referencedUin="label:name:design:node:::164g89akay9z46s_n">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="$name" />
+    </reference>
+    <reference referencedUin="label:weight:design:link:::eu3ck0gz5gwpatg_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@weight" />
+    </reference>
+    <reference referencedUin="label:guard:design:link:::ga4ywg872aopx6j_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@guard" />
+    </reference>
+    <reference referencedUin="label:guard:design:link:::4b4oby2pr_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@guard" />
+    </reference>
+    <reference referencedUin="label:guard:design:link:::d05ue63aihocqgk_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@guard" />
+    </reference>
+    <reference referencedUin="label:guard:design:link:::az4j9etdh9pau1n_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@guard" />
+    </reference>
+    <reference referencedUin="label:name:design:node:::085qqmrie_n">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="$name" />
+    </reference>
+    <reference referencedUin="label:name:design:node:::0p4od2iih_n">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="$name" />
+    </reference>
+    <reference referencedUin="label:stereotype:design:link:::694gc4h4wcdjxk_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@stereotype" />
+    </reference>
+    <reference referencedUin="label:stereotype:design:link:::r74m4qh71qn5yaf_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@stereotype" />
+    </reference>
+    <reference referencedUin="label:stereotype:design:link:::f74gzmrc2f6rqht_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@stereotype" />
+    </reference>
+    <reference referencedUin="label:stereotype:design:link:::q84qhzxn2nkh5jk_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@stereotype" />
+    </reference>
+    <reference referencedUin="label:stereotype:design:link:::g744pivr3hy9phj_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@stereotype" />
+    </reference>
+    <reference referencedUin="label:stereotype:design:link:::n74pnqjq4ke8w2f_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@stereotype" />
+    </reference>
+    <reference referencedUin="label:stereotype:design:link:::x643jjn065txo8i_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@stereotype" />
+    </reference>
+    <reference referencedUin="label:stereotype:design:link:::f64z08r17086okt_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@stereotype" />
+    </reference>
+    <reference referencedUin="label:stereotype:design:link:::064mnki48qabevf_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@stereotype" />
+    </reference>
+    <reference referencedUin="label:stereotype:design:link:::a642wyoh8c3n4cm_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@stereotype" />
+    </reference>
+    <reference referencedUin="label:stereotype:design:link:::t545hpmy9d4cm7t_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@stereotype" />
+    </reference>
+    <reference referencedUin="label:stereotype:design:link:::054nk0km0lulior_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@stereotype" />
+    </reference>
+    <reference referencedUin="label:__trigger:design:link:::iv20pj0gk_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@__trigger" />
+    </reference>
+    <reference referencedUin="label:__trigger:design:link:::v03ufdy2i_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@__trigger" />
+    </reference>
+    <reference referencedUin="label:__trigger:design:link:::9v2uhrcfg_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@__trigger" />
+    </reference>
+    <reference referencedUin="label:__trigger:design:link:::4f950tbjq_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@__trigger" />
+    </reference>
+    <reference referencedUin="label:__trigger:design:link:::nv91ztxok_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@__trigger" />
+    </reference>
+    <reference referencedUin="label:__trigger:design:link:::gg3rns8zh_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@__trigger" />
+    </reference>
+    <reference referencedUin="label:__trigger:design:link:::lr361qmyf_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@__trigger" />
+    </reference>
+    <reference referencedUin="label:__trigger:design:link:::kr3jhhpdn_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@__trigger" />
+    </reference>
+    <reference referencedUin="label:__trigger:design:link:::7j39vn9ht_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@__trigger" />
+    </reference>
+    <reference referencedUin="label:__trigger:design:link:::wm3l0l62s_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@__trigger" />
+    </reference>
+    <reference referencedUin="label:__trigger:design:link:::lq3kool3l_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@__trigger" />
+    </reference>
+    <reference referencedUin="label:__trigger:design:link:::le39ea2jj_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@__trigger" />
+    </reference>
+    <reference referencedUin="label:__trigger:design:link:::ub3fj0wzg_l">
+      <property name="$shortcutReference" value="true" />
+      <property name="referenced_property" value="@__trigger" />
+    </reference>
+  </view>
+</nodeSet>
