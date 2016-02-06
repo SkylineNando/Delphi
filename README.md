@@ -1,2 +1,2 @@
 # Delphi
-Source code, Code examples 
+Open Source, Source code, Code examples 
